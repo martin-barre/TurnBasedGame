@@ -1,11 +1,10 @@
+using DG.Tweening;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
 
 [CreateAssetMenu(fileName = "NewSpell", menuName = "ScriptableObjects/Spell")]
 public class Spell : ScriptableObject
 {
-
     public Sprite iconSprite;
     public bool isProjectile;
     public string spellName;
@@ -96,5 +95,4 @@ public class Spell : ScriptableObject
             Instantiate(targetVfx, MapManager.Instance.GetNode(targetPos).worldPosition + new Vector3(0, 0, 200), Quaternion.identity);
         }
     }
-
 }

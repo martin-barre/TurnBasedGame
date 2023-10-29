@@ -45,7 +45,7 @@ public class GameStatePosition
 
                     node.entity = selectedEntity;
                     oldNode.entity = null;
-                    
+
                     selectedEntity = null;
                 }
             }

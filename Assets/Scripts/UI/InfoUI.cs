@@ -16,7 +16,7 @@ public class InfoUI : MonoBehaviour
         GameStatePosition.OnTeamTurnChanged -= OnTeamTurnChanged;
         GameStateBattle.OnPlayerIndexChanged -= OnPlayerIndexChanged;
     }
-    
+
     private void OnTeamTurnChanged(Team team)
     {
         txtInfo.SetText("Team " + (team == Team.BLUE ? "blue" : "red"));

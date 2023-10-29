@@ -11,6 +11,8 @@ public class EntityInfoUI : MonoBehaviour
     [SerializeField] private TMP_Text entityInfoPa;
     [SerializeField] private TMP_Text entityInfoPm;
 
+    private Entity _entity;
+
     private void Start()
     {
         OnOveredEntityChanged(null);
@@ -19,16 +21,39 @@ public class EntityInfoUI : MonoBehaviour
     private void OnEnable()
     {
         MapManager.OnOveredEntityChanged += OnOveredEntityChanged;
+
+        if (_entity != null)
+        {
+            _entity.OnHpChange += UpdateHp;
+            _entity.OnPaChange += UpdatePa;
+            _entity.OnPmChange += UpdatePm;
+        }
     }
 
     private void OnDisable()
     {
         MapManager.OnOveredEntityChanged -= OnOveredEntityChanged;
+
+        if (_entity != null)
+        {
+            _entity.OnHpChange -= UpdateHp;
+            _entity.OnPaChange -= UpdatePa;
+            _entity.OnPmChange -= UpdatePm;
+        }
     }
 
     private void OnOveredEntityChanged(Entity entity)
     {
-        if (entity == null)
+        if (_entity != null)
+        {
+            _entity.OnHpChange -= UpdateHp;
+            _entity.OnPaChange -= UpdatePa;
+            _entity.OnPmChange -= UpdatePm;
+        }
+
+        _entity = entity;
+
+        if (_entity == null)
         {
             entityInfo.SetActive(false);
         }
@@ -36,10 +61,30 @@ public class EntityInfoUI : MonoBehaviour
         {
             entityInfoImage.sprite = entity.race.sprite;
             entityInfoName.SetText(entity.race.raceName);
-            entityInfoHp.SetText("HP : " + entity.CurrentHp);
-            entityInfoPa.SetText("PA : " + entity.CurrentPa);
-            entityInfoPm.SetText("PM : " + entity.CurrentPm);
             entityInfo.SetActive(true);
+
+            UpdateHp(entity.CurrentHp);
+            UpdatePa(entity.CurrentPa);
+            UpdatePm(entity.CurrentPm);
+
+            _entity.OnHpChange += UpdateHp;
+            _entity.OnPaChange += UpdatePa;
+            _entity.OnPmChange += UpdatePm;
         }
+    }
+
+    private void UpdateHp(int hp)
+    {
+        entityInfoHp.SetText("HP : " + hp);
+    }
+
+    private void UpdatePa(int pa)
+    {
+        entityInfoPa.SetText("PA : " + pa);
+    }
+
+    private void UpdatePm(int pm)
+    {
+        entityInfoPm.SetText("PM : " + pm);
     }
 }

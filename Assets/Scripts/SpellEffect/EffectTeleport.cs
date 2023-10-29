@@ -5,7 +5,6 @@ using UnityEngine;
 [Serializable]
 public class EffectTeleport : Effect
 {
-
     private enum EntityToTeleport
     {
         LAUNCHER,
@@ -94,5 +93,4 @@ public class EffectTeleport : Effect
             }
         }
     }
-
 }

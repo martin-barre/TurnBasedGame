@@ -53,10 +53,12 @@ public class Entity : MonoBehaviour
 
     public int CurrentPm
     {
-        get {
+        get
+        {
             return _pm;
         }
-        set {
+        set
+        {
             if (_pm == value) return;
             _pm = value;
             OnPmChange?.Invoke(_pm);

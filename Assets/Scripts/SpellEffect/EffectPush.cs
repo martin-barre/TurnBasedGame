@@ -5,7 +5,6 @@ using UnityEngine;
 [Serializable]
 public class EffectPush : Effect
 {
-
     private enum CenterPoint
     {
         LAUNCHER,
@@ -72,5 +71,4 @@ public class EffectPush : Effect
 
         }
     }
-
 }
