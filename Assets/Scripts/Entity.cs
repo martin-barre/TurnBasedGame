@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,13 +11,57 @@ public enum Team
 
 public class Entity : MonoBehaviour
 {
+    public event Action<int> OnHpChange;
+    public event Action<int> OnPaChange;
+    public event Action<int> OnPmChange;
 
     public Team team;
     public Node node;
     public Race race;
-    public int currentHp;
-    public int currentPa;
-    public int currentPm;
+
+    private int _hp;
+    private int _pa;
+    private int _pm;
+
+    public int CurrentHp
+    {
+        get
+        {
+            return _hp;
+        }
+        set
+        {
+            if (_hp == value) return;
+            _hp = value;
+            OnHpChange?.Invoke(_hp);
+        }
+    }
+
+    public int CurrentPa
+    {
+        get
+        {
+            return _pa;
+        }
+        set
+        {
+            if (_pa == value) return;
+            _pa = value;
+            OnPaChange?.Invoke(_pa);
+        }
+    }
+
+    public int CurrentPm
+    {
+        get {
+            return _pm;
+        }
+        set {
+            if (_pm == value) return;
+            _pm = value;
+            OnPmChange?.Invoke(_pm);
+        }
+    }
 
     private List<Node> path = new List<Node>();
 
@@ -36,8 +81,7 @@ public class Entity : MonoBehaviour
 
     public void ApplyDamage(int damage)
     {
-        currentHp -= damage;
-        if (currentHp < 0) currentHp = 0;
+        CurrentHp = Mathf.Max(0, CurrentHp - damage);
 
         if (IsDead())
         {
@@ -47,7 +91,7 @@ public class Entity : MonoBehaviour
 
     public bool IsDead()
     {
-        return currentHp <= 0;
+        return CurrentHp <= 0;
     }
 
     public void SetPath(List<Node> path)

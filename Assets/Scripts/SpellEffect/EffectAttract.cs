@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class EffectAttract : Effect {
+public class EffectAttract : Effect
+{
 
-    private enum CenterPoint {
+    private enum CenterPoint
+    {
         LAUNCHER,
         TARGET
     }
@@ -24,41 +26,48 @@ public class EffectAttract : Effect {
         5     4     3
     */
 
-    public override void Apply(Entity launcher, Spell spell, List<Entity> entities, Vector2Int targetPos) {
+    public override void Apply(Entity launcher, Spell spell, List<Entity> entities, Vector2Int targetPos)
+    {
         base.Apply(launcher, spell, entities, targetPos);
 
         Vector2Int launcherPosition = centerPoint == CenterPoint.LAUNCHER ? launcher.node.gridPosition : targetPos;
 
-        // SORT ENTITIES WITH DISTANCE ( FOR PATH BUG WHAN ENTITY IS PUSH ON ANOTHER ENTITY )
+        // SORT ENTITIES WITH DISTANCE ( FOR PATH BUG WHEN ENTITY IS PUSH ON ANOTHER ENTITY )
         List<Entity> cloneEntities = new List<Entity>(entities);
-        cloneEntities.Sort(delegate(Entity a, Entity b) {
-            float distA = Vector2.Distance(launcherPosition, a.node.gridPosition);
-            float distB = Vector2.Distance(launcherPosition, b.node.gridPosition);
+        cloneEntities.Sort(delegate (Entity a, Entity b)
+        {
+            float distA = Vector2.Distance(launcherPosition, b.node.gridPosition);
+            float distB = Vector2.Distance(launcherPosition, a.node.gridPosition);
             return distB.CompareTo(distA);
         });
 
-        foreach(Entity entity in cloneEntities) {
+        foreach (Entity entity in cloneEntities)
+        {
             Vector2Int targetPosition = entity.node.gridPosition;
             Vector2Int direction = Utils.GridDirection(targetPosition, launcherPosition);
             bool isDiagonal = Mathf.Sign(direction.x) + Mathf.Sign(direction.y) == 2;
 
             Node node = null;
-            for(int i = 1; i <= nbOfTile; i++) {
+            for (int i = 1; i <= nbOfTile; i++)
+            {
                 Node tmp = MapManager.Instance.GetNode(targetPosition + direction * i);
-                if(tmp.type != NodeType.GROUND || tmp.entity != null) break;
+                if (tmp.type != NodeType.GROUND || tmp.entity != null) break;
 
-                if(isDiagonal) {
+                if (isDiagonal)
+                {
                     Node node1 = MapManager.Instance.GetNode(targetPosition + direction * i + new Vector2Int(direction.x, 0));
                     Node node2 = MapManager.Instance.GetNode(targetPosition + direction * i + new Vector2Int(0, direction.y));
-                    if(node1.type != NodeType.GROUND || node1.entity != null) break;
-                    if(node2.type != NodeType.GROUND || node2.entity != null) break;
+                    if (node1.type != NodeType.GROUND || node1.entity != null) break;
+                    if (node2.type != NodeType.GROUND || node2.entity != null) break;
                 }
 
                 node = tmp;
             }
 
-            if(node != null) {
+            if (node != null)
+            {
                 MapManager.Instance.MoveEntity(entity, node);
+                entity.SetPath(new List<Node>() { node });
             }
 
         }

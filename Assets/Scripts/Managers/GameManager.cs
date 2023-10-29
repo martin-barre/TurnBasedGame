@@ -1,105 +1,129 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameState {
+public enum GameState
+{
     POSITON,
     BATTLE,
     END
 }
 
-public class GameManager : Singleton<GameManager> {
+public class GameManager : Singleton<GameManager>
+{
+    public static event Action<GameState> OnGameStateChanged;
 
     [SerializeField] private List<Race> blueEntities;
     [SerializeField] private List<Race> redEntities;
 
-
     private GameStatePosition gameStatePosition;
     private GameStateBattle gameStateBattle;
-    private GameStateEnd gameStateEnd;
     private GameState gameState;
     private List<Entity> entities;
-    private Team startTeam;
 
+    private void OnEnable()
+    {
+        BtnNextUI.OnBtnNextClick += OnClickBtnNext;
+    }
 
-    private void Start() {
-        gameState = GameState.POSITON;
+    private void OnDisable()
+    {
+        BtnNextUI.OnBtnNextClick -= OnClickBtnNext;
+    }
+
+    private void Start()
+    {
         entities = new List<Entity>();
         gameStatePosition = new GameStatePosition();
         gameStateBattle = new GameStateBattle();
-        gameStateEnd = new GameStateEnd();
 
-        float random = Random.Range(0, 1);
-        startTeam = random < .5 ? Team.BLUE : Team.RED;
+        float random = UnityEngine.Random.Range(0, 1);
+        var startTeam = random < .5 ? Team.BLUE : Team.RED;
 
-        for(int i = 0; i < blueEntities.Count; i++) {
+        for (int i = 0; i < blueEntities.Count; i++)
+        {
             Node blueNode = MapManager.Instance.GetRandomSpawns(Team.BLUE);
             Node redNode = MapManager.Instance.GetRandomSpawns(Team.RED);
 
-            if(startTeam == Team.BLUE) {
+            if (startTeam == Team.BLUE)
+            {
                 AddEntity(blueEntities[i], Team.BLUE, blueNode);
                 AddEntity(redEntities[i], Team.RED, redNode);
-            } else {
+            }
+            else
+            {
                 AddEntity(redEntities[i], Team.RED, redNode);
                 AddEntity(blueEntities[i], Team.BLUE, blueNode);
             }
         }
 
-        SetGameState(GameState.POSITON);
+        UpdateGameState(GameState.POSITON);
     }
 
-    private void Update() {
-        UIManager.Instance.SetTimeline(entities);
-        
-        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Node hoverNode = MapManager.Instance.WorldPositionToMapNodes(mousePosition);
-        Entity hoverEntity = hoverNode.entity;
-        UIManager.Instance.SetEntityInfo(hoverEntity);
-
-        if(gameState == GameState.POSITON) gameStatePosition.Update();
-        else if(gameState == GameState.BATTLE) gameStateBattle.Update();
-        else if(gameState == GameState.END) gameStateBattle.Update();
+    private void Update()
+    {
+        if (gameState == GameState.POSITON) gameStatePosition.Update();
+        else if (gameState == GameState.BATTLE) gameStateBattle.Update();
+        else if (gameState == GameState.END) gameStateBattle.Update();
     }
 
-    public void OnClickBtnNext() {
-        if(gameState == GameState.POSITON) gameStatePosition.OnClickBtnNext();
-        else if(gameState == GameState.BATTLE) gameStateBattle.OnClickBtnNext();
-        else if(gameState == GameState.END) gameStateBattle.OnClickBtnNext();
+    private void OnClickBtnNext()
+    {
+        if (gameState == GameState.POSITON) gameStatePosition.OnClickBtnNext();
+        else if (gameState == GameState.BATTLE) gameStateBattle.OnClickBtnNext();
+        else if (gameState == GameState.END) gameStateBattle.OnClickBtnNext();
     }
 
-    public void OnClickBtnSpell(int spellIndex) {
-        if(gameState == GameState.POSITON) gameStatePosition.OnClickBtnSpell(spellIndex);
-        else if(gameState == GameState.BATTLE) gameStateBattle.OnClickBtnSpell(spellIndex);
-        else if(gameState == GameState.END) gameStateBattle.OnClickBtnNext();
+    public void OnClickBtnSpell(int spellIndex)
+    {
+        if (gameState == GameState.POSITON) return;
+        else if (gameState == GameState.BATTLE) gameStateBattle.OnClickBtnSpell(spellIndex);
+        else if (gameState == GameState.END) return;
     }
 
-    public void AddEntity(Race race, Team team, Node spawnNode) {
+    public void AddEntity(Race race, Team team, Node spawnNode)
+    {
         GameObject newPlayer = Instantiate(race.prefab, spawnNode.worldPosition, Quaternion.identity);
         Entity entity = newPlayer.GetComponent<Entity>();
         entity.team = team;
         entity.node = spawnNode;
-        entity.currentHp = entity.race.hp;
-        entity.currentPa = entity.race.pa;
-        entity.currentPm = entity.race.pm;
+        entity.CurrentHp = entity.race.hp;
+        entity.CurrentPa = entity.race.pa;
+        entity.CurrentPm = entity.race.pm;
         spawnNode.entity = entity;
         entities.Add(entity);
     }
-    
-    public void RemoveEntity(Entity entity) {
+
+    public void RemoveEntity(Entity entity)
+    {
         entity.node.entity = null;
         Destroy(entity.gameObject);
     }
 
     // GETTERS
-    public List<Entity> GetEntities() {
+    public List<Entity> GetEntities()
+    {
         return entities;
     }
 
-    // SETTERS
-    public void SetGameState(GameState gameState) {
+    public void UpdateGameState(GameState gameState)
+    {
         this.gameState = gameState;
-        if(gameState == GameState.POSITON) gameStatePosition.Start();
-        else if(gameState == GameState.BATTLE) gameStateBattle.Start();
-        else if(gameState == GameState.END) gameStateEnd.Start();
-    }
 
+        switch (gameState)
+        {
+            case GameState.POSITON:
+                gameStatePosition.Start();
+                break;
+            case GameState.BATTLE:
+                gameStateBattle.Start();
+                break;
+            case GameState.END:
+                break;
+            default:
+                throw new ArgumentOutOfRangeException(nameof(gameState), gameState, null);
+        }
+
+        OnGameStateChanged?.Invoke(gameState);
+    }
 }

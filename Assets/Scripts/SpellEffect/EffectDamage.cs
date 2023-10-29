@@ -17,7 +17,7 @@ public class EffectDamage : Effect {
             int damage = UnityEngine.Random.Range(damageMin, damageMax + 1);
             entity.ApplyDamage(damage);
             
-            if(lifeSteal) launcher.currentHp += damage / 2;
+            if(lifeSteal) launcher.CurrentHp += damage / 2;
         }
     }
 

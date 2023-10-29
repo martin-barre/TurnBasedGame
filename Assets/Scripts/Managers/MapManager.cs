@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class MapManager : Singleton<MapManager>
 {
+    public static event Action<Entity> OnOveredEntityChanged;
 
     [Header("Tilemaps")]
     [SerializeField] private Tilemap tilemapCollider;
@@ -17,13 +19,14 @@ public class MapManager : Singleton<MapManager>
     [SerializeField] private TileBase spawnRedTile;
     [SerializeField] private TileBase spawnBlueTile;
 
-
     private BoundsInt bounds;
     private Node[,] grid;
     private List<Node> spawnsRed;
     private List<Node> spawnsBlue;
     private List<Node> overlayNodes1;
     private List<Node> overlayNodes2;
+
+    private Entity _overedEntity;
 
 
     protected override void Awake()
@@ -76,6 +79,19 @@ public class MapManager : Singleton<MapManager>
                     spawnsBlue.Add(node);
                 }
             }
+        }
+    }
+
+    private void Update()
+    {
+        var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        var node = WorldPositionToMapNodes(mousePosition);
+        var entity = node?.entity;
+
+        if (_overedEntity != entity)
+        {
+            _overedEntity = entity;
+            OnOveredEntityChanged?.Invoke(entity);
         }
     }
 

@@ -1,15 +1,18 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class GameStateBattle
 {
+    public static event Action<Entity> OnPlayerChanged;
+    public static event Action<int> OnPlayerIndexChanged;
 
     private Entity currentEntity;
     private int currentPlayerIndex = -1;
     private Spell selectedSpell;
 
-    private List<Node> activeNodes;
+    private List<Node> activeNodes = new();
 
     public void Start()
     {
@@ -21,7 +24,7 @@ public class GameStateBattle
     {
         if (CheckEndGame())
         {
-            GameManager.Instance.SetGameState(GameState.END);
+            GameManager.Instance.UpdateGameState(GameState.END);
             return;
         }
 
@@ -35,7 +38,7 @@ public class GameStateBattle
                 if (activeNodes.Contains(node)) // SI JE CLICK SUR UNE CASE ACTIVE -> LANCE LE SORT
                 {
                     selectedSpell.Launch(currentEntity, selectedSpell, node.gridPosition);
-                    currentEntity.currentPa -= selectedSpell.paCost;
+                    currentEntity.CurrentPa -= selectedSpell.paCost;
                     selectedSpell = null;
                     MapManager.Instance.ClearOverlay1();
                 }
@@ -45,8 +48,8 @@ public class GameStateBattle
             {
                 if (activeNodes.Contains(node)) // SI JE CLICK SUR UNE CASE ACTIVE -> DEPLACE LE JOUEUR
                 {
-                    List<Node> path = Dijkstra.GetPath(currentEntity, currentEntity.currentPm, node);
-                    currentEntity.currentPm -= path.Count;
+                    List<Node> path = Dijkstra.GetPath(currentEntity, currentEntity.CurrentPm, node);
+                    currentEntity.CurrentPm -= path.Count;
                     currentEntity.SetPath(path);
 
                     MapManager.Instance.MoveEntity(currentEntity, node);
@@ -54,8 +57,6 @@ public class GameStateBattle
                     InitMovementState();
                 }
             }
-
-            UIManager.Instance.SetSpellBar(currentEntity);
         }
 
         MapManager.Instance.ClearOverlay2();
@@ -73,7 +74,7 @@ public class GameStateBattle
             }
             else
             {
-                foreach (Node tmp in Dijkstra.GetPath(currentEntity, currentEntity.currentPm, node))
+                foreach (Node tmp in Dijkstra.GetPath(currentEntity, currentEntity.CurrentPm, node))
                 {
                     MapManager.Instance.AddOverlay2(tmp);
                 }
@@ -93,7 +94,7 @@ public class GameStateBattle
             : null;
 
         if (selectedSpell == null) return;
-        if (currentEntity.currentPa < selectedSpell.paCost) return;
+        if (currentEntity.CurrentPa < selectedSpell.paCost) return;
 
         activeNodes = FOV.GetDisplacement(currentEntity, selectedSpell);
         MapManager.Instance.ClearOverlay1();
@@ -109,8 +110,8 @@ public class GameStateBattle
 
         if (currentEntity != null)
         {
-            currentEntity.currentPm = currentEntity.race.pm;
-            currentEntity.currentPa = currentEntity.race.pa;
+            currentEntity.CurrentPm = currentEntity.race.pm;
+            currentEntity.CurrentPa = currentEntity.race.pa;
         }
 
         currentPlayerIndex++;
@@ -120,8 +121,8 @@ public class GameStateBattle
         if (currentEntity.IsDead()) NextPlayer();
         selectedSpell = null;
 
-        UIManager.Instance.SetInfoMessage("Player : " + (currentPlayerIndex + 1));
-        UIManager.Instance.SetSpellBar(currentEntity);
+        OnPlayerChanged?.Invoke(currentEntity);
+        OnPlayerIndexChanged?.Invoke(currentPlayerIndex);
 
         InitMovementState();
     }
@@ -129,7 +130,7 @@ public class GameStateBattle
     private void InitMovementState()
     {
         selectedSpell = null;
-        activeNodes = Dijkstra.GetDisplacement(currentEntity, currentEntity.currentPm);
+        activeNodes = Dijkstra.GetDisplacement(currentEntity, currentEntity.CurrentPm);
         MapManager.Instance.ClearOverlay1();
         foreach (Node node in activeNodes)
         {
@@ -146,11 +147,7 @@ public class GameStateBattle
             if (!entity.IsDead() && entity.team == Team.BLUE) hasBlue = true;
             if (!entity.IsDead() && entity.team == Team.RED) hasRed = true;
         }
-        if (!hasBlue && !hasRed) return true;
-        else if (hasBlue && !hasRed) return true;
-        else if (!hasBlue && hasRed) return true;
-
-        return false;
+        return !hasBlue || !hasRed;
     }
 
 }
