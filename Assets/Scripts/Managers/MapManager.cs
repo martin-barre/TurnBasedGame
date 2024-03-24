@@ -179,5 +179,4 @@ public class MapManager : Singleton<MapManager>
         }
         overlayNodes2.Clear();
     }
-
 }

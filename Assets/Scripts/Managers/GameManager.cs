@@ -2,40 +2,18 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GameState
-{
-    POSITON,
-    BATTLE,
-    END
-}
-
 public class GameManager : Singleton<GameManager>
 {
-    public static event Action<GameState> OnGameStateChanged;
+    public static event Action OnEntitiesChanged;
 
     [SerializeField] private List<Race> blueEntities;
     [SerializeField] private List<Race> redEntities;
 
-    private GameStatePosition gameStatePosition;
-    private GameStateBattle gameStateBattle;
-    private GameState gameState;
     private List<Entity> entities;
-
-    private void OnEnable()
-    {
-        BtnNextUI.OnBtnNextClick += OnClickBtnNext;
-    }
-
-    private void OnDisable()
-    {
-        BtnNextUI.OnBtnNextClick -= OnClickBtnNext;
-    }
 
     private void Start()
     {
         entities = new List<Entity>();
-        gameStatePosition = new GameStatePosition();
-        gameStateBattle = new GameStateBattle();
 
         float random = UnityEngine.Random.Range(0, 1);
         var startTeam = random < .5 ? Team.BLUE : Team.RED;
@@ -57,28 +35,7 @@ public class GameManager : Singleton<GameManager>
             }
         }
 
-        UpdateGameState(GameState.POSITON);
-    }
-
-    private void Update()
-    {
-        if (gameState == GameState.POSITON) gameStatePosition.Update();
-        else if (gameState == GameState.BATTLE) gameStateBattle.Update();
-        else if (gameState == GameState.END) gameStateBattle.Update();
-    }
-
-    private void OnClickBtnNext()
-    {
-        if (gameState == GameState.POSITON) gameStatePosition.OnClickBtnNext();
-        else if (gameState == GameState.BATTLE) gameStateBattle.OnClickBtnNext();
-        else if (gameState == GameState.END) gameStateBattle.OnClickBtnNext();
-    }
-
-    public void OnClickBtnSpell(int spellIndex)
-    {
-        if (gameState == GameState.POSITON) return;
-        else if (gameState == GameState.BATTLE) gameStateBattle.OnClickBtnSpell(spellIndex);
-        else if (gameState == GameState.END) return;
+        OnEntitiesChanged?.Invoke();
     }
 
     public void AddEntity(Race race, Team team, Node spawnNode)
@@ -100,30 +57,8 @@ public class GameManager : Singleton<GameManager>
         Destroy(entity.gameObject);
     }
 
-    // GETTERS
     public List<Entity> GetEntities()
     {
         return entities;
-    }
-
-    public void UpdateGameState(GameState gameState)
-    {
-        this.gameState = gameState;
-
-        switch (gameState)
-        {
-            case GameState.POSITON:
-                gameStatePosition.Start();
-                break;
-            case GameState.BATTLE:
-                gameStateBattle.Start();
-                break;
-            case GameState.END:
-                break;
-            default:
-                throw new ArgumentOutOfRangeException(nameof(gameState), gameState, null);
-        }
-
-        OnGameStateChanged?.Invoke(gameState);
     }
 }

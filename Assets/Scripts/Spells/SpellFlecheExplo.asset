@@ -15,15 +15,15 @@ MonoBehaviour:
   iconSprite: {fileID: -3287259778013199489, guid: c26969743b324b644a4fed2d0f422328, type: 3}
   isProjectile: 1
   spellName: "Fl\xE8che Explosive"
-  fovMode: 0
+  fovMode: 1
   xRay: 0
   canLaunchOnEntity: 1
   poMin: 2
   poMax: 5
   paCost: 4
   zone:
-    zoneType: 0
-    size: 3
+    zoneType: 5
+    size: 4
   launcherVfx: {fileID: 2708598583397607911, guid: 6398d43fe79ea0140913dc5530c646af, type: 3}
   projectileVfx: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065, type: 3}
   targetVfx: {fileID: 4593184484909914552, guid: 2e1e9506f5904a64b81744324fb7cd50, type: 3}

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -5,6 +6,8 @@ using UnityEngine.UI;
 
 public class SpellBarUI : MonoBehaviour
 {
+    public static event Action<int> OnBtnSpellClick;
+
     [SerializeField] private TMP_Text txtPa;
     [SerializeField] private TMP_Text txtPm;
     [SerializeField] private List<GameObject> spellButtons;
@@ -14,7 +17,7 @@ public class SpellBarUI : MonoBehaviour
 
     private void OnEnable()
     {
-        GameStateBattle.OnPlayerChanged += OnPlayerChanged;
+        BattleState.OnPlayerChanged += OnPlayerChanged;
         if (_entity != null)
         {
             _entity.OnPaChange += RefreshPa;
@@ -24,12 +27,17 @@ public class SpellBarUI : MonoBehaviour
 
     private void OnDisable()
     {
-        GameStateBattle.OnPlayerChanged -= OnPlayerChanged;
+        BattleState.OnPlayerChanged -= OnPlayerChanged;
         if (_entity != null)
         {
             _entity.OnPaChange -= RefreshPa;
             _entity.OnPmChange -= RefreshPm;
         }
+    }
+
+    public void OnClickBtnSpell(int spellIndex)
+    {
+        OnBtnSpellClick?.Invoke(spellIndex);
     }
 
     private void OnPlayerChanged(Entity entity)

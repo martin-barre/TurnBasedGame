@@ -10,19 +10,19 @@ public class EndGameUI : MonoBehaviour
 
     private void OnEnable()
     {
-        GameManager.OnGameStateChanged += OnGameStateChanged;
+        GameStateMachine.OnStateChanged += OnGameStateChanged;
     }
 
     private void OnDisable()
     {
-        GameManager.OnGameStateChanged -= OnGameStateChanged;
+        GameStateMachine.OnStateChanged -= OnGameStateChanged;
     }
 
-    private void OnGameStateChanged(GameState state)
+    private void OnGameStateChanged(GameStateMachine.GameState state)
     {
-        endGamePanel.SetActive(state == GameState.END);
+        endGamePanel.SetActive(state == GameStateMachine.GameState.End);
 
-        if (state == GameState.END)
+        if (state == GameStateMachine.GameState.End)
         {
             var winnerTeam = GameManager.Instance.GetEntities().FirstOrDefault(o => !o.IsDead())?.team ?? Team.NONE;
 

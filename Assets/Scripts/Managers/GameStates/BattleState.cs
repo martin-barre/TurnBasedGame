@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class GameStateBattle
+public class BattleState : BaseState<GameStateMachine.GameState>
 {
     public static event Action<Entity> OnPlayerChanged;
     public static event Action<int> OnPlayerIndexChanged;
@@ -14,20 +14,36 @@ public class GameStateBattle
 
     private List<Node> activeNodes = new();
 
-    public void Start()
+    public BattleState(GameStateMachine.GameState key) : base(key) { }
+
+    public override void EnterState()
     {
         MapManager.Instance.ActiveTilemapSpawns(false);
         NextPlayer();
+        BtnNextUI.OnBtnNextClick += OnClickBtnNext;
+        SpellBarUI.OnBtnSpellClick += OnClickBtnSpell;
     }
 
-    public void Update()
+    public override void ExitState()
+    {
+        BtnNextUI.OnBtnNextClick -= OnClickBtnNext;
+        SpellBarUI.OnBtnSpellClick -= OnClickBtnSpell;
+    }
+
+    public override GameStateMachine.GameState GetNextState()
     {
         if (CheckEndGame())
         {
-            GameManager.Instance.UpdateGameState(GameState.END);
-            return;
+            return GameStateMachine.GameState.End;
         }
+        else
+        {
+            return StateKey;
+        }
+    }
 
+    public override void UpdateState()
+    {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Node node = MapManager.Instance.WorldPositionToMapNodes(mousePosition);
 
@@ -149,5 +165,4 @@ public class GameStateBattle
         }
         return !hasBlue || !hasRed;
     }
-
 }

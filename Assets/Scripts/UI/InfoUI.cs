@@ -7,14 +7,14 @@ public class InfoUI : MonoBehaviour
 
     private void OnEnable()
     {
-        GameStatePosition.OnTeamTurnChanged += OnTeamTurnChanged;
-        GameStateBattle.OnPlayerIndexChanged += OnPlayerIndexChanged;
+        StartState.OnTeamTurnChanged += OnTeamTurnChanged;
+        BattleState.OnPlayerIndexChanged += OnPlayerIndexChanged;
     }
 
     private void OnDisable()
     {
-        GameStatePosition.OnTeamTurnChanged -= OnTeamTurnChanged;
-        GameStateBattle.OnPlayerIndexChanged -= OnPlayerIndexChanged;
+        StartState.OnTeamTurnChanged -= OnTeamTurnChanged;
+        BattleState.OnPlayerIndexChanged -= OnPlayerIndexChanged;
     }
 
     private void OnTeamTurnChanged(Team team)
