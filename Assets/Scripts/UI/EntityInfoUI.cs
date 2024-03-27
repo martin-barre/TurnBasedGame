@@ -1,12 +1,10 @@
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class EntityInfoUI : MonoBehaviour
 {
     [SerializeField] private Vector2 offset;
-    [SerializeField] private Image entityInfoImage;
     [SerializeField] private TMP_Text entityInfoName;
     [SerializeField] private TMP_Text entityInfoHp;
     [SerializeField] private TMP_Text entityInfoPa;
@@ -52,7 +50,6 @@ public class EntityInfoUI : MonoBehaviour
         }
         else
         {
-            entityInfoImage.sprite = entity.race.sprite;
             entityInfoName.SetText(entity.race.raceName);
 
             //var pos = Input.mousePosition / _canvas.scaleFactor;
