@@ -31,20 +31,11 @@ public class EffectAttract : Effect
 
         Vector2Int launcherPosition = centerPoint == CenterPoint.LAUNCHER ? launcher.node.gridPosition : targetPos;
 
-        // SORT ENTITIES WITH DISTANCE ( FOR PATH BUG WHEN ENTITY IS PUSH ON ANOTHER ENTITY )
-        List<Entity> cloneEntities = new List<Entity>(entities);
-        cloneEntities.Sort(delegate (Entity a, Entity b)
-        {
-            float distA = Vector2.Distance(launcherPosition, b.node.gridPosition);
-            float distB = Vector2.Distance(launcherPosition, a.node.gridPosition);
-            return distB.CompareTo(distA);
-        });
-
-        foreach (Entity entity in cloneEntities)
+        foreach (Entity entity in entities)
         {
             Vector2Int targetPosition = entity.node.gridPosition;
             Vector2Int direction = Utils.GridDirection(targetPosition, launcherPosition);
-            bool isDiagonal = Mathf.Sign(direction.x) + Mathf.Sign(direction.y) == 2;
+            bool isDiagonal = Mathf.Abs(direction.x) + Mathf.Abs(direction.y) == 2;
 
             Node node = null;
             for (int i = 1; i <= nbOfTile; i++)

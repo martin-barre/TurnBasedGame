@@ -1,37 +1,36 @@
-using System;
 using UnityEngine;
 
 public class StartState : BaseState<GameStateMachine.GameState>
 {
-    public static event Action<Team> OnTeamTurnChanged;
-
     private Entity _selectedEntity;
-    private Team _currentTeam;
-    private int _turnCount;
+    private bool _teamBlueReady;
+    private bool _teamRedReady;
 
     public StartState(GameStateMachine.GameState key) : base(key) { }
 
     public override void EnterState()
     {
         MapManager.Instance.ActiveTilemapSpawns(true);
-        BtnNextUI.OnBtnNextClick += OnClickBtnNext;
+        BtnNextUI.OnBtnNextClick += OnBtnNextClick;
+        GameCommand.OnTeamReady += OnTeamReady;
+        GameCommand.OnSelectSpawn += OnSelectSpawn;
 
         _selectedEntity = null;
-        _currentTeam = GameManager.Instance.GetEntities()[0].team;
-        _turnCount = 0;
-
-        OnTeamTurnChanged?.Invoke(_currentTeam);
+        _teamBlueReady = false;
+        _teamRedReady = false;
     }
 
     public override void ExitState()
     {
         MapManager.Instance.ActiveTilemapSpawns(false);
-        BtnNextUI.OnBtnNextClick -= OnClickBtnNext;
+        BtnNextUI.OnBtnNextClick -= OnBtnNextClick;
+        GameCommand.OnTeamReady -= OnTeamReady;
+        GameCommand.OnSelectSpawn -= OnSelectSpawn;
     }
 
     public override GameStateMachine.GameState GetNextState()
     {
-        if (_turnCount >= 2)
+        if (_teamBlueReady && _teamRedReady)
         {
             return GameStateMachine.GameState.Battle;
         }
@@ -46,39 +45,43 @@ public class StartState : BaseState<GameStateMachine.GameState>
             Node node = MapManager.Instance.WorldPositionToMapNodes(mousePosition);
             Entity entity = node?.entity;
 
-            if (_selectedEntity == null)
+            if (entity != null && entity.team == GameManager.Instance.CurrentTeam)
             {
-                if (entity != null && entity.team == _currentTeam)
-                {
-                    _selectedEntity = entity;
-                }
+                _selectedEntity = entity;
             }
             else
             {
-                if (node.spawnTeam == _currentTeam && node.entity == null)
+                if (_selectedEntity != null && node.spawnTeam == GameManager.Instance.CurrentTeam && node.entity == null)
                 {
-                    Node oldNode = _selectedEntity.node;
-
-                    _selectedEntity.node = node;
-                    _selectedEntity.transform.position = node.worldPosition;
-
-                    node.entity = _selectedEntity;
-                    oldNode.entity = null;
-
-                    _selectedEntity = null;
+                    GameCommand.Instance.SendSelectSpawnEvent(_selectedEntity.node, node);
                 }
             }
         }
-
-
     }
 
-    private void OnClickBtnNext()
+    private void OnBtnNextClick()
     {
-        _currentTeam = _currentTeam == Team.BLUE ? Team.RED : Team.BLUE;
-        _selectedEntity = null;
-        _turnCount++;
+        GameCommand.Instance.SendReadyEvent(GameManager.Instance.CurrentTeam);
+    }
 
-        OnTeamTurnChanged?.Invoke(_currentTeam);
+    private void OnTeamReady(Team team)
+    {
+        //if (team == Team.RED)
+        {
+            _teamRedReady = true;
+        }
+        //if (team == Team.BLUE)
+        {
+            _teamBlueReady = true;
+        }
+    }
+
+    private void OnSelectSpawn(Node node1, Node node2)
+    {
+        var entity = node1.entity;
+        if (entity != null)
+        {
+            MapManager.Instance.MoveEntity(entity, node2, true);
+        }
     }
 }

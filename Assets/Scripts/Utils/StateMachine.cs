@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using UnityEngine;
+using Unity.Netcode;
 
-public abstract class StateMachine<EState> : MonoBehaviour where EState : Enum
+public abstract class StateMachine<EState> : NetworkBehaviour where EState : Enum
 {
     public static event Action<EState> OnStateChanged;
 
@@ -11,9 +11,10 @@ public abstract class StateMachine<EState> : MonoBehaviour where EState : Enum
 
     protected bool IsTransitioningState = false;
 
-    public void Start()
+    public override void OnNetworkSpawn()
     {
         CurrentState.EnterState();
+        OnStateChanged?.Invoke(CurrentState.GetNextState());
     }
 
     private void Update()

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [Serializable]
@@ -13,13 +14,12 @@ public abstract class Effect
 
     public virtual void Apply(Entity launcher, Spell spell, List<Entity> entities, Vector2Int targetPos)
     {
-        entities = entities.FindAll(entity =>
-        {
-            if (entity == null) return false;
-            if (!canTouchLauncher && launcher == entity) return false;
-            if (!canTouchMate && launcher.team == entity.team) return false;
-            if (!canTouchEnemy && launcher.team != entity.team) return false;
-            return true;
-        });
+        entities = entities
+            .Where(entity =>
+                entity != null &&
+                (canTouchLauncher || !canTouchLauncher && launcher != entity) &&
+                (canTouchMate || !canTouchMate && launcher.team != entity.team) &&
+                (canTouchEnemy || !canTouchEnemy && launcher.team != entity.team))
+            .ToList();
     }
 }

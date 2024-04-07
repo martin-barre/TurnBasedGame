@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c0be3627dddf3408143032329de1e2, type: 3}
+  m_Name: BoostPA
+  m_EditorClassIdentifier: 
+  id: 9
+  iconSprite: {fileID: -2510700130228359254, guid: c26969743b324b644a4fed2d0f422328, type: 3}
+  isProjectile: 0
+  spellName: Boost PA
+  fovMode: 0
+  xRay: 1
+  canLaunchOnEntity: 1
+  poMin: 0
+  poMax: 3
+  paCost: 4
+  zone:
+    zoneType: 0
+    size: 3
+  launcherVfx: {fileID: 0}
+  projectileVfx: {fileID: 0}
+  targetVfx: {fileID: 0}
+  damage: []
+  push: []
+  attract: []
+  teleport: []
+  applyBuff:
+  - order: 1
+    canTouchLauncher: 1
+    canTouchMate: 1
+    canTouchEnemy: 0
+    buff: {fileID: 11400000, guid: 2f96eef5c8f247c45853d84401d539de, type: 2}

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72c0be3627dddf3408143032329de1e2, type: 3}
   m_Name: SpellIntimidation
   m_EditorClassIdentifier: 
+  id: 5
   iconSprite: {fileID: -3568249353771868265, guid: c26969743b324b644a4fed2d0f422328, type: 3}
   isProjectile: 1
   spellName: Intimidation

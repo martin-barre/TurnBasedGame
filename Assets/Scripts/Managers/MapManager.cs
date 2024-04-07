@@ -23,8 +23,6 @@ public class MapManager : Singleton<MapManager>
     private Node[,] grid;
     private List<Node> spawnsRed;
     private List<Node> spawnsBlue;
-    private List<Node> overlayNodes1;
-    private List<Node> overlayNodes2;
 
     private Entity _overedEntity;
 
@@ -32,8 +30,6 @@ public class MapManager : Singleton<MapManager>
     protected override void Awake()
     {
         base.Awake();
-        overlayNodes1 = new List<Node>();
-        overlayNodes2 = new List<Node>();
 
         // INITIALIZE GRID
         tilemapCollider.CompressBounds();
@@ -107,21 +103,25 @@ public class MapManager : Singleton<MapManager>
         return grid[x, y];
     }
 
-    public void MoveEntity(Entity entity, Node node)
+    public void MoveEntity(Entity entity, Node node, bool teleport = false)
     {
         if (node.type != NodeType.GROUND) return;
+        if (entity == null) return;
 
-        Entity targetEntity = node.entity;
-        Node oldNode = entity.node;
+        Node bufferNode = entity.node;
+        Entity bufferEntity = node.entity;
 
-        entity.node.entity = null;
+        // Move entity 1
+        node.entity = entity;
         entity.node = node;
-        entity.node.entity = entity;
+        if (teleport) entity.transform.position = node.worldPosition;
 
-        if (targetEntity != null)
+        // Move entity 2
+        bufferNode.entity = bufferEntity;
+        if (bufferEntity != null)
         {
-            targetEntity.node = oldNode;
-            targetEntity.node.entity = targetEntity;
+            bufferEntity.node = bufferNode;
+            if (teleport) bufferEntity.transform.position = bufferNode.worldPosition;
         }
     }
 
@@ -150,33 +150,31 @@ public class MapManager : Singleton<MapManager>
         return grid[position.x - bounds.xMin, position.y - bounds.yMin];
     }
 
-    public void AddOverlay1(Node node)
+    public void AddOverlay1(List<Node> nodes)
     {
-        overlayNodes1.Add(node);
-        tilemapOverlay1.SetTile((Vector3Int)node.gridPosition, spawnBlueTile);
+        foreach (var node in nodes)
+        {
+            tilemapOverlay1.SetTile((Vector3Int)node.gridPosition, spawnBlueTile);
+        }
+        tilemapOverlay1.RefreshAllTiles();
     }
 
-    public void AddOverlay2(Node node)
+    public void AddOverlay2(List<Node> nodes)
     {
-        overlayNodes2.Add(node);
-        tilemapOverlay2.SetTile((Vector3Int)node.gridPosition, spawnRedTile);
+        foreach (var node in nodes)
+        {
+            tilemapOverlay2.SetTile((Vector3Int)node.gridPosition, spawnRedTile);
+        }
+        tilemapOverlay2.RefreshAllTiles();
     }
 
     public void ClearOverlay1()
     {
-        foreach (Node node in overlayNodes1)
-        {
-            tilemapOverlay1.SetTile((Vector3Int)node.gridPosition, null);
-        }
-        overlayNodes1.Clear();
+        tilemapOverlay1.ClearAllTiles();
     }
 
     public void ClearOverlay2()
     {
-        foreach (Node node in overlayNodes2)
-        {
-            tilemapOverlay2.SetTile((Vector3Int)node.gridPosition, null);
-        }
-        overlayNodes2.Clear();
+        tilemapOverlay2.ClearAllTiles();
     }
 }

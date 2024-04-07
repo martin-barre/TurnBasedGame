@@ -1,38 +1,31 @@
 using System;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public class GameManager : Singleton<GameManager>
+public class GameManager : NetworkSingleton<GameManager>
 {
     public static event Action OnEntitiesChanged;
 
     [SerializeField] private List<Race> blueEntities;
     [SerializeField] private List<Race> redEntities;
 
+    public Team CurrentTeam;
+
     private List<Entity> entities;
 
-    private void Start()
+    public override void OnNetworkSpawn()
     {
+        GetTeamServerRpc();
         entities = new List<Entity>();
-
-        float random = UnityEngine.Random.Range(0, 1);
-        var startTeam = random < .5 ? Team.BLUE : Team.RED;
 
         for (int i = 0; i < blueEntities.Count; i++)
         {
             Node blueNode = MapManager.Instance.GetRandomSpawns(Team.BLUE);
             Node redNode = MapManager.Instance.GetRandomSpawns(Team.RED);
 
-            if (startTeam == Team.BLUE)
-            {
-                AddEntity(blueEntities[i], Team.BLUE, blueNode);
-                AddEntity(redEntities[i], Team.RED, redNode);
-            }
-            else
-            {
-                AddEntity(redEntities[i], Team.RED, redNode);
-                AddEntity(blueEntities[i], Team.BLUE, blueNode);
-            }
+            AddEntity(redEntities[i], Team.RED, redNode);
+            AddEntity(blueEntities[i], Team.BLUE, blueNode);
         }
 
         OnEntitiesChanged?.Invoke();
@@ -60,5 +53,27 @@ public class GameManager : Singleton<GameManager>
     public List<Entity> GetEntities()
     {
         return entities;
+    }
+
+    [ServerRpc(RequireOwnership = false)]
+    private void GetTeamServerRpc(ServerRpcParams serverRpcParams = default)
+    {
+        if (!IsOwner) return;
+
+        var number = NetworkManager.ConnectedClients.Count;
+        GetTeamClientRpc(number % 2 == 0 ? Team.BLUE : Team.RED, new ClientRpcParams
+        {
+            Send = new ClientRpcSendParams
+            {
+                TargetClientIds = new ulong[] { serverRpcParams.Receive.SenderClientId }
+            }
+        });
+    }
+
+    [ClientRpc]
+    private void GetTeamClientRpc(Team team, ClientRpcParams _ = default)
+    {
+        Debug.Log("GetTeamClientRpc : " + team);
+        CurrentTeam = team;
     }
 }

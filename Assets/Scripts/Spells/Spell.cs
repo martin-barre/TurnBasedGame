@@ -1,10 +1,12 @@
 using DG.Tweening;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewSpell", menuName = "ScriptableObjects/Spell")]
 public class Spell : ScriptableObject
 {
+    public int id;
     public Sprite iconSprite;
     public bool isProjectile;
     public string spellName;
@@ -30,36 +32,28 @@ public class Spell : ScriptableObject
 
     public List<Node> GetZoneNodes(Entity launcher, Node targetNode)
     {
-        List<Node> nodes = new List<Node>();
-        foreach (Vector2Int position in zone.GetPositions(launcher, targetNode))
-        {
-            Node node = MapManager.Instance.GetNode(targetNode.gridPosition + position);
-            if (node.type != NodeType.GROUND) continue;
-            nodes.Add(node);
-        }
-        return nodes;
+        return zone.GetPositions(launcher, targetNode)
+            .Select(position => MapManager.Instance.GetNode(targetNode.gridPosition + position))
+            .Where(node => node.type == NodeType.GROUND)
+            .ToList();
     }
 
     public void Launch(Entity launcher, Spell spell, Vector2Int targetPos)
     {
         LaunchVfx(launcher, targetPos);
 
-        SortedDictionary<int, Effect> effects = new SortedDictionary<int, Effect>();
+        SortedDictionary<int, Effect> effects = new();
         foreach (Effect effect in damage) effects.Add(effect.order, effect);
         foreach (Effect effect in push) effects.Add(effect.order, effect);
         foreach (Effect effect in attract) effects.Add(effect.order, effect);
         foreach (Effect effect in teleport) effects.Add(effect.order, effect);
         foreach (Effect effect in applyBuff) effects.Add(effect.order, effect);
 
-        List<Entity> entities = new List<Entity>();
-        List<Node> nodes = GetZoneNodes(launcher, MapManager.Instance.GetNode(targetPos));
-        foreach (Node node in nodes)
-        {
-            if (node.entity != null)
-            {
-                entities.Add(node.entity);
-            }
-        }
+        List<Entity> entities = GetZoneNodes(launcher, MapManager.Instance.GetNode(targetPos))
+            .Where(node => node.entity != null)
+            .Select(node => node.entity)
+            .ToList();
+
         foreach (KeyValuePair<int, Effect> entry in effects)
         {
             entry.Value.Apply(launcher, spell, entities, targetPos);

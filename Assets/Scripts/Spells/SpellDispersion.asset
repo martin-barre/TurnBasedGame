@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72c0be3627dddf3408143032329de1e2, type: 3}
   m_Name: SpellDispersion
   m_EditorClassIdentifier: 
+  id: 2
   iconSprite: {fileID: 812442863762461911, guid: c26969743b324b644a4fed2d0f422328, type: 3}
   isProjectile: 1
   spellName: "Fl\xE8che de Dispersion"
@@ -29,7 +30,7 @@ MonoBehaviour:
   targetVfx: {fileID: 2360655870356088562, guid: 57a776ff377f3c44e8403e2067a4d41f, type: 3}
   damage: []
   push:
-  - order: 0
+  - order: 1
     canTouchLauncher: 1
     canTouchMate: 1
     canTouchEnemy: 1

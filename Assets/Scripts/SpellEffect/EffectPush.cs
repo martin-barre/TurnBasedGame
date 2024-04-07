@@ -31,20 +31,14 @@ public class EffectPush : Effect
 
         Vector2Int launcherPosition = centerPoint == CenterPoint.LAUNCHER ? launcher.node.gridPosition : targetPos;
 
-        // SORT ENTITIES WITH DISTANCE ( FOR PATH BUG WHAN ENTITY IS PUSH ON ANOTHER ENTITY )
-        List<Entity> cloneEntities = new List<Entity>(entities);
-        cloneEntities.Sort(delegate (Entity a, Entity b)
-        {
-            float distA = Vector2.Distance(launcherPosition, a.node.gridPosition);
-            float distB = Vector2.Distance(launcherPosition, b.node.gridPosition);
-            return distB.CompareTo(distA);
-        });
+        List<Entity> cloneEntities = new(entities);
+        cloneEntities.Reverse();
 
         foreach (Entity entity in cloneEntities)
         {
             Vector2Int targetPosition = entity.node.gridPosition;
             Vector2Int direction = Utils.GridDirection(launcherPosition, targetPosition);
-            bool isDiagonal = Mathf.Sign(direction.x) + Mathf.Sign(direction.y) == 2;
+            bool isDiagonal = Mathf.Abs(direction.x) + Mathf.Abs(direction.y) == 2;
 
             Node node = null;
             for (int i = 1; i <= nbOfTile; i++)
@@ -68,7 +62,6 @@ public class EffectPush : Effect
                 MapManager.Instance.MoveEntity(entity, node);
                 entity.SetPath(new List<Node>() { node });
             }
-
         }
     }
 }

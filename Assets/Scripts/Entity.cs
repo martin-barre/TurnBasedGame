@@ -18,6 +18,7 @@ public class Entity : MonoBehaviour
     public Team team;
     public Node node;
     public Race race;
+    public List<Buff> buffs;
 
     [SerializeField] private Animator _animator;
     private int _hp;
@@ -75,6 +76,11 @@ public class Entity : MonoBehaviour
         // ANIMATOR
         _animator.SetBool("Idle", path.Count <= 0);
         _animator.SetBool("Walk", path.Count > 0);
+    }
+
+    public void ApplyBuff(Buff buff)
+    {
+        buffs.Add(buff);
     }
 
     public void ApplyDamage(int damage)
