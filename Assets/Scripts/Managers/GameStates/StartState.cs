@@ -66,11 +66,11 @@ public class StartState : BaseState<GameStateMachine.GameState>
 
     private void OnTeamReady(Team team)
     {
-        //if (team == Team.RED)
+        if (team == Team.RED)
         {
             _teamRedReady = true;
         }
-        //if (team == Team.BLUE)
+        if (team == Team.BLUE)
         {
             _teamBlueReady = true;
         }
