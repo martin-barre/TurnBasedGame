@@ -776,7 +776,7 @@ GameObject:
   - component: {fileID: 563662671646778587}
   - component: {fileID: 4489564392978060340}
   m_Layer: 5
-  m_Name: Spell Info UI
+  m_Name: SpellInfoUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
