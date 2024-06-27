@@ -50,11 +50,11 @@ public class EntityInfoUI : MonoBehaviour
         }
         else
         {
-            entityInfoName.SetText(entity.race.raceName);
+            entityInfoName.SetText(entity.Race.Name);
 
             //var pos = Input.mousePosition / _canvas.scaleFactor;
             //_rectTransform.anchoredPosition = pos;
-            _rectTransform.transform.position = RectTransformUtility.WorldToScreenPoint(Camera.main, entity.node.worldPosition + (Vector3)offset);
+            _rectTransform.transform.position = RectTransformUtility.WorldToScreenPoint(Camera.main, entity.Node.worldPosition + (Vector3)offset);
             _rectTransform.transform.localScale = Vector3.zero;
             _rectTransform.DOScale(1, 0.2f).SetEase(Ease.OutBack);
 

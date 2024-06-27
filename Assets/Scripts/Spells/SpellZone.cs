@@ -20,28 +20,21 @@ public class SpellZone
 
     public List<Vector2Int> GetPositions(Entity launcher, Node targetNode)
     {
-        switch (zoneType)
+        return zoneType switch
         {
-            case SpellZoneType.CIRCLE_FILL:
-                return GetPositionCircleFill();
-            case SpellZoneType.CIRCLE_LINE:
-                return GetPositionCircleLine();
-            case SpellZoneType.LINE_VERTICAL:
-                return GetPositionLineVertical(launcher, targetNode);
-            case SpellZoneType.LINE_HORIZONTAL:
-                return GetPositionLineHorizontal(launcher, targetNode);
-            case SpellZoneType.ARC:
-                return GetPositionArc(launcher, targetNode);
-            case SpellZoneType.CROSS:
-                return GetPositionCross();
-        }
-        return new List<Vector2Int>();
+            SpellZoneType.CIRCLE_FILL => GetPositionCircleFill(),
+            SpellZoneType.CIRCLE_LINE => GetPositionCircleLine(),
+            SpellZoneType.LINE_VERTICAL => GetPositionLineVertical(launcher, targetNode),
+            SpellZoneType.LINE_HORIZONTAL => GetPositionLineHorizontal(launcher, targetNode),
+            SpellZoneType.ARC => GetPositionArc(launcher, targetNode),
+            SpellZoneType.CROSS => GetPositionCross(),
+            _ => new()
+        };
     }
 
     private List<Vector2Int> GetPositionCircleFill()
     {
-        List<Vector2Int> positions = new List<Vector2Int>();
-
+        List<Vector2Int> positions = new();
         for (int x = -size + 1; x < size; x++)
         {
             for (int y = -size + 1; y < size; y++)
@@ -52,14 +45,12 @@ public class SpellZone
                 }
             }
         }
-
         return positions;
     }
 
     private List<Vector2Int> GetPositionCircleLine()
     {
-        List<Vector2Int> positions = new List<Vector2Int>();
-
+        List<Vector2Int> positions = new();
         for (int x = -size + 1; x < size; x++)
         {
             for (int y = -size + 1; y < size; y++)
@@ -70,42 +61,35 @@ public class SpellZone
                 }
             }
         }
-
         return positions;
     }
 
     private List<Vector2Int> GetPositionLineVertical(Entity launcher, Node targetNode)
     {
-        Vector2Int direction = Utils.GridDirection(launcher.node.gridPosition, targetNode.gridPosition);
-        List<Vector2Int> positions = new List<Vector2Int>();
-
+        Vector2Int direction = Utils.GridDirection(launcher.Node.gridPosition, targetNode.gridPosition);
+        List<Vector2Int> positions = new();
         for (int i = 0; i < size; i++)
         {
             positions.Add(direction * i);
         }
-
         return positions;
     }
 
     private List<Vector2Int> GetPositionLineHorizontal(Entity launcher, Node targetNode)
     {
-        Vector2Int direction = Utils.GridDirection(launcher.node.gridPosition, targetNode.gridPosition);
-        List<Vector2Int> positions = new List<Vector2Int>();
-
+        Vector2Int direction = Utils.GridDirection(launcher.Node.gridPosition, targetNode.gridPosition);
+        List<Vector2Int> positions = new();
         for (int i = -size + 1; i < size; i++)
         {
             positions.Add(new Vector2Int(-direction.y * i, direction.x * i));
         }
-
         return positions;
     }
 
     private List<Vector2Int> GetPositionArc(Entity launcher, Node targetNode)
     {
-        Vector2Int direction = Utils.GridDirection(launcher.node.gridPosition, targetNode.gridPosition);
-        List<Vector2Int> positions = new List<Vector2Int>();
-
-        positions.Add(new Vector2Int(0, 0));
+        Vector2Int direction = Utils.GridDirection(launcher.Node.gridPosition, targetNode.gridPosition);
+        List<Vector2Int> positions = new() { new Vector2Int(0, 0) };
         for (int i = 1; i < size; i++)
         {
             if (Mathf.Abs(direction.x) == Mathf.Abs(direction.y))
@@ -119,14 +103,12 @@ public class SpellZone
                 positions.Add(new Vector2Int(direction.x * -i - direction.y * i, direction.y * -i - direction.x * i));
             }
         }
-
         return positions;
     }
 
     private List<Vector2Int> GetPositionCross()
     {
-        List<Vector2Int> positions = new List<Vector2Int>();
-        positions.Add(new Vector2Int(0, 0));
+        List<Vector2Int> positions = new() { new Vector2Int(0, 0) };
         for (int i = 1; i < size; i++)
         {
             positions.Add(new Vector2Int(i, 0));
@@ -134,7 +116,6 @@ public class SpellZone
             positions.Add(new Vector2Int(0, i));
             positions.Add(new Vector2Int(0, -i));
         }
-
         return positions;
     }
 }

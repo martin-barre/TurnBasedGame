@@ -4,26 +4,28 @@ using UnityEngine;
 public class InfoUI : MonoBehaviour
 {
     [SerializeField] private TMP_Text txtInfo;
-
     private void OnEnable()
     {
-        StartState.OnTeamTurnChanged += OnTeamTurnChanged;
-        BattleState.OnPlayerIndexChanged += OnPlayerIndexChanged;
+        GameStateMachine.Instance.StateEnum.OnValueChanged += OnStateChanged;
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged += OnPlayerIndexChanged;
     }
 
     private void OnDisable()
     {
-        StartState.OnTeamTurnChanged -= OnTeamTurnChanged;
-        BattleState.OnPlayerIndexChanged -= OnPlayerIndexChanged;
+        GameStateMachine.Instance.StateEnum.OnValueChanged -= OnStateChanged;
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged -= OnPlayerIndexChanged;
     }
 
-    private void OnTeamTurnChanged(Team team)
+    private void OnStateChanged(GameStateMachine.GameState oldState, GameStateMachine.GameState newState)
     {
-        txtInfo.SetText("Team " + (team == Team.BLUE ? "blue" : "red"));
+        if (newState == GameStateMachine.GameState.Start)
+        {
+            txtInfo.SetText("Start phase");
+        }
     }
 
-    private void OnPlayerIndexChanged(int playerIndex)
+    private void OnPlayerIndexChanged(int oldIndex, int newIndex)
     {
-        txtInfo.SetText("Player : " + (playerIndex + 1));
+        txtInfo.SetText("Player : " + (newIndex + 1));
     }
 }

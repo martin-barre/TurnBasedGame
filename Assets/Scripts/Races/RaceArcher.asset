@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cb9d0a22660a8945a62d9894abcfc8b, type: 3}
   m_Name: RaceArcher
   m_EditorClassIdentifier: 
-  raceName: Archer
-  sprite: {fileID: -4854428716868363808, guid: c26969743b324b644a4fed2d0f422328, type: 3}
-  prefab: {fileID: 7770471201627919085, guid: 8f408ce3d032d9147b053ac41cafa068, type: 3}
-  hp: 6
-  pa: 7
-  pm: 3
-  spells:
+  _enum: 1
+  _name: Archer
+  _sprite: {fileID: -8376240874996393867, guid: c26969743b324b644a4fed2d0f422328, type: 3}
+  _prefab: {fileID: 6512249900713044281, guid: 8f408ce3d032d9147b053ac41cafa068, type: 3}
+  _hp: 20
+  _pa: 7
+  _pm: 3
+  _spells:
   - {fileID: 11400000, guid: f933dc4bb9d70c24e8bba10d0ad30ab8, type: 2}
-  - {fileID: 11400000, guid: 6128a5cfb44fd224cbc691412bc77d9f, type: 2}
   - {fileID: 11400000, guid: 133fa89893175c94fbd3624c67bca9aa, type: 2}
   - {fileID: 11400000, guid: c4a54af87f7e344458eabff513bb562d, type: 2}
+  - {fileID: 11400000, guid: 6128a5cfb44fd224cbc691412bc77d9f, type: 2}

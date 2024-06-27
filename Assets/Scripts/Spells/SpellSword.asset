@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72c0be3627dddf3408143032329de1e2, type: 3}
   m_Name: SpellSword
   m_EditorClassIdentifier: 
+  id: 7
   iconSprite: {fileID: 2984400862584743857, guid: c26969743b324b644a4fed2d0f422328, type: 3}
   isProjectile: 0
   spellName: Sword

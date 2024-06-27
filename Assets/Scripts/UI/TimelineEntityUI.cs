@@ -8,18 +8,40 @@ public class TimelineEntityUI : MonoBehaviour
 
     private Entity entity;
 
+    private void OnEnable()
+    {
+        if (entity != null) {
+            entity.OnHpChange += UpdateUI;
+        }
+    }
+
+    private void OnDisable()
+    {
+        if (entity != null)
+        {
+            entity.OnHpChange -= UpdateUI;
+        }
+    }
+
     public void SetEntity(Entity entity)
     {
+        if (this.entity != null)
+        {
+            this.entity.OnHpChange -= UpdateUI;
+        }
+
         this.entity = entity;
         this.entity.OnHpChange += UpdateUI;
 
-        playerImage.sprite = entity.race.sprite;
-        colorImage.color = entity.team == Team.BLUE ? Color.blue : Color.red;
+        if (entity.data.ParentId >= 0) transform.localScale = Vector3.one * 0.8f;
+
+        playerImage.sprite = entity.Race.Sprite;
+        colorImage.color = entity.data.Team == Team.BLUE ? Color.blue : Color.red;
     }
 
     private void UpdateUI(int hp)
     {
-        var ratio = (float)hp / (float)entity.race.hp;
+        var ratio = (float)hp / entity.Race.Hp;
         colorImage.transform.localScale = new Vector3(ratio, 1, 1);
 
         if (entity.IsDead())

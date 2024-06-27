@@ -40,7 +40,7 @@ public abstract class Dijkstra
                 NodeWeight nextNodeWeight = new(nextNode, nodeWeight.weight + 1, nodeWeight);
                 if (nextNode != null && nextNode.type == NodeType.GROUND && nextNodeWeight.weight <= pm)
                 {
-                    if (nextNode == entity.node)
+                    if (nextNode == entity.Node)
                     {
                         List<Node> path = new();
                         while (nextNodeWeight.parent != null)
@@ -70,7 +70,7 @@ public abstract class Dijkstra
         List<NodeWeight> openList = new();
         List<Node> closeList = new();
 
-        openList.Add(new NodeWeight(entity.node, 0, null));
+        openList.Add(new NodeWeight(entity.Node, 0, null));
 
         while (openList.Count > 0)
         {

@@ -1,41 +1,42 @@
 using System;
 using System.Collections.Generic;
+using Unity.Netcode;
 using UnityEngine;
 
-public abstract class StateMachine<EState> : MonoBehaviour where EState : Enum
+public abstract class StateMachine<EState> : NetworkSingleton<StateMachine<EState>> where EState : Enum
 {
-    public static event Action<EState> OnStateChanged;
+    public NetworkVariable<EState> StateEnum = new();
 
     protected Dictionary<EState, BaseState<EState>> States = new();
-    protected BaseState<EState> CurrentState;
 
-    protected bool IsTransitioningState = false;
+    private bool started = false;
 
-    public void Start()
+    private void OnEnable()
     {
-        CurrentState.EnterState();
+        GameManager.OnDataInitialized += StartStateMachine;
+    }
+
+    private void OnDisable()
+    {
+        GameManager.OnDataInitialized -= StartStateMachine;
+    }
+
+    private void StartStateMachine()
+    {
+        StateEnum.OnValueChanged += OnStateEnumChanged;
+        States[StateEnum.Value].EnterState();
+        started = true;
     }
 
     private void Update()
     {
-        EState newStateKey = CurrentState.GetNextState();
-        if (!IsTransitioningState && newStateKey.Equals(CurrentState.StateKey))
-        {
-            CurrentState.UpdateState();
-        }
-        else if (!IsTransitioningState)
-        {
-            TransitionToState(newStateKey);
-        }
+        if (!started) return;
+        States[StateEnum.Value].UpdateState();
     }
 
-    private void TransitionToState(EState stateKey)
+    private void OnStateEnumChanged(EState oldState, EState newState)
     {
-        IsTransitioningState = true;
-        CurrentState.ExitState();
-        CurrentState = States[stateKey];
-        CurrentState.EnterState();
-        IsTransitioningState = false;
-        OnStateChanged?.Invoke(stateKey);
+        States[oldState].ExitState();
+        States[newState].EnterState();
     }
 }

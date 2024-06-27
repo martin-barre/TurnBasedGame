@@ -1,64 +1,127 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.Netcode;
 using UnityEngine;
 
-public class GameManager : Singleton<GameManager>
+public class GameManager : NetworkSingleton<GameManager>
 {
     public static event Action OnEntitiesChanged;
+    public static event Action OnDataInitialized;
 
-    [SerializeField] private List<Race> blueEntities;
-    [SerializeField] private List<Race> redEntities;
+    [SerializeField] private List<Race> allRaces;
+    [SerializeField] private List<ERace> blueEntities;
+    [SerializeField] private List<ERace> redEntities;
 
-    private List<Entity> entities;
+    public NetworkVariable<int> CurrentPlayerIndex = new();
+    public NetworkVariable<bool> RedTeamReady = new();
+    public NetworkVariable<bool> BlueTeamReady = new();
 
-    private void Start()
+    public Team CurrentTeam;
+
+    private List<Entity> entities = new();
+    private int entityId = 0;
+
+    public override void OnNetworkSpawn()
     {
-        entities = new List<Entity>();
+        if (IsServer) {
+            NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnectedCallback;
 
-        float random = UnityEngine.Random.Range(0, 1);
-        var startTeam = random < .5 ? Team.BLUE : Team.RED;
-
-        for (int i = 0; i < blueEntities.Count; i++)
-        {
-            Node blueNode = MapManager.Instance.GetRandomSpawns(Team.BLUE);
-            Node redNode = MapManager.Instance.GetRandomSpawns(Team.RED);
-
-            if (startTeam == Team.BLUE)
+            for (int i = 0; i < blueEntities.Count; i++)
             {
-                AddEntity(blueEntities[i], Team.BLUE, blueNode);
-                AddEntity(redEntities[i], Team.RED, redNode);
-            }
-            else
-            {
-                AddEntity(redEntities[i], Team.RED, redNode);
-                AddEntity(blueEntities[i], Team.BLUE, blueNode);
+                Node blueNode = MapManager.Instance.GetRandomSpawns(Team.BLUE);
+                Node redNode = MapManager.Instance.GetRandomSpawns(Team.RED);
+
+                AddEntity(new EntityData
+                {
+                    RaceEnum = blueEntities[i],
+                    Team = Team.BLUE,
+                    Position = blueNode.gridPosition,
+                    Hp = GetRace(blueEntities[i]).Hp,
+                    Pa = GetRace(blueEntities[i]).Pa,
+                    Pm = GetRace(blueEntities[i]).Pm,
+                    ParentId = -1
+                });
+
+                AddEntity(new EntityData
+                {
+                    RaceEnum = redEntities[i],
+                    Team = Team.RED,
+                    Position = redNode.gridPosition,
+                    Hp = GetRace(blueEntities[i]).Hp,
+                    Pa = GetRace(blueEntities[i]).Pa,
+                    Pm = GetRace(blueEntities[i]).Pm,
+                    ParentId = -1
+                });
             }
         }
 
         OnEntitiesChanged?.Invoke();
     }
 
-    public void AddEntity(Race race, Team team, Node spawnNode)
+    private void OnClientConnectedCallback(ulong clientId)
     {
-        GameObject newPlayer = Instantiate(race.prefab, spawnNode.worldPosition, Quaternion.identity);
-        Entity entity = newPlayer.GetComponent<Entity>();
-        entity.team = team;
-        entity.node = spawnNode;
-        entity.CurrentHp = entity.race.hp;
-        entity.CurrentPa = entity.race.pa;
-        entity.CurrentPm = entity.race.pm;
-        spawnNode.entity = entity;
-        entities.Add(entity);
+        Team team = NetworkManager.ConnectedClients.Count % 2 == 0 ? Team.BLUE : Team.RED;
+        EntityData[] entitiesData = entities.Select(e => e.data).ToArray();
+        SendDataClientRpc(team, entitiesData, new ClientRpcParams
+        {
+            Send = new ClientRpcSendParams
+            {
+                TargetClientIds = new ulong[] { clientId }
+            }
+        });
+    }
+
+    public void AddEntity(EntityData entityData)
+    {
+        int index = entityData.ParentId < 0 ? entities.Count : entities.FindIndex(e => e.data.Id == entityData.ParentId) + 1;
+        entityData.Id = entityId++;
+        Race race = GetRace(entityData.RaceEnum);
+        Node node = MapManager.Instance.GetNode(entityData.Position);
+        Entity entity = Instantiate(race.Prefab, node.worldPosition, Quaternion.identity);
+        entity.data = entityData;
+        node.entity = entity;
+        entities.Insert(index, entity);
+        OnEntitiesChanged?.Invoke();
     }
 
     public void RemoveEntity(Entity entity)
     {
-        entity.node.entity = null;
+        List<Entity> children = entities.Where(e => e.data.ParentId == entity.data.Id).ToList();
+        foreach (Entity child in children) RemoveEntity(child);
+
+        entity.Node.entity = null;
+        entities.Remove(entity);
         Destroy(entity.gameObject);
+        OnEntitiesChanged?.Invoke();
     }
 
     public List<Entity> GetEntities()
     {
         return entities;
+    }
+
+    public Race GetRace(ERace raceEnum)
+    {
+        return allRaces.SingleOrDefault(r => r.Enum == raceEnum);
+    }
+
+    [ClientRpc]
+    public void SendDataClientRpc(Team team, EntityData[] entitiesData, ClientRpcParams _ = default)
+    {
+        Debug.Log("SendDataClientRpc");
+        Debug.Log("SendDataClientRpc : team : " + team);
+        Debug.Log("SendDataClientRpc : entitiesData : " + entitiesData);
+
+        CurrentTeam = team;
+
+        if (!IsOwner)
+        {
+            foreach (var entityData in entitiesData)
+            {
+                AddEntity(entityData);
+            }
+        }
+        OnDataInitialized?.Invoke();
     }
 }

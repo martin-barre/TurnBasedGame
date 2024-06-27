@@ -1,15 +1,13 @@
-using System;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class BattleState : BaseState<GameStateMachine.GameState>
 {
-    public static event Action<Entity> OnPlayerChanged;
-    public static event Action<int> OnPlayerIndexChanged;
+    private Entity CurrentEntity => GameManager.Instance.GetEntities()[GameManager.Instance.CurrentPlayerIndex.Value];
 
-    private Entity currentEntity;
-    private int currentPlayerIndex = -1;
     private Spell selectedSpell;
 
     private List<Node> activeNodes = new();
@@ -19,31 +17,35 @@ public class BattleState : BaseState<GameStateMachine.GameState>
     public override void EnterState()
     {
         MapManager.Instance.ActiveTilemapSpawns(false);
-        NextPlayer();
         BtnNextUI.OnBtnNextClick += OnClickBtnNext;
         SpellBarUI.OnBtnSpellClick += OnClickBtnSpell;
+        GameCommand.OnSpellLaunch += OnSpellLaunch;
+        GameCommand.OnMoveClick += OnMoveClick;
+
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged += OnCurrentPlayerIndexChanged;
+        OnCurrentPlayerIndexChanged(0, GameManager.Instance.CurrentPlayerIndex.Value);
+
+        GameCommand.OnNextTurn += NextPlayer;
     }
 
     public override void ExitState()
     {
         BtnNextUI.OnBtnNextClick -= OnClickBtnNext;
         SpellBarUI.OnBtnSpellClick -= OnClickBtnSpell;
-    }
+        GameCommand.OnSpellLaunch -= OnSpellLaunch;
+        GameCommand.OnMoveClick -= OnMoveClick;
+        GameCommand.OnNextTurn -= NextPlayer;
 
-    public override GameStateMachine.GameState GetNextState()
-    {
-        if (CheckEndGame())
-        {
-            return GameStateMachine.GameState.End;
-        }
-        else
-        {
-            return StateKey;
-        }
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged -= OnCurrentPlayerIndexChanged;
+
+        MapManager.Instance.ClearOverlay1();
+        MapManager.Instance.ClearOverlay2();
     }
 
     public override void UpdateState()
     {
+        if (CurrentEntity == null || CurrentEntity.data.Team != GameManager.Instance.CurrentTeam) return;
+
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Node node = MapManager.Instance.WorldPositionToMapNodes(mousePosition);
 
@@ -53,24 +55,19 @@ public class BattleState : BaseState<GameStateMachine.GameState>
             {
                 if (activeNodes.Contains(node)) // SI JE CLICK SUR UNE CASE ACTIVE -> LANCE LE SORT
                 {
-                    selectedSpell.Launch(currentEntity, selectedSpell, node.gridPosition);
-                    currentEntity.CurrentPa -= selectedSpell.paCost;
-                    selectedSpell = null;
-                    MapManager.Instance.ClearOverlay1();
+                    GameCommand.Instance.SendLaunchSpellEvent(selectedSpell.id, node.gridPosition);
                 }
-                InitMovementState();
+                else
+                {
+                    InitMovementState();
+                    selectedSpell = null;
+                }
             }
             else // SI JE SUIS EN MODE DEPLACEMENT
             {
                 if (activeNodes.Contains(node)) // SI JE CLICK SUR UNE CASE ACTIVE -> DEPLACE LE JOUEUR
                 {
-                    List<Node> path = Dijkstra.GetPath(currentEntity, currentEntity.CurrentPm, node);
-                    currentEntity.CurrentPm -= path.Count;
-                    currentEntity.SetPath(path);
-
-                    MapManager.Instance.MoveEntity(currentEntity, node);
-
-                    InitMovementState();
+                    GameCommand.Instance.SendMoveClickEvent(node.gridPosition);
                 }
             }
         }
@@ -80,89 +77,115 @@ public class BattleState : BaseState<GameStateMachine.GameState>
         {
             if (selectedSpell != null)
             {
-                foreach (Node tmpNode in selectedSpell.GetZoneNodes(currentEntity, node))
-                {
-                    if (tmpNode.type == NodeType.GROUND)
-                    {
-                        MapManager.Instance.AddOverlay2(tmpNode);
-                    }
-                }
+                var zone = selectedSpell.GetZoneNodes(CurrentEntity, node);
+                MapManager.Instance.AddOverlay2(zone);
             }
             else
             {
-                foreach (Node tmp in Dijkstra.GetPath(currentEntity, currentEntity.CurrentPm, node))
-                {
-                    MapManager.Instance.AddOverlay2(tmp);
-                }
+                var path = Dijkstra.GetPath(CurrentEntity, CurrentEntity.CurrentPm, node);
+                MapManager.Instance.AddOverlay2(path);
             }
         }
     }
 
     public void OnClickBtnNext()
     {
-        NextPlayer();
+        if (CurrentEntity == null || CurrentEntity.data.Team != GameManager.Instance.CurrentTeam) return;
+        GameCommand.Instance.SendNextTurnEvent();
+    }
+
+    private void OnSpellLaunch(int spellId, Vector2Int cellPos)
+    {
+        var spell = CurrentEntity.Race.Spells.Find(o => o.id == spellId);
+        spell.Launch(CurrentEntity, spell, cellPos);
+        CurrentEntity.CurrentPa -= spell.paCost;
+        InitMovementState();
+    }
+
+    private void OnMoveClick(Vector2Int cellPos)
+    {
+        var node = MapManager.Instance.GetNode(cellPos);
+        List<Node> path = Dijkstra.GetPath(CurrentEntity, CurrentEntity.CurrentPm, node);
+        CurrentEntity.CurrentPm -= path.Count;
+        CurrentEntity.SetPath(path);
+        MapManager.Instance.MoveEntity(CurrentEntity, node);
+        InitMovementState();
     }
 
     public void OnClickBtnSpell(int spellIndex)
     {
-        selectedSpell = spellIndex < currentEntity.race.spells.Count
-            ? currentEntity.race.spells[spellIndex]
+        if (CurrentEntity == null || CurrentEntity.data.Team != GameManager.Instance.CurrentTeam) return;
+
+        selectedSpell = spellIndex < CurrentEntity.Race.Spells.Count
+            ? CurrentEntity.Race.Spells[spellIndex]
             : null;
 
         if (selectedSpell == null) return;
-        if (currentEntity.CurrentPa < selectedSpell.paCost) return;
+        if (CurrentEntity.CurrentPa < selectedSpell.paCost) return;
 
-        activeNodes = FOV.GetDisplacement(currentEntity, selectedSpell);
+        activeNodes = FOV.GetDisplacement(CurrentEntity, selectedSpell);
         MapManager.Instance.ClearOverlay1();
-        foreach (Node node in activeNodes)
-        {
-            MapManager.Instance.AddOverlay1(node);
-        }
+        MapManager.Instance.AddOverlay1(activeNodes);
     }
 
     private void NextPlayer()
     {
+        if (!NetworkManager.Singleton.IsServer) return;
+
         if (CheckEndGame()) return;
 
-        if (currentEntity != null)
+        if (CurrentEntity != null)
         {
-            currentEntity.CurrentPm = currentEntity.race.pm;
-            currentEntity.CurrentPa = currentEntity.race.pa;
+            CurrentEntity.CurrentPm = CurrentEntity.Race.Pm;
+            CurrentEntity.CurrentPa = CurrentEntity.Race.Pa;
         }
 
-        currentPlayerIndex++;
-        if (currentPlayerIndex >= GameManager.Instance.GetEntities().Count) currentPlayerIndex = 0;
+        int nextPlayerIndex = GameManager.Instance.CurrentPlayerIndex.Value + 1;
+        if (nextPlayerIndex >= GameManager.Instance.GetEntities().Count) nextPlayerIndex = 0;
 
-        currentEntity = GameManager.Instance.GetEntities()[currentPlayerIndex];
-        if (currentEntity.IsDead()) NextPlayer();
-        selectedSpell = null;
+        while (CurrentEntity.IsDead())
+        {
+            nextPlayerIndex += 1;
+            if (nextPlayerIndex >= GameManager.Instance.GetEntities().Count) nextPlayerIndex = 0;
+        }
 
-        OnPlayerChanged?.Invoke(currentEntity);
-        OnPlayerIndexChanged?.Invoke(currentPlayerIndex);
-
-        InitMovementState();
+        GameManager.Instance.CurrentPlayerIndex.Value = nextPlayerIndex;
     }
 
     private void InitMovementState()
     {
-        selectedSpell = null;
-        activeNodes = Dijkstra.GetDisplacement(currentEntity, currentEntity.CurrentPm);
         MapManager.Instance.ClearOverlay1();
-        foreach (Node node in activeNodes)
-        {
-            MapManager.Instance.AddOverlay1(node);
-        }
+        MapManager.Instance.ClearOverlay2();
+
+        if (CurrentEntity == null || CurrentEntity.data.Team != GameManager.Instance.CurrentTeam) return;
+
+        selectedSpell = null;
+        activeNodes = Dijkstra.GetDisplacement(CurrentEntity, CurrentEntity.CurrentPm);
+        MapManager.Instance.AddOverlay1(activeNodes);
     }
 
     private bool CheckEndGame()
     {
-        bool hasBlue = false;
-        bool hasRed = false;
-        foreach (Entity entity in GameManager.Instance.GetEntities())
+        bool hasBlue = GameManager.Instance.GetEntities().Any(e => !e.IsDead() && e.data.Team == Team.BLUE);
+        bool hasRed = GameManager.Instance.GetEntities().Any(e => !e.IsDead() && e.data.Team == Team.RED);
+
+        if (!hasBlue || !hasRed)
         {
-            if (!entity.IsDead() && entity.team == Team.BLUE) hasBlue = true;
-            if (!entity.IsDead() && entity.team == Team.RED) hasRed = true;
+            GameStateMachine.Instance.StateEnum.Value = GameStateMachine.GameState.End;
         }
+
         return !hasBlue || !hasRed;
+    }
+
+    private void OnCurrentPlayerIndexChanged(int oldIndex = default, int newIndex = default)
+    {
+        if (CurrentEntity != null)
+        {
+            CurrentEntity.CurrentPm = CurrentEntity.Race.Pm;
+            CurrentEntity.CurrentPa = CurrentEntity.Race.Pa;
+        }
+
+        selectedSpell = null;
+        InitMovementState();
     }
 }

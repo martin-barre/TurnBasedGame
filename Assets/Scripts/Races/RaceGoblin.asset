@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb9d0a22660a8945a62d9894abcfc8b, type: 3}
+  m_Name: RaceGoblin
+  m_EditorClassIdentifier: 
+  _enum: 2
+  _name: Goblin
+  _sprite: {fileID: -8173958275905978561, guid: c26969743b324b644a4fed2d0f422328, type: 3}
+  _prefab: {fileID: 8088581701119833216, guid: 98c823bfd04bd4246a838786c6df2391, type: 3}
+  _hp: 7
+  _pa: 5
+  _pm: 3
+  _spells:
+  - {fileID: 11400000, guid: ebfaff1dc48c71c4eb5da6a38eca5b29, type: 2}
+  - {fileID: 11400000, guid: 3b3ad9175ab0337488ff219748370ce4, type: 2}

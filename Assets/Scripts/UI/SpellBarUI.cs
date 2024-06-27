@@ -17,7 +17,8 @@ public class SpellBarUI : MonoBehaviour
 
     private void OnEnable()
     {
-        BattleState.OnPlayerChanged += OnPlayerChanged;
+        GameStateMachine.Instance.StateEnum.OnValueChanged += OnGameStateChanged;
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged += OnPlayerIndexChanged;
         if (_entity != null)
         {
             _entity.OnPaChange += RefreshPa;
@@ -27,11 +28,20 @@ public class SpellBarUI : MonoBehaviour
 
     private void OnDisable()
     {
-        BattleState.OnPlayerChanged -= OnPlayerChanged;
+        GameStateMachine.Instance.StateEnum.OnValueChanged -= OnGameStateChanged;
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged -= OnPlayerIndexChanged;
         if (_entity != null)
         {
             _entity.OnPaChange -= RefreshPa;
             _entity.OnPmChange -= RefreshPm;
+        }
+    }
+
+    private void OnGameStateChanged(GameStateMachine.GameState oldState, GameStateMachine.GameState newState)
+    {
+        if (newState == GameStateMachine.GameState.Battle)
+        {
+            OnPlayerIndexChanged(0, GameManager.Instance.CurrentPlayerIndex.Value);
         }
     }
 
@@ -40,14 +50,14 @@ public class SpellBarUI : MonoBehaviour
         OnBtnSpellClick?.Invoke(spellIndex);
     }
 
-    private void OnPlayerChanged(Entity entity)
+    private void OnPlayerIndexChanged(int oldIndex, int newIndex)
     {
         if (_entity != null)
         {
             _entity.OnPaChange -= RefreshPa;
             _entity.OnPmChange -= RefreshPm;
         }
-        _entity = entity;
+        _entity = GameManager.Instance.GetEntities()[newIndex];
         _entity.OnPaChange += RefreshPa;
         _entity.OnPmChange += RefreshPm;
 
@@ -59,7 +69,7 @@ public class SpellBarUI : MonoBehaviour
         txtPa.SetText(pa.ToString());
 
         // REFRESH SPELL BAR
-        var spells = _entity.race.spells;
+        var spells = _entity.Race.Spells;
 
         for (var i = 0; i < spellButtons.Count; i++)
         {
