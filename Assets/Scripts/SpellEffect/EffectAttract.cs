@@ -29,11 +29,11 @@ public class EffectAttract : Effect
     {
         base.Apply(launcher, spell, entities, targetPos);
 
-        Vector2Int launcherPosition = centerPoint == CenterPoint.LAUNCHER ? launcher.node.gridPosition : targetPos;
+        Vector2Int launcherPosition = centerPoint == CenterPoint.LAUNCHER ? launcher.Node.gridPosition : targetPos;
 
         foreach (Entity entity in entities)
         {
-            Vector2Int targetPosition = entity.node.gridPosition;
+            Vector2Int targetPosition = entity.Node.gridPosition;
             Vector2Int direction = Utils.GridDirection(targetPosition, launcherPosition);
             bool isDiagonal = Mathf.Abs(direction.x) + Mathf.Abs(direction.y) == 2;
 

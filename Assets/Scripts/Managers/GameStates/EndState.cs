@@ -6,10 +6,5 @@ public class EndState : BaseState<GameStateMachine.GameState>
 
     public override void ExitState() { }
 
-    public override GameStateMachine.GameState GetNextState()
-    {
-        return StateKey;
-    }
-
     public override void UpdateState() { }
 }

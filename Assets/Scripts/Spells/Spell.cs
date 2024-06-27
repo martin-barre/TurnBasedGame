@@ -28,7 +28,7 @@ public class Spell : ScriptableObject
     [SerializeField] private List<EffectPush> push;
     [SerializeField] private List<EffectAttract> attract;
     [SerializeField] private List<EffectTeleport> teleport;
-    [SerializeField] private List<EffectApplyBuff> applyBuff;
+    [SerializeField] private List<EffectInvocation> invocation;
 
     public List<Node> GetZoneNodes(Entity launcher, Node targetNode)
     {
@@ -47,7 +47,7 @@ public class Spell : ScriptableObject
         foreach (Effect effect in push) effects.Add(effect.order, effect);
         foreach (Effect effect in attract) effects.Add(effect.order, effect);
         foreach (Effect effect in teleport) effects.Add(effect.order, effect);
-        foreach (Effect effect in applyBuff) effects.Add(effect.order, effect);
+        foreach (Effect effect in invocation) effects.Add(effect.order, effect);
 
         List<Entity> entities = GetZoneNodes(launcher, MapManager.Instance.GetNode(targetPos))
             .Where(node => node.entity != null)

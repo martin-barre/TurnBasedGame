@@ -18,8 +18,8 @@ public abstract class Effect
             .Where(entity =>
                 entity != null &&
                 (canTouchLauncher || !canTouchLauncher && launcher != entity) &&
-                (canTouchMate || !canTouchMate && launcher.team != entity.team) &&
-                (canTouchEnemy || !canTouchEnemy && launcher.team != entity.team))
+                (canTouchMate || !canTouchMate && launcher.data.Team != entity.data.Team) &&
+                (canTouchEnemy || !canTouchEnemy && launcher.data.Team != entity.data.Team))
             .ToList();
     }
 }

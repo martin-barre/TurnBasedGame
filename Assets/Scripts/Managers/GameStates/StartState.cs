@@ -1,10 +1,9 @@
+using Unity.Netcode;
 using UnityEngine;
 
 public class StartState : BaseState<GameStateMachine.GameState>
 {
     private Entity _selectedEntity;
-    private bool _teamBlueReady;
-    private bool _teamRedReady;
 
     public StartState(GameStateMachine.GameState key) : base(key) { }
 
@@ -16,8 +15,12 @@ public class StartState : BaseState<GameStateMachine.GameState>
         GameCommand.OnSelectSpawn += OnSelectSpawn;
 
         _selectedEntity = null;
-        _teamBlueReady = false;
-        _teamRedReady = false;
+
+        if (NetworkManager.Singleton.IsServer)
+        {
+            GameManager.Instance.RedTeamReady.Value = false;
+            GameManager.Instance.BlueTeamReady.Value = false;
+        }
     }
 
     public override void ExitState()
@@ -28,15 +31,6 @@ public class StartState : BaseState<GameStateMachine.GameState>
         GameCommand.OnSelectSpawn -= OnSelectSpawn;
     }
 
-    public override GameStateMachine.GameState GetNextState()
-    {
-        if (_teamBlueReady && _teamRedReady)
-        {
-            return GameStateMachine.GameState.Battle;
-        }
-        return StateKey;
-    }
-
     public override void UpdateState()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -45,7 +39,7 @@ public class StartState : BaseState<GameStateMachine.GameState>
             Node node = MapManager.Instance.WorldPositionToMapNodes(mousePosition);
             Entity entity = node?.entity;
 
-            if (entity != null && entity.team == GameManager.Instance.CurrentTeam)
+            if (entity != null && entity.data.Team == GameManager.Instance.CurrentTeam)
             {
                 _selectedEntity = entity;
             }
@@ -53,7 +47,7 @@ public class StartState : BaseState<GameStateMachine.GameState>
             {
                 if (_selectedEntity != null && node.spawnTeam == GameManager.Instance.CurrentTeam && node.entity == null)
                 {
-                    GameCommand.Instance.SendSelectSpawnEvent(_selectedEntity.node, node);
+                    GameCommand.Instance.SendSelectSpawnEvent(_selectedEntity.Node, node);
                 }
             }
         }
@@ -66,13 +60,20 @@ public class StartState : BaseState<GameStateMachine.GameState>
 
     private void OnTeamReady(Team team)
     {
-        if (team == Team.RED)
+        if (NetworkManager.Singleton.IsServer)
         {
-            _teamRedReady = true;
-        }
-        if (team == Team.BLUE)
-        {
-            _teamBlueReady = true;
+            if (team == Team.RED)
+            {
+                GameManager.Instance.RedTeamReady.Value = true;
+            }
+            if (team == Team.BLUE)
+            {
+                GameManager.Instance.BlueTeamReady.Value = true;
+            }
+
+            if (GameManager.Instance.RedTeamReady.Value && GameManager.Instance.BlueTeamReady.Value) {
+                GameStateMachine.Instance.StateEnum.Value = GameStateMachine.GameState.Battle;
+            }
         }
     }
 

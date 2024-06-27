@@ -43,7 +43,7 @@ public class EffectTeleport : Effect
             }
             else if (mode == Mode.SYMETRIC && target == Target.TARGET)
             {
-                Vector2Int distance = targetPos - launcher.node.gridPosition;
+                Vector2Int distance = targetPos - launcher.Node.gridPosition;
                 Entity targetEntity = MapManager.Instance.GetNode(targetPos).entity;
                 Node targetNode = MapManager.Instance.GetNode(targetPos + distance);
                 if (targetEntity != null)
@@ -69,23 +69,23 @@ public class EffectTeleport : Effect
                     }
                     else if (target == Target.LAUNCHER)
                     {
-                        MapManager.Instance.MoveEntity(entity, launcher.node);
-                        launcher.transform.position = launcher.node.worldPosition;
+                        MapManager.Instance.MoveEntity(entity, launcher.Node);
+                        launcher.transform.position = launcher.Node.worldPosition;
                     }
                 }
                 else if (mode == Mode.SYMETRIC)
                 {
                     if (target == Target.TARGET)
                     {
-                        Vector2Int distance = targetPos - entity.node.gridPosition;
+                        Vector2Int distance = targetPos - entity.Node.gridPosition;
                         Node targetNode = MapManager.Instance.GetNode(targetPos + distance);
                         MapManager.Instance.MoveEntity(entity, targetNode);
                         launcher.transform.position = targetNode.worldPosition;
                     }
                     else if (target == Target.LAUNCHER)
                     {
-                        Vector2Int distance = launcher.node.gridPosition - entity.node.gridPosition;
-                        Node targetNode = MapManager.Instance.GetNode(launcher.node.gridPosition + distance);
+                        Vector2Int distance = launcher.Node.gridPosition - entity.Node.gridPosition;
+                        Node targetNode = MapManager.Instance.GetNode(launcher.Node.gridPosition + distance);
                         MapManager.Instance.MoveEntity(entity, targetNode);
                         launcher.transform.position = targetNode.worldPosition;
                     }

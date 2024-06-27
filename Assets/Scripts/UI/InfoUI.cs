@@ -6,26 +6,26 @@ public class InfoUI : MonoBehaviour
     [SerializeField] private TMP_Text txtInfo;
     private void OnEnable()
     {
-        GameStateMachine.OnStateChanged += OnStateChanged;
-        BattleState.OnPlayerIndexChanged += OnPlayerIndexChanged;
+        GameStateMachine.Instance.StateEnum.OnValueChanged += OnStateChanged;
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged += OnPlayerIndexChanged;
     }
 
     private void OnDisable()
     {
-        GameStateMachine.OnStateChanged -= OnStateChanged;
-        BattleState.OnPlayerIndexChanged -= OnPlayerIndexChanged;
+        GameStateMachine.Instance.StateEnum.OnValueChanged -= OnStateChanged;
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged -= OnPlayerIndexChanged;
     }
 
-    private void OnStateChanged(GameStateMachine.GameState state)
+    private void OnStateChanged(GameStateMachine.GameState oldState, GameStateMachine.GameState newState)
     {
-        if (state == GameStateMachine.GameState.Start)
+        if (newState == GameStateMachine.GameState.Start)
         {
             txtInfo.SetText("Start phase");
         }
     }
 
-    private void OnPlayerIndexChanged(int playerIndex)
+    private void OnPlayerIndexChanged(int oldIndex, int newIndex)
     {
-        txtInfo.SetText("Player : " + (playerIndex + 1));
+        txtInfo.SetText("Player : " + (newIndex + 1));
     }
 }

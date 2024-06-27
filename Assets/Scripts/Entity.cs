@@ -15,46 +15,42 @@ public class Entity : MonoBehaviour
     public event Action<int> OnPaChange;
     public event Action<int> OnPmChange;
 
-    public Team team;
-    public Node node;
-    public Race race;
-    public List<Buff> buffs;
+    public EntityData data;
+    public Race Race => GameManager.Instance.GetRace(data.RaceEnum);
+    public Node Node => MapManager.Instance.GetNode(data.Position);
 
     [SerializeField] private Animator _animator;
-    private int _hp;
-    private int _pa;
-    private int _pm;
 
     public int CurrentHp
     {
-        get => _hp;
+        get => data.Hp;
         set
         {
-            if (_hp == value) return;
-            _hp = value;
-            OnHpChange?.Invoke(_hp);
+            if (data.Hp == value) return;
+            data.Hp = value;
+            OnHpChange?.Invoke(data.Hp);
         }
     }
 
     public int CurrentPa
     {
-        get => _pa;
+        get => data.Pa;
         set
         {
-            if (_pa == value) return;
-            _pa = value;
-            OnPaChange?.Invoke(_pa);
+            if (data.Pa == value) return;
+            data.Pa = value;
+            OnPaChange?.Invoke(data.Pa);
         }
     }
 
     public int CurrentPm
     {
-        get => _pm;
+        get => data.Pm;
         set
         {
-            if (_pm == value) return;
-            _pm = value;
-            OnPmChange?.Invoke(_pm);
+            if (data.Pm == value) return;
+            data.Pm = value;
+            OnPmChange?.Invoke(data.Pm);
         }
     }
 
@@ -76,11 +72,6 @@ public class Entity : MonoBehaviour
         // ANIMATOR
         _animator.SetBool("Idle", path.Count <= 0);
         _animator.SetBool("Walk", path.Count > 0);
-    }
-
-    public void ApplyBuff(Buff buff)
-    {
-        buffs.Add(buff);
     }
 
     public void ApplyDamage(int damage)

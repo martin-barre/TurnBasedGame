@@ -17,7 +17,7 @@ public abstract class FOV
         List<Node> nodes = new();
         if (spell.poMin == 0)
         {
-            nodes.Add(entity.node);
+            nodes.Add(entity.Node);
         }
 
         if (spell.fovMode == FovMode.NORMAL)
@@ -83,8 +83,8 @@ public abstract class FOV
                 // RECUPERATION DU NODE
                 int realX = direction.z == 0 ? x : y;
                 int realY = direction.z == 0 ? y : x;
-                realX = entity.node.gridPosition.x + realX * direction.x;
-                realY = entity.node.gridPosition.y + realY * direction.y;
+                realX = entity.Node.gridPosition.x + realX * direction.x;
+                realY = entity.Node.gridPosition.y + realY * direction.y;
                 Node node = MapManager.Instance.GetNode(Vector2Int.CeilToInt(new Vector2(realX, realY)));
 
                 float angle = (float)y / x;
@@ -137,8 +137,8 @@ public abstract class FOV
             {
                 if (spell.fovMode == FovMode.SQUARE && Mathf.Abs(x) < spell.poMin && Mathf.Abs(y) < spell.poMin) continue;
                 if (spell.fovMode != FovMode.SQUARE && (Mathf.Abs(x) + Mathf.Abs(y) < spell.poMin || Mathf.Abs(x) + Mathf.Abs(y) > spell.poMax)) continue;
-                int realX = entity.node.gridPosition.x + x;
-                int realY = entity.node.gridPosition.y + y;
+                int realX = entity.Node.gridPosition.x + x;
+                int realY = entity.Node.gridPosition.y + y;
                 Node node = MapManager.Instance.GetNode(Vector2Int.CeilToInt(new Vector2(realX, realY)));
                 if (node != null && node.type == NodeType.GROUND)
                 {
@@ -165,8 +165,8 @@ public abstract class FOV
         {
             for (int i = 1; i <= spell.poMax; i++)
             {
-                int realX = entity.node.gridPosition.x + i * direction.x;
-                int realY = entity.node.gridPosition.y + i * direction.y;
+                int realX = entity.Node.gridPosition.x + i * direction.x;
+                int realY = entity.Node.gridPosition.y + i * direction.y;
                 Node node = MapManager.Instance.GetNode(Vector2Int.CeilToInt(new Vector2(realX, realY)));
 
                 if (node != null && node.type == NodeType.GROUND && i >= spell.poMin && i <= spell.poMax)
@@ -198,8 +198,8 @@ public abstract class FOV
         {
             for (int i = 1; i <= spell.poMax; i++)
             {
-                int realX = entity.node.gridPosition.x + i * direction.x;
-                int realY = entity.node.gridPosition.y + i * direction.y;
+                int realX = entity.Node.gridPosition.x + i * direction.x;
+                int realY = entity.Node.gridPosition.y + i * direction.y;
                 Node node = MapManager.Instance.GetNode(Vector2Int.CeilToInt(new Vector2(realX, realY)));
 
                 if (node != null && node.type == NodeType.GROUND && i >= spell.poMin && i <= spell.poMax)

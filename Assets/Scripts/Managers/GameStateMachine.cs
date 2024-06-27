@@ -7,11 +7,10 @@ public class GameStateMachine : StateMachine<GameStateMachine.GameState>
         End
     }
 
-    private void Awake()
+    protected override void Awake()
     {
         States.Add(GameState.Start, new StartState(GameState.Start));
         States.Add(GameState.Battle, new BattleState(GameState.Battle));
         States.Add(GameState.End, new EndState(GameState.End));
-        CurrentState = States[GameState.Start];
     }
 }

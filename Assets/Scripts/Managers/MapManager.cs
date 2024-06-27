@@ -103,24 +103,29 @@ public class MapManager : Singleton<MapManager>
         return grid[x, y];
     }
 
+    public Vector3 CellToWorldPosition(Vector2Int cellPosition)
+    {
+        return GetNode(cellPosition).worldPosition;
+    }
+
     public void MoveEntity(Entity entity, Node node, bool teleport = false)
     {
         if (node.type != NodeType.GROUND) return;
         if (entity == null) return;
 
-        Node bufferNode = entity.node;
+        Node bufferNode = entity.Node;
         Entity bufferEntity = node.entity;
 
         // Move entity 1
         node.entity = entity;
-        entity.node = node;
+        entity.data.Position = node.gridPosition;
         if (teleport) entity.transform.position = node.worldPosition;
 
         // Move entity 2
         bufferNode.entity = bufferEntity;
         if (bufferEntity != null)
         {
-            bufferEntity.node = bufferNode;
+            bufferEntity.data.Position = bufferNode.gridPosition;
             if (teleport) bufferEntity.transform.position = bufferNode.worldPosition;
         }
     }

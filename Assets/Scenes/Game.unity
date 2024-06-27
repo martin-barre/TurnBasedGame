@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -974,7 +973,7 @@ MonoBehaviour:
   NetworkConfig:
     ProtocolVersion: 0
     NetworkTransport: {fileID: 234393887}
-    PlayerPrefab: {fileID: 7020633566661927157, guid: cea791f2480e37944a7e7d3891d80d62, type: 3}
+    PlayerPrefab: {fileID: 0}
     Prefabs:
       NetworkPrefabsLists:
       - {fileID: 11400000, guid: 340c137ee1364ab4491151532c1264e5, type: 2}
@@ -1024,6 +1023,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ProtocolType: 0
+  m_UseWebSockets: 0
+  m_UseEncryption: 0
   m_MaxPacketQueueSize: 128
   m_MaxPayloadSize: 6144
   m_HeartbeatTimeoutMS: 500
@@ -7586,7 +7587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd0d630c4afa77641b0f7030842797b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timelinePanel: {fileID: 1954642966}
+  playerListPanel: {fileID: 1954642966}
   timelineEntityUI: {fileID: 4217803808755146812, guid: 466dc94992a39224fb0d78a33bf4a060, type: 3}
   currentPlayerImage: {fileID: 1056650301}
 --- !u!225 &1821980491
@@ -8600,7 +8601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 224130951485110974, guid: 9ed2a051c32b4fe47a5e4fb95c20b03f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000015258789
+      value: -0.000015258789
       objectReference: {fileID: 0}
     - target: {fileID: 224166536479716514, guid: 9ed2a051c32b4fe47a5e4fb95c20b03f, type: 3}
       propertyPath: m_AnchorMax.y
@@ -9568,9 +9569,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3729105979611658735, guid: 6a1a6ebc8b37d354a9c8e86342fbb389, type: 3}
+      propertyPath: allRaces.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3729105979611658735, guid: 6a1a6ebc8b37d354a9c8e86342fbb389, type: 3}
+      propertyPath: allRaces.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1737ced30d695924fbefb53ca36ec4bb, type: 2}
     - target: {fileID: 5519721555740508943, guid: 6a1a6ebc8b37d354a9c8e86342fbb389, type: 3}
       propertyPath: GlobalObjectIdHash
       value: 584265275
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519721555740508943, guid: 6a1a6ebc8b37d354a9c8e86342fbb389, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 1679555533
       objectReference: {fileID: 0}
     - target: {fileID: 8444266348147192813, guid: 6a1a6ebc8b37d354a9c8e86342fbb389, type: 3}
       propertyPath: m_Name

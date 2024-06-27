@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 5
   iconSprite: {fileID: -3568249353771868265, guid: c26969743b324b644a4fed2d0f422328, type: 3}
-  isProjectile: 1
+  isProjectile: 0
   spellName: Intimidation
   fovMode: 2
   xRay: 0

@@ -29,14 +29,14 @@ public class EffectPush : Effect
     {
         base.Apply(launcher, spell, entities, targetPos);
 
-        Vector2Int launcherPosition = centerPoint == CenterPoint.LAUNCHER ? launcher.node.gridPosition : targetPos;
+        Vector2Int launcherPosition = centerPoint == CenterPoint.LAUNCHER ? launcher.Node.gridPosition : targetPos;
 
         List<Entity> cloneEntities = new(entities);
         cloneEntities.Reverse();
 
         foreach (Entity entity in cloneEntities)
         {
-            Vector2Int targetPosition = entity.node.gridPosition;
+            Vector2Int targetPosition = entity.Node.gridPosition;
             Vector2Int direction = Utils.GridDirection(launcherPosition, targetPosition);
             bool isDiagonal = Mathf.Abs(direction.x) + Mathf.Abs(direction.y) == 2;
 

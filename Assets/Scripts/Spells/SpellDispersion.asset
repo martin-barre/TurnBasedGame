@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 2
   iconSprite: {fileID: 812442863762461911, guid: c26969743b324b644a4fed2d0f422328, type: 3}
-  isProjectile: 1
+  isProjectile: 0
   spellName: "Fl\xE8che de Dispersion"
   fovMode: 0
   xRay: 0

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class TimelineUI : MonoBehaviour
 {
-    [SerializeField] private GameObject timelinePanel;
+    [SerializeField] private GameObject playerListPanel;
     [SerializeField] private TimelineEntityUI timelineEntityUI;
     [SerializeField] private Image currentPlayerImage;
 
@@ -14,53 +14,62 @@ public class TimelineUI : MonoBehaviour
     {
         _canvasGroup = GetComponent<CanvasGroup>();
         _canvasGroup.alpha = 0;
+        _canvasGroup.interactable = false;
+        _canvasGroup.blocksRaycasts = false;
     }
 
     private void OnEnable()
     {
         GameManager.OnEntitiesChanged += UpdateTimeline;
-        GameStateMachine.OnStateChanged += OnGameStateChanged;
-        BattleState.OnPlayerIndexChanged += OnPlayerIndexChanged;
+        GameStateMachine.Instance.StateEnum.OnValueChanged += OnGameStateChanged;
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged += OnPlayerIndexChanged;
     }
 
     private void OnDisable()
     {
         GameManager.OnEntitiesChanged -= UpdateTimeline;
-        GameStateMachine.OnStateChanged -= OnGameStateChanged;
-        BattleState.OnPlayerIndexChanged -= OnPlayerIndexChanged;
+        GameStateMachine.Instance.StateEnum.OnValueChanged -= OnGameStateChanged;
+        GameManager.Instance.CurrentPlayerIndex.OnValueChanged -= OnPlayerIndexChanged;
     }
 
     private void UpdateTimeline()
     {
         // CLEAR ALL TIMELINE
-        for (int i = 0; i < timelinePanel.transform.childCount; i++)
+        for (int i = 0; i < playerListPanel.transform.childCount; i++)
         {
-            Destroy(timelinePanel.transform.GetChild(i).gameObject);
+            Destroy(playerListPanel.transform.GetChild(i).gameObject);
         }
 
         // CREATE ALL TIMELINE PLAYER
         foreach (var entity in GameManager.Instance.GetEntities())
         {
-            var obj = Instantiate(timelineEntityUI, timelinePanel.transform);
+            var obj = Instantiate(timelineEntityUI, playerListPanel.transform);
             obj.SetEntity(entity);
         }
+
+        OnPlayerIndexChanged(0, GameManager.Instance.CurrentPlayerIndex.Value);
     }
 
-    private void OnGameStateChanged(GameStateMachine.GameState state)
+    private void OnGameStateChanged(GameStateMachine.GameState olsState, GameStateMachine.GameState newState)
     {
-        if (state != GameStateMachine.GameState.Battle)
+        if (newState != GameStateMachine.GameState.Battle)
         {
             _canvasGroup.alpha = 0;
+            _canvasGroup.interactable = false;
+            _canvasGroup.blocksRaycasts = false;
         }
         else
         {
+            OnPlayerIndexChanged(0, GameManager.Instance.CurrentPlayerIndex.Value);
             _canvasGroup.alpha = 1;
+            _canvasGroup.interactable = true;
+            _canvasGroup.blocksRaycasts = true;
         }
     }
 
-    private void OnPlayerIndexChanged(int index)
+    private void OnPlayerIndexChanged(int oldIndex, int newIndex)
     {
-        Vector2 position = timelinePanel.transform.GetChild(index).position;
+        Vector2 position = playerListPanel.transform.GetChild(newIndex).position;
         currentPlayerImage.rectTransform.DOMove(position, 0.2f).SetEase(Ease.InOutCubic);
     }
 }

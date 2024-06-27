@@ -66,7 +66,7 @@ public class SpellZone
 
     private List<Vector2Int> GetPositionLineVertical(Entity launcher, Node targetNode)
     {
-        Vector2Int direction = Utils.GridDirection(launcher.node.gridPosition, targetNode.gridPosition);
+        Vector2Int direction = Utils.GridDirection(launcher.Node.gridPosition, targetNode.gridPosition);
         List<Vector2Int> positions = new();
         for (int i = 0; i < size; i++)
         {
@@ -77,7 +77,7 @@ public class SpellZone
 
     private List<Vector2Int> GetPositionLineHorizontal(Entity launcher, Node targetNode)
     {
-        Vector2Int direction = Utils.GridDirection(launcher.node.gridPosition, targetNode.gridPosition);
+        Vector2Int direction = Utils.GridDirection(launcher.Node.gridPosition, targetNode.gridPosition);
         List<Vector2Int> positions = new();
         for (int i = -size + 1; i < size; i++)
         {
@@ -88,7 +88,7 @@ public class SpellZone
 
     private List<Vector2Int> GetPositionArc(Entity launcher, Node targetNode)
     {
-        Vector2Int direction = Utils.GridDirection(launcher.node.gridPosition, targetNode.gridPosition);
+        Vector2Int direction = Utils.GridDirection(launcher.Node.gridPosition, targetNode.gridPosition);
         List<Vector2Int> positions = new() { new Vector2Int(0, 0) };
         for (int i = 1; i < size; i++)
         {
