@@ -1,3 +1,3 @@
-# TacticalGame
+# TurnBasedGame
 
-![](https://github.com/MartinBarre/TacticalGame/blob/main/demo.gif)
+![](https://github.com/MartinBarre/TurnBasedGame/blob/main/demo.gif)
