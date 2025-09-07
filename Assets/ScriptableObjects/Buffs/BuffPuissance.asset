@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b108e5311847f4a50eea86ce6ee3dd, type: 3}
+  m_Name: BuffPuissance
+  m_EditorClassIdentifier: 
+  Id: 1
+  Icon: {fileID: 2076292470, guid: 1d3cb48ad83392747a95b19f0db695a2, type: 3}
+  Name: Puissance
+  Description: Augmente les degats
+  TurnDuration: 2
+  Effects:
+  - rid: 3082811418379812949
+  references:
+    version: 2
+    RefIds:
+    - rid: 3082811418379812949
+      type: {class: AddStatsEffect, ns: , asm: Assembly-CSharp}
+      data:
+        Stats: 2
+        Value: 20

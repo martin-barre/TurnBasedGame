@@ -1,0 +1,2247 @@
+fileFormatVersion: 2
+guid: cf971a6874686b0419a58cf2677f223b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5252723838376789790
+    second: Effect_Tentacles_1_433x337_0
+  - first:
+      213: 4750927654841662694
+    second: Effect_Tentacles_1_433x337_1
+  - first:
+      213: -2965832428481367543
+    second: Effect_Tentacles_1_433x337_2
+  - first:
+      213: -7429819975369523952
+    second: Effect_Tentacles_1_433x337_3
+  - first:
+      213: -7162498033008000255
+    second: Effect_Tentacles_1_433x337_4
+  - first:
+      213: -8975410145517795108
+    second: Effect_Tentacles_1_433x337_5
+  - first:
+      213: -2827335174893997768
+    second: Effect_Tentacles_1_433x337_6
+  - first:
+      213: 8176884576487471368
+    second: Effect_Tentacles_1_433x337_7
+  - first:
+      213: -725402367135283239
+    second: Effect_Tentacles_1_433x337_8
+  - first:
+      213: -4021604949488387566
+    second: Effect_Tentacles_1_433x337_9
+  - first:
+      213: -4488124395543617842
+    second: Effect_Tentacles_1_433x337_10
+  - first:
+      213: -5780452386404960866
+    second: Effect_Tentacles_1_433x337_11
+  - first:
+      213: 1122667630068023083
+    second: Effect_Tentacles_1_433x337_12
+  - first:
+      213: -1756931880954154907
+    second: Effect_Tentacles_1_433x337_13
+  - first:
+      213: 3239977894010057108
+    second: Effect_Tentacles_1_433x337_14
+  - first:
+      213: -173473722908095739
+    second: Effect_Tentacles_1_433x337_15
+  - first:
+      213: 4250445116312990719
+    second: Effect_Tentacles_1_433x337_16
+  - first:
+      213: 3060562925645847618
+    second: Effect_Tentacles_1_433x337_17
+  - first:
+      213: -3475380339303357986
+    second: Effect_Tentacles_1_433x337_18
+  - first:
+      213: -184752377587635168
+    second: Effect_Tentacles_1_433x337_19
+  - first:
+      213: 6967303702250564573
+    second: Effect_Tentacles_1_433x337_20
+  - first:
+      213: 2753731365889394951
+    second: Effect_Tentacles_1_433x337_21
+  - first:
+      213: -7412897075978333862
+    second: Effect_Tentacles_1_433x337_22
+  - first:
+      213: -7808685868129865837
+    second: Effect_Tentacles_1_433x337_23
+  - first:
+      213: -5533350862263671520
+    second: Effect_Tentacles_1_433x337_24
+  - first:
+      213: -243054462371922532
+    second: Effect_Tentacles_1_433x337_25
+  - first:
+      213: 9158058455747271124
+    second: Effect_Tentacles_1_433x337_26
+  - first:
+      213: -3118617163257907626
+    second: Effect_Tentacles_1_433x337_27
+  - first:
+      213: -708991002896348438
+    second: Effect_Tentacles_1_433x337_28
+  - first:
+      213: 7209137233805557483
+    second: Effect_Tentacles_1_433x337_29
+  - first:
+      213: -8365614145702525073
+    second: Effect_Tentacles_1_433x337_30
+  - first:
+      213: -4983972031700080779
+    second: Effect_Tentacles_1_433x337_31
+  - first:
+      213: -8284545975171056385
+    second: Effect_Tentacles_1_433x337_32
+  - first:
+      213: -3594778563427546286
+    second: Effect_Tentacles_1_433x337_33
+  - first:
+      213: -4205840600297950652
+    second: Effect_Tentacles_1_433x337_34
+  - first:
+      213: -5382315857158121272
+    second: Effect_Tentacles_1_433x337_35
+  - first:
+      213: -4092522072276673528
+    second: Effect_Tentacles_1_433x337_36
+  - first:
+      213: 8898913300200105744
+    second: Effect_Tentacles_1_433x337_37
+  - first:
+      213: -4266812011305540480
+    second: Effect_Tentacles_1_433x337_38
+  - first:
+      213: -7244492799886038090
+    second: Effect_Tentacles_1_433x337_39
+  - first:
+      213: 2834291881599329832
+    second: Effect_Tentacles_1_433x337_40
+  - first:
+      213: -5825357416417995940
+    second: Effect_Tentacles_1_433x337_41
+  - first:
+      213: -4833897883285417777
+    second: Effect_Tentacles_1_433x337_42
+  - first:
+      213: -1935189869797936524
+    second: Effect_Tentacles_1_433x337_43
+  - first:
+      213: -2685467585402678241
+    second: Effect_Tentacles_1_433x337_44
+  - first:
+      213: 3432396178705267759
+    second: Effect_Tentacles_1_433x337_45
+  - first:
+      213: -6638707316993601325
+    second: Effect_Tentacles_1_433x337_46
+  - first:
+      213: 2389521720952749940
+    second: Effect_Tentacles_1_433x337_47
+  - first:
+      213: -1843598734148281848
+    second: Effect_Tentacles_1_433x337_48
+  - first:
+      213: 4241943159303721759
+    second: Effect_Tentacles_1_433x337_49
+  - first:
+      213: 9127855225513815486
+    second: Effect_Tentacles_1_433x337_50
+  - first:
+      213: -6825365592823752871
+    second: Effect_Tentacles_1_433x337_51
+  - first:
+      213: -4932748361342736608
+    second: Effect_Tentacles_1_433x337_52
+  - first:
+      213: -7163492925665641671
+    second: Effect_Tentacles_1_433x337_53
+  - first:
+      213: 744675934098732704
+    second: Effect_Tentacles_1_433x337_54
+  - first:
+      213: 4251233785662228583
+    second: Effect_Tentacles_1_433x337_55
+  - first:
+      213: -7719456077466968038
+    second: Effect_Tentacles_1_433x337_56
+  - first:
+      213: 2279067630168825431
+    second: Effect_Tentacles_1_433x337_57
+  - first:
+      213: -6209609493773816725
+    second: Effect_Tentacles_1_433x337_58
+  - first:
+      213: -8344116198819351532
+    second: Effect_Tentacles_1_433x337_59
+  - first:
+      213: -7337066173753310216
+    second: Effect_Tentacles_1_433x337_60
+  - first:
+      213: 9184958315289691863
+    second: Effect_Tentacles_1_433x337_61
+  - first:
+      213: 2057536280910965112
+    second: Effect_Tentacles_1_433x337_62
+  - first:
+      213: -3769623026424034887
+    second: Effect_Tentacles_1_433x337_63
+  - first:
+      213: -8945685498045722352
+    second: Effect_Tentacles_1_433x337_64
+  - first:
+      213: 4830641319874116694
+    second: Effect_Tentacles_1_433x337_65
+  - first:
+      213: -5487766790532185375
+    second: Effect_Tentacles_1_433x337_66
+  - first:
+      213: 9011380702208307932
+    second: Effect_Tentacles_1_433x337_67
+  - first:
+      213: -3846218538742794472
+    second: Effect_Tentacles_1_433x337_68
+  - first:
+      213: 2940899652953365386
+    second: Effect_Tentacles_1_433x337_69
+  - first:
+      213: 2030474432719762585
+    second: Effect_Tentacles_1_433x337_70
+  - first:
+      213: 3942139022275952858
+    second: Effect_Tentacles_1_433x337_71
+  - first:
+      213: 1825053600130701408
+    second: Effect_Tentacles_1_433x337_72
+  - first:
+      213: 2324790871655892084
+    second: Effect_Tentacles_1_433x337_73
+  - first:
+      213: -2537080804151967004
+    second: Effect_Tentacles_1_433x337_74
+  - first:
+      213: 5188526700017482400
+    second: Effect_Tentacles_1_433x337_75
+  - first:
+      213: -978246328957281239
+    second: Effect_Tentacles_1_433x337_76
+  - first:
+      213: 7162223443599982017
+    second: Effect_Tentacles_1_433x337_77
+  - first:
+      213: -2039931045433987110
+    second: Effect_Tentacles_1_433x337_78
+  - first:
+      213: 6179373383134066179
+    second: Effect_Tentacles_1_433x337_79
+  - first:
+      213: -8269853849395255487
+    second: Effect_Tentacles_1_433x337_80
+  - first:
+      213: 4675785433778115898
+    second: Effect_Tentacles_1_433x337_81
+  - first:
+      213: -8149798497145388180
+    second: Effect_Tentacles_1_433x337_82
+  - first:
+      213: 4396793249111707650
+    second: Effect_Tentacles_1_433x337_83
+  - first:
+      213: 2310919731659875876
+    second: Effect_Tentacles_1_433x337_84
+  - first:
+      213: -1220556859183869704
+    second: Effect_Tentacles_1_433x337_85
+  - first:
+      213: -1561923816506859747
+    second: Effect_Tentacles_1_433x337_86
+  - first:
+      213: 3138489583495029553
+    second: Effect_Tentacles_1_433x337_87
+  - first:
+      213: 6959573166675201744
+    second: Effect_Tentacles_1_433x337_88
+  - first:
+      213: 5616013176966846813
+    second: Effect_Tentacles_1_433x337_89
+  - first:
+      213: -5111105040925365260
+    second: Effect_Tentacles_1_433x337_90
+  - first:
+      213: 8319138219099397426
+    second: Effect_Tentacles_1_433x337_91
+  - first:
+      213: 8540497863688136812
+    second: Effect_Tentacles_1_433x337_92
+  - first:
+      213: -5132349407570781914
+    second: Effect_Tentacles_1_433x337_93
+  - first:
+      213: 749784144895317229
+    second: Effect_Tentacles_1_433x337_94
+  - first:
+      213: 6314861394863382116
+    second: Effect_Tentacles_1_433x337_95
+  - first:
+      213: -6077813863292676698
+    second: Effect_Tentacles_1_433x337_96
+  - first:
+      213: -3297357811356802149
+    second: Effect_Tentacles_1_433x337_97
+  - first:
+      213: 7099964499865938051
+    second: Effect_Tentacles_1_433x337_98
+  - first:
+      213: 6346129861198135884
+    second: Effect_Tentacles_1_433x337_99
+  - first:
+      213: 5350558164084266822
+    second: Effect_Tentacles_1_433x337_100
+  - first:
+      213: 46343836993450199
+    second: Effect_Tentacles_1_433x337_101
+  - first:
+      213: 5494500612329136026
+    second: Effect_Tentacles_1_433x337_102
+  - first:
+      213: 4221518694609295349
+    second: Effect_Tentacles_1_433x337_103
+  - first:
+      213: -8819752020740750196
+    second: Effect_Tentacles_1_433x337_104
+  - first:
+      213: -8324092792874962549
+    second: Effect_Tentacles_1_433x337_105
+  - first:
+      213: -3178964171917609443
+    second: Effect_Tentacles_1_433x337_106
+  - first:
+      213: 5651415872539689828
+    second: Effect_Tentacles_1_433x337_107
+  - first:
+      213: 1627806128550721862
+    second: Effect_Tentacles_1_433x337_108
+  - first:
+      213: -8553682846017339835
+    second: Effect_Tentacles_1_433x337_109
+  - first:
+      213: -9195240966685907458
+    second: Effect_Tentacles_1_433x337_110
+  - first:
+      213: -1112028944093018
+    second: Effect_Tentacles_1_433x337_111
+  - first:
+      213: 4878850799370316823
+    second: Effect_Tentacles_1_433x337_112
+  - first:
+      213: -6176397676173752787
+    second: Effect_Tentacles_1_433x337_113
+  - first:
+      213: -6132623576436204579
+    second: Effect_Tentacles_1_433x337_114
+  - first:
+      213: 416445406316199879
+    second: Effect_Tentacles_1_433x337_115
+  - first:
+      213: -7310169736440420300
+    second: Effect_Tentacles_1_433x337_116
+  - first:
+      213: 9169054377490130551
+    second: Effect_Tentacles_1_433x337_117
+  - first:
+      213: 8717915169034044472
+    second: Effect_Tentacles_1_433x337_118
+  - first:
+      213: 4940662542280128076
+    second: Effect_Tentacles_1_433x337_119
+  - first:
+      213: 2519848743183702151
+    second: Effect_Tentacles_1_433x337_120
+  - first:
+      213: 6112385423851155829
+    second: Effect_Tentacles_1_433x337_121
+  - first:
+      213: 688244251435443256
+    second: Effect_Tentacles_1_433x337_122
+  - first:
+      213: -5562579959952077569
+    second: Effect_Tentacles_1_433x337_123
+  - first:
+      213: 3983103350917547565
+    second: Effect_Tentacles_1_433x337_124
+  - first:
+      213: -6427253412190125059
+    second: Effect_Tentacles_1_433x337_125
+  - first:
+      213: -3430343471614146858
+    second: Effect_Tentacles_1_433x337_126
+  - first:
+      213: 7864151494367588720
+    second: Effect_Tentacles_1_433x337_127
+  - first:
+      213: 526352046860619378
+    second: Effect_Tentacles_1_433x337_128
+  - first:
+      213: -497765983509732436
+    second: Effect_Tentacles_1_433x337_129
+  - first:
+      213: -7301599110749389291
+    second: Effect_Tentacles_1_433x337_130
+  - first:
+      213: 4117749350328173668
+    second: Effect_Tentacles_1_433x337_131
+  - first:
+      213: -8690870248199423627
+    second: Effect_Tentacles_1_433x337_132
+  - first:
+      213: 4125174210049877356
+    second: Effect_Tentacles_1_433x337_133
+  - first:
+      213: -8661616537672180738
+    second: Effect_Tentacles_1_433x337_134
+  - first:
+      213: 4176618897709176947
+    second: Effect_Tentacles_1_433x337_135
+  - first:
+      213: -1336893963685602435
+    second: Effect_Tentacles_1_433x337_136
+  - first:
+      213: 3555050157154150890
+    second: Effect_Tentacles_1_433x337_137
+  - first:
+      213: -1986198328455508154
+    second: Effect_Tentacles_1_433x337_138
+  - first:
+      213: -7435345021945319160
+    second: Effect_Tentacles_1_433x337_139
+  - first:
+      213: 6948400617839455337
+    second: Effect_Tentacles_1_433x337_140
+  - first:
+      213: -8518429530436045261
+    second: Effect_Tentacles_1_433x337_141
+  - first:
+      213: 1468830880414362416
+    second: Effect_Tentacles_1_433x337_142
+  - first:
+      213: -6881058617019513959
+    second: Effect_Tentacles_1_433x337_143
+  - first:
+      213: 4563757165456043596
+    second: Effect_Tentacles_1_433x337_144
+  - first:
+      213: 1598101120932227572
+    second: Effect_Tentacles_1_433x337_145
+  - first:
+      213: 7359315456247661958
+    second: Effect_Tentacles_1_433x337_146
+  - first:
+      213: -4119327119838760158
+    second: Effect_Tentacles_1_433x337_147
+  - first:
+      213: -8604411196704432779
+    second: Effect_Tentacles_1_433x337_148
+  - first:
+      213: -5501815259936153937
+    second: Effect_Tentacles_1_433x337_149
+  - first:
+      213: 3688626155697285302
+    second: Effect_Tentacles_1_433x337_150
+  - first:
+      213: -839942287058562418
+    second: Effect_Tentacles_1_433x337_151
+  - first:
+      213: -9163883753640614998
+    second: Effect_Tentacles_1_433x337_152
+  - first:
+      213: -72715779957278074
+    second: Effect_Tentacles_1_433x337_153
+  - first:
+      213: -6806315815978580873
+    second: Effect_Tentacles_1_433x337_154
+  - first:
+      213: -8047688143699744377
+    second: Effect_Tentacles_1_433x337_155
+  - first:
+      213: 2093851855876404050
+    second: Effect_Tentacles_1_433x337_156
+  - first:
+      213: 955053098534486370
+    second: Effect_Tentacles_1_433x337_157
+  - first:
+      213: 1726908416318975326
+    second: Effect_Tentacles_1_433x337_158
+  - first:
+      213: -4984246094288973199
+    second: Effect_Tentacles_1_433x337_159
+  - first:
+      213: -3163092394590462211
+    second: Effect_Tentacles_1_433x337_160
+  - first:
+      213: -5005442832573657284
+    second: Effect_Tentacles_1_433x337_161
+  - first:
+      213: -1475112040160780890
+    second: Effect_Tentacles_1_433x337_162
+  - first:
+      213: 3549713189750369444
+    second: Effect_Tentacles_1_433x337_163
+  - first:
+      213: -5609676015463808465
+    second: Effect_Tentacles_1_433x337_164
+  - first:
+      213: -2531326575860190704
+    second: Effect_Tentacles_1_433x337_165
+  - first:
+      213: 2493665615643931203
+    second: Effect_Tentacles_1_433x337_166
+  - first:
+      213: 2636739362613568973
+    second: Effect_Tentacles_1_433x337_167
+  - first:
+      213: 5482868337764673632
+    second: Effect_Tentacles_1_433x337_168
+  - first:
+      213: 6159290842855107787
+    second: Effect_Tentacles_1_433x337_169
+  - first:
+      213: 7621554015574673792
+    second: Effect_Tentacles_1_433x337_170
+  - first:
+      213: -7771557365780752347
+    second: Effect_Tentacles_1_433x337_171
+  - first:
+      213: -415171825655920204
+    second: Effect_Tentacles_1_433x337_172
+  - first:
+      213: 3612872383265050168
+    second: Effect_Tentacles_1_433x337_173
+  - first:
+      213: 9115462059561554497
+    second: Effect_Tentacles_1_433x337_174
+  - first:
+      213: -6500738161152787046
+    second: Effect_Tentacles_1_433x337_175
+  - first:
+      213: 6719923427524035656
+    second: Effect_Tentacles_1_433x337_176
+  - first:
+      213: -6562934596909293328
+    second: Effect_Tentacles_1_433x337_177
+  - first:
+      213: 1861071144602383716
+    second: Effect_Tentacles_1_433x337_178
+  - first:
+      213: -4020002163225638362
+    second: Effect_Tentacles_1_433x337_179
+  - first:
+      213: -2606269666503718199
+    second: Effect_Tentacles_1_433x337_180
+  - first:
+      213: -3143542204008490507
+    second: Effect_Tentacles_1_433x337_181
+  - first:
+      213: -3118462100464582022
+    second: Effect_Tentacles_1_433x337_182
+  - first:
+      213: 1611763444376533303
+    second: Effect_Tentacles_1_433x337_183
+  - first:
+      213: -4705273483964852657
+    second: Effect_Tentacles_1_433x337_184
+  - first:
+      213: -7846925139583053571
+    second: Effect_Tentacles_1_433x337_185
+  - first:
+      213: -8773478210383029189
+    second: Effect_Tentacles_1_433x337_186
+  - first:
+      213: 4421385704153050789
+    second: Effect_Tentacles_1_433x337_187
+  - first:
+      213: -8907481227621097594
+    second: Effect_Tentacles_1_433x337_188
+  - first:
+      213: -5181396679467973438
+    second: Effect_Tentacles_1_433x337_189
+  - first:
+      213: -9176763927099288810
+    second: Effect_Tentacles_1_433x337_190
+  - first:
+      213: -982356363698961610
+    second: Effect_Tentacles_1_433x337_191
+  - first:
+      213: 5713405238132697346
+    second: Effect_Tentacles_1_433x337_192
+  - first:
+      213: -9135617879764203055
+    second: Effect_Tentacles_1_433x337_193
+  - first:
+      213: -5362714519167067084
+    second: Effect_Tentacles_1_433x337_194
+  - first:
+      213: 5661027448707475912
+    second: Effect_Tentacles_1_433x337_195
+  - first:
+      213: -4228513605267949701
+    second: Effect_Tentacles_1_433x337_196
+  - first:
+      213: 8314440744833540079
+    second: Effect_Tentacles_1_433x337_197
+  - first:
+      213: 2779988752513110933
+    second: Effect_Tentacles_1_433x337_198
+  - first:
+      213: 1909427478469089473
+    second: Effect_Tentacles_1_433x337_199
+  - first:
+      213: 4540371288181526061
+    second: Effect_Tentacles_1_433x337_200
+  - first:
+      213: -9121106893850825974
+    second: Effect_Tentacles_1_433x337_201
+  - first:
+      213: 3298353808744181709
+    second: Effect_Tentacles_1_433x337_202
+  - first:
+      213: -5388839084929525392
+    second: Effect_Tentacles_1_433x337_203
+  - first:
+      213: 2124824141435002885
+    second: Effect_Tentacles_1_433x337_204
+  - first:
+      213: 2597296728503443948
+    second: Effect_Tentacles_1_433x337_205
+  - first:
+      213: 8912250601062064551
+    second: Effect_Tentacles_1_433x337_206
+  - first:
+      213: 7883030229650717448
+    second: Effect_Tentacles_1_433x337_207
+  - first:
+      213: 8047918077433629997
+    second: Effect_Tentacles_1_433x337_208
+  - first:
+      213: -4105153154969962556
+    second: Effect_Tentacles_1_433x337_209
+  - first:
+      213: 67880516018119443
+    second: Effect_Tentacles_1_433x337_210
+  - first:
+      213: 5383729498532831083
+    second: Effect_Tentacles_1_433x337_211
+  - first:
+      213: -7447409537039975848
+    second: Effect_Tentacles_1_433x337_212
+  - first:
+      213: -5537337373615670898
+    second: Effect_Tentacles_1_433x337_213
+  - first:
+      213: 4328089355720837541
+    second: Effect_Tentacles_1_433x337_214
+  - first:
+      213: -3100173440076311861
+    second: Effect_Tentacles_1_433x337_215
+  - first:
+      213: -2887832794142058559
+    second: Effect_Tentacles_1_433x337_216
+  - first:
+      213: -3338069236789286127
+    second: Effect_Tentacles_1_433x337_217
+  - first:
+      213: 5632545519407771172
+    second: Effect_Tentacles_1_433x337_218
+  - first:
+      213: 6444199266195280875
+    second: Effect_Tentacles_1_433x337_219
+  - first:
+      213: 701293036535327257
+    second: Effect_Tentacles_1_433x337_220
+  - first:
+      213: -7087731853993482208
+    second: Effect_Tentacles_1_433x337_221
+  - first:
+      213: 2410166983121624363
+    second: Effect_Tentacles_1_433x337_222
+  - first:
+      213: -2950704217323588686
+    second: Effect_Tentacles_1_433x337_223
+  - first:
+      213: -3228263811779396102
+    second: Effect_Tentacles_1_433x337_224
+  - first:
+      213: 8552205658538563482
+    second: Effect_Tentacles_1_433x337_225
+  - first:
+      213: -6838338473898286260
+    second: Effect_Tentacles_1_433x337_226
+  - first:
+      213: 1208594262063534139
+    second: Effect_Tentacles_1_433x337_227
+  - first:
+      213: -929426628448250434
+    second: Effect_Tentacles_1_433x337_228
+  - first:
+      213: -7982906911027502393
+    second: Effect_Tentacles_1_433x337_229
+  - first:
+      213: 5312646946811261462
+    second: Effect_Tentacles_1_433x337_230
+  - first:
+      213: 4585926690458905775
+    second: Effect_Tentacles_1_433x337_231
+  - first:
+      213: 3555505911114794898
+    second: Effect_Tentacles_1_433x337_232
+  - first:
+      213: 8942658432404227904
+    second: Effect_Tentacles_1_433x337_233
+  - first:
+      213: 7173092064868863366
+    second: Effect_Tentacles_1_433x337_234
+  - first:
+      213: -6354953941450732138
+    second: Effect_Tentacles_1_433x337_235
+  - first:
+      213: 1239976093165465227
+    second: Effect_Tentacles_1_433x337_236
+  - first:
+      213: 6612481209647065634
+    second: Effect_Tentacles_1_433x337_237
+  - first:
+      213: -5055376950331138391
+    second: Effect_Tentacles_1_433x337_238
+  - first:
+      213: -2503454662647050349
+    second: Effect_Tentacles_1_433x337_239
+  - first:
+      213: 1292860696304146977
+    second: Effect_Tentacles_1_433x337_240
+  - first:
+      213: -2286002687093701916
+    second: Effect_Tentacles_1_433x337_241
+  - first:
+      213: 1273991506135499317
+    second: Effect_Tentacles_1_433x337_242
+  - first:
+      213: -2630305982942289451
+    second: Effect_Tentacles_1_433x337_243
+  - first:
+      213: 6223001423336209875
+    second: Effect_Tentacles_1_433x337_244
+  - first:
+      213: -8543052180678858465
+    second: Effect_Tentacles_1_433x337_245
+  - first:
+      213: 2080388851075093594
+    second: Effect_Tentacles_1_433x337_246
+  - first:
+      213: 6622360850803861730
+    second: Effect_Tentacles_1_433x337_247
+  - first:
+      213: 3499592687358394459
+    second: Effect_Tentacles_1_433x337_248
+  - first:
+      213: -1203319608794691745
+    second: Effect_Tentacles_1_433x337_249
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2022
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e83356cf739a17b0800000000000000
+      internalID: -5252723838376789790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_1
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2022
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecba64d78faee140800000000000000
+      internalID: 4750927654841662694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_2
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 2022
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902b805be1f37d6d0800000000000000
+      internalID: -2965832428481367543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_3
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 2022
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d7ff6e81af3e890800000000000000
+      internalID: -7429819975369523952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_4
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2022
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103cf1eccf1b99c90800000000000000
+      internalID: -7162498033008000255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_5
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 2022
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd889f2c600f07380800000000000000
+      internalID: -8975410145517795108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_6
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 2022
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831f97763a943c8d0800000000000000
+      internalID: -2827335174893997768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_7
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 2022
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809f7e603312a7170800000000000000
+      internalID: 8176884576487471368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_8
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 2022
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d78ca3f36adee5f0800000000000000
+      internalID: -725402367135283239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1685
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21abac61b936038c0800000000000000
+      internalID: -4021604949488387566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_10
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1685
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece9bdf24aaf6b1c0800000000000000
+      internalID: -4488124395543617842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1685
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95f5434e25b7cfa0800000000000000
+      internalID: -5780452386404960866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_12
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1685
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fb80be244849f00800000000000000
+      internalID: 1122667630068023083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_13
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1685
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5603b2d43cf1e97e0800000000000000
+      internalID: -1756931880954154907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_14
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 1685
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491769c7ab6b6fc20800000000000000
+      internalID: 3239977894010057108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_15
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 1685
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bc2307192b79df0800000000000000
+      internalID: -173473722908095739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_16
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 1685
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3312f305d9cfa30800000000000000
+      internalID: 4250445116312990719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_17
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 1685
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cd9dbe3cd497a20800000000000000
+      internalID: 3060562925645847618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1348
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed16278aef7f4cfc0800000000000000
+      internalID: -3475380339303357986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_19
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1348
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cea7201b0af6df0800000000000000
+      internalID: -184752377587635168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_20
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1348
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddba8e68dc5d0b060800000000000000
+      internalID: 6967303702250564573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_21
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1348
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70940be5618373620800000000000000
+      internalID: 2753731365889394951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_22
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1348
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5197c57269102990800000000000000
+      internalID: -7412897075978333862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_23
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 1348
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fa18b3399f1a390800000000000000
+      internalID: -7808685868129865837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_24
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 1348
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0252c2d25b69533b0800000000000000
+      internalID: -5533350862263671520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_25
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 1348
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d7f35114f70acf0800000000000000
+      internalID: -243054462371922532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_26
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 1348
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9141fd4a5f71f70800000000000000
+      internalID: 9158058455747271124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1011
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6567391963278b4d0800000000000000
+      internalID: -3118617163257907626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_28
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1011
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea4a6370782926f0800000000000000
+      internalID: -708991002896348438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_29
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1011
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beeb5065e100c0460800000000000000
+      internalID: 7209137233805557483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_30
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1011
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f670b65e14e57eb80800000000000000
+      internalID: -8365614145702525073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_31
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1011
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577e808e7df55dab0800000000000000
+      internalID: -4983972031700080779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_32
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 1011
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc79883451670d80800000000000000
+      internalID: -8284545975171056385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_33
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 1011
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b46b841f7cc1ec0800000000000000
+      internalID: -3594778563427546286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_34
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 1011
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442335de14ad1a5c0800000000000000
+      internalID: -4205840600297950652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_35
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 1011
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c85321ae3c2e45b0800000000000000
+      internalID: -5382315857158121272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 674
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80cd08ebbd07437c0800000000000000
+      internalID: -4092522072276673528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_37
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 674
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0172d618f7a4f7b70800000000000000
+      internalID: 8898913300200105744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_38
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 674
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08463ce051d39c4c0800000000000000
+      internalID: -4266812011305540480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_39
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 674
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbeae47e24667b90800000000000000
+      internalID: -7244492799886038090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_40
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 674
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8266088137d655720800000000000000
+      internalID: 2834291881599329832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_41
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 674
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53d7b83b4c282fa0800000000000000
+      internalID: -5825357416417995940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_42
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 674
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0924a7c7b8aecb0800000000000000
+      internalID: -4833897883285417777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_43
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 674
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47272c50113d425e0800000000000000
+      internalID: -1935189869797936524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_44
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 674
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f145f34957d4bbad0800000000000000
+      internalID: -2685467585402678241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cb220932252af20800000000000000
+      internalID: 3432396178705267759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_46
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 337
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d05fca5ed29ed3a0800000000000000
+      internalID: -6638707316993601325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_47
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 337
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ff7705859492120800000000000000
+      internalID: 2389521720952749940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_48
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 337
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a5bb618b83a66e0800000000000000
+      internalID: -1843598734148281848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_49
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 337
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1352bf14d86eda30800000000000000
+      internalID: 4241943159303721759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_50
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 337
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebda1f557f7acae70800000000000000
+      internalID: 9127855225513815486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_51
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 337
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9571199d72e6741a0800000000000000
+      internalID: -6825365592823752871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_52
+      rect:
+        serializedVersion: 2
+        x: 3031
+        y: 337
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027a6cb008b5b8bb0800000000000000
+      internalID: -4932748361342736608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_53
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 337
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bfcae4329269c90800000000000000
+      internalID: -7163492925665641671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6bcbc01de955a00800000000000000
+      internalID: 744675934098732704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_55
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7684983aa9a6ffa30800000000000000
+      internalID: 4251233785662228583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_56
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 0
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10e953d89bfed490800000000000000
+      internalID: -7719456077466968038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_57
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 0
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75edd434fefd0af10800000000000000
+      internalID: 2279067630168825431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_58
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 0
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ce7b9b01903d9a0800000000000000
+      internalID: -6209609493773816725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Tentacles_1_433x337_59
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 0
+        width: 433
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4143ac4b68eb33c80800000000000000
+      internalID: -8344116198819351532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 274a3d9dcc72f6a4b94de0f35cd54378
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Effect_Tentacles_1_433x337_0: -5252723838376789790
+      Effect_Tentacles_1_433x337_1: 4750927654841662694
+      Effect_Tentacles_1_433x337_10: -4488124395543617842
+      Effect_Tentacles_1_433x337_11: -5780452386404960866
+      Effect_Tentacles_1_433x337_12: 1122667630068023083
+      Effect_Tentacles_1_433x337_13: -1756931880954154907
+      Effect_Tentacles_1_433x337_14: 3239977894010057108
+      Effect_Tentacles_1_433x337_15: -173473722908095739
+      Effect_Tentacles_1_433x337_16: 4250445116312990719
+      Effect_Tentacles_1_433x337_17: 3060562925645847618
+      Effect_Tentacles_1_433x337_18: -3475380339303357986
+      Effect_Tentacles_1_433x337_19: -184752377587635168
+      Effect_Tentacles_1_433x337_2: -2965832428481367543
+      Effect_Tentacles_1_433x337_20: 6967303702250564573
+      Effect_Tentacles_1_433x337_21: 2753731365889394951
+      Effect_Tentacles_1_433x337_22: -7412897075978333862
+      Effect_Tentacles_1_433x337_23: -7808685868129865837
+      Effect_Tentacles_1_433x337_24: -5533350862263671520
+      Effect_Tentacles_1_433x337_25: -243054462371922532
+      Effect_Tentacles_1_433x337_26: 9158058455747271124
+      Effect_Tentacles_1_433x337_27: -3118617163257907626
+      Effect_Tentacles_1_433x337_28: -708991002896348438
+      Effect_Tentacles_1_433x337_29: 7209137233805557483
+      Effect_Tentacles_1_433x337_3: -7429819975369523952
+      Effect_Tentacles_1_433x337_30: -8365614145702525073
+      Effect_Tentacles_1_433x337_31: -4983972031700080779
+      Effect_Tentacles_1_433x337_32: -8284545975171056385
+      Effect_Tentacles_1_433x337_33: -3594778563427546286
+      Effect_Tentacles_1_433x337_34: -4205840600297950652
+      Effect_Tentacles_1_433x337_35: -5382315857158121272
+      Effect_Tentacles_1_433x337_36: -4092522072276673528
+      Effect_Tentacles_1_433x337_37: 8898913300200105744
+      Effect_Tentacles_1_433x337_38: -4266812011305540480
+      Effect_Tentacles_1_433x337_39: -7244492799886038090
+      Effect_Tentacles_1_433x337_4: -7162498033008000255
+      Effect_Tentacles_1_433x337_40: 2834291881599329832
+      Effect_Tentacles_1_433x337_41: -5825357416417995940
+      Effect_Tentacles_1_433x337_42: -4833897883285417777
+      Effect_Tentacles_1_433x337_43: -1935189869797936524
+      Effect_Tentacles_1_433x337_44: -2685467585402678241
+      Effect_Tentacles_1_433x337_45: 3432396178705267759
+      Effect_Tentacles_1_433x337_46: -6638707316993601325
+      Effect_Tentacles_1_433x337_47: 2389521720952749940
+      Effect_Tentacles_1_433x337_48: -1843598734148281848
+      Effect_Tentacles_1_433x337_49: 4241943159303721759
+      Effect_Tentacles_1_433x337_5: -8975410145517795108
+      Effect_Tentacles_1_433x337_50: 9127855225513815486
+      Effect_Tentacles_1_433x337_51: -6825365592823752871
+      Effect_Tentacles_1_433x337_52: -4932748361342736608
+      Effect_Tentacles_1_433x337_53: -7163492925665641671
+      Effect_Tentacles_1_433x337_54: 744675934098732704
+      Effect_Tentacles_1_433x337_55: 4251233785662228583
+      Effect_Tentacles_1_433x337_56: -7719456077466968038
+      Effect_Tentacles_1_433x337_57: 2279067630168825431
+      Effect_Tentacles_1_433x337_58: -6209609493773816725
+      Effect_Tentacles_1_433x337_59: -8344116198819351532
+      Effect_Tentacles_1_433x337_6: -2827335174893997768
+      Effect_Tentacles_1_433x337_7: 8176884576487471368
+      Effect_Tentacles_1_433x337_8: -725402367135283239
+      Effect_Tentacles_1_433x337_9: -4021604949488387566
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

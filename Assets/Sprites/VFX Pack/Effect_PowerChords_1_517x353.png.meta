@@ -1,0 +1,2598 @@
+fileFormatVersion: 2
+guid: 2e29c05570104d244b9d2318e9f8938b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9083772140879755782
+    second: Effect_PowerChords_1_517x353_0
+  - first:
+      213: 6655593008978791650
+    second: Effect_PowerChords_1_517x353_1
+  - first:
+      213: 831742011888273507
+    second: Effect_PowerChords_1_517x353_2
+  - first:
+      213: -8524749914712989406
+    second: Effect_PowerChords_1_517x353_3
+  - first:
+      213: 3292224847055559944
+    second: Effect_PowerChords_1_517x353_4
+  - first:
+      213: 7738759080177469787
+    second: Effect_PowerChords_1_517x353_5
+  - first:
+      213: -344531025908723344
+    second: Effect_PowerChords_1_517x353_6
+  - first:
+      213: -7409321513711003168
+    second: Effect_PowerChords_1_517x353_7
+  - first:
+      213: -3446076948612236187
+    second: Effect_PowerChords_1_517x353_8
+  - first:
+      213: 904081899076812883
+    second: Effect_PowerChords_1_517x353_9
+  - first:
+      213: 4780499619131501338
+    second: Effect_PowerChords_1_517x353_10
+  - first:
+      213: 3335068726627359282
+    second: Effect_PowerChords_1_517x353_11
+  - first:
+      213: -1028456008162472735
+    second: Effect_PowerChords_1_517x353_12
+  - first:
+      213: 6373391708131628732
+    second: Effect_PowerChords_1_517x353_13
+  - first:
+      213: -1416056586247693585
+    second: Effect_PowerChords_1_517x353_14
+  - first:
+      213: 5185874650400791927
+    second: Effect_PowerChords_1_517x353_15
+  - first:
+      213: -6751085393220334994
+    second: Effect_PowerChords_1_517x353_16
+  - first:
+      213: -3470189250356746143
+    second: Effect_PowerChords_1_517x353_17
+  - first:
+      213: -4027385939684021287
+    second: Effect_PowerChords_1_517x353_18
+  - first:
+      213: -1328717631536116433
+    second: Effect_PowerChords_1_517x353_19
+  - first:
+      213: 3313468763111410340
+    second: Effect_PowerChords_1_517x353_20
+  - first:
+      213: 1964857922775331827
+    second: Effect_PowerChords_1_517x353_21
+  - first:
+      213: 8025497657427644535
+    second: Effect_PowerChords_1_517x353_22
+  - first:
+      213: 2016379183099974232
+    second: Effect_PowerChords_1_517x353_23
+  - first:
+      213: 8130002282790428721
+    second: Effect_PowerChords_1_517x353_24
+  - first:
+      213: 6507939983853192253
+    second: Effect_PowerChords_1_517x353_25
+  - first:
+      213: -7816858475900667426
+    second: Effect_PowerChords_1_517x353_26
+  - first:
+      213: -913934124902679641
+    second: Effect_PowerChords_1_517x353_27
+  - first:
+      213: -8317461139602298195
+    second: Effect_PowerChords_1_517x353_28
+  - first:
+      213: 6942047897030367430
+    second: Effect_PowerChords_1_517x353_29
+  - first:
+      213: 2228399297903784685
+    second: Effect_PowerChords_1_517x353_30
+  - first:
+      213: -8540566246021514443
+    second: Effect_PowerChords_1_517x353_31
+  - first:
+      213: 6458040304804822238
+    second: Effect_PowerChords_1_517x353_32
+  - first:
+      213: -4106357823237706277
+    second: Effect_PowerChords_1_517x353_33
+  - first:
+      213: -5740594800191960724
+    second: Effect_PowerChords_1_517x353_34
+  - first:
+      213: 4631966506100122751
+    second: Effect_PowerChords_1_517x353_35
+  - first:
+      213: -8395421467692357845
+    second: Effect_PowerChords_1_517x353_36
+  - first:
+      213: -5876244722988634748
+    second: Effect_PowerChords_1_517x353_37
+  - first:
+      213: -8643750013518681938
+    second: Effect_PowerChords_1_517x353_38
+  - first:
+      213: 2922751090005994144
+    second: Effect_PowerChords_1_517x353_39
+  - first:
+      213: -7392322749151354721
+    second: Effect_PowerChords_1_517x353_40
+  - first:
+      213: -69770874973831862
+    second: Effect_PowerChords_1_517x353_41
+  - first:
+      213: 2316945393292221246
+    second: Effect_PowerChords_1_517x353_42
+  - first:
+      213: 7678705729938607252
+    second: Effect_PowerChords_1_517x353_43
+  - first:
+      213: 1670930249494140335
+    second: Effect_PowerChords_1_517x353_44
+  - first:
+      213: 5946145608529486934
+    second: Effect_PowerChords_1_517x353_45
+  - first:
+      213: 4400262062796974574
+    second: Effect_PowerChords_1_517x353_46
+  - first:
+      213: -6823602101730524776
+    second: Effect_PowerChords_1_517x353_47
+  - first:
+      213: -3973633211412320293
+    second: Effect_PowerChords_1_517x353_48
+  - first:
+      213: 5852586318521569032
+    second: Effect_PowerChords_1_517x353_49
+  - first:
+      213: 6783547838119375925
+    second: Effect_PowerChords_1_517x353_50
+  - first:
+      213: -6456548657273609118
+    second: Effect_PowerChords_1_517x353_51
+  - first:
+      213: 1746518590082694659
+    second: Effect_PowerChords_1_517x353_52
+  - first:
+      213: -52997608786307684
+    second: Effect_PowerChords_1_517x353_53
+  - first:
+      213: -3297729269472372817
+    second: Effect_PowerChords_1_517x353_54
+  - first:
+      213: 725960713261794722
+    second: Effect_PowerChords_1_517x353_55
+  - first:
+      213: 615583828178851108
+    second: Effect_PowerChords_1_517x353_56
+  - first:
+      213: 5493109873718556179
+    second: Effect_PowerChords_1_517x353_57
+  - first:
+      213: -8877423427120834503
+    second: Effect_PowerChords_1_517x353_58
+  - first:
+      213: 8495098488585883354
+    second: Effect_PowerChords_1_517x353_59
+  - first:
+      213: 5534890725840890271
+    second: Effect_PowerChords_1_517x353_60
+  - first:
+      213: 9066936247344022443
+    second: Effect_PowerChords_1_517x353_61
+  - first:
+      213: 9002473577760120817
+    second: Effect_PowerChords_1_517x353_62
+  - first:
+      213: -8784117505409658311
+    second: Effect_PowerChords_1_517x353_63
+  - first:
+      213: 6244604063097011818
+    second: Effect_PowerChords_1_517x353_64
+  - first:
+      213: -1129676398211460721
+    second: Effect_PowerChords_1_517x353_65
+  - first:
+      213: -4113975916573588250
+    second: Effect_PowerChords_1_517x353_66
+  - first:
+      213: 2631580377643278685
+    second: Effect_PowerChords_1_517x353_67
+  - first:
+      213: 1424916111891772409
+    second: Effect_PowerChords_1_517x353_68
+  - first:
+      213: 8112320888405105834
+    second: Effect_PowerChords_1_517x353_69
+  - first:
+      213: -6370174609724271430
+    second: Effect_PowerChords_1_517x353_70
+  - first:
+      213: -4704269275083966040
+    second: Effect_PowerChords_1_517x353_71
+  - first:
+      213: 3653954950161698236
+    second: Effect_PowerChords_1_517x353_72
+  - first:
+      213: 6498934959161745757
+    second: Effect_PowerChords_1_517x353_73
+  - first:
+      213: 6534093439687112707
+    second: Effect_PowerChords_1_517x353_74
+  - first:
+      213: -5519638845390761933
+    second: Effect_PowerChords_1_517x353_75
+  - first:
+      213: 7020944906383673781
+    second: Effect_PowerChords_1_517x353_76
+  - first:
+      213: 4781877591854977822
+    second: Effect_PowerChords_1_517x353_77
+  - first:
+      213: -7751940202768009983
+    second: Effect_PowerChords_1_517x353_78
+  - first:
+      213: 5987416408917910995
+    second: Effect_PowerChords_1_517x353_79
+  - first:
+      213: -6286342624485494339
+    second: Effect_PowerChords_1_517x353_80
+  - first:
+      213: 6718951385453030625
+    second: Effect_PowerChords_1_517x353_81
+  - first:
+      213: 5953062217665891702
+    second: Effect_PowerChords_1_517x353_82
+  - first:
+      213: -5156190263098903221
+    second: Effect_PowerChords_1_517x353_83
+  - first:
+      213: 1445697831127613283
+    second: Effect_PowerChords_1_517x353_84
+  - first:
+      213: -3291489455901875661
+    second: Effect_PowerChords_1_517x353_85
+  - first:
+      213: -8072384461446524061
+    second: Effect_PowerChords_1_517x353_86
+  - first:
+      213: -8900304411124885088
+    second: Effect_PowerChords_1_517x353_87
+  - first:
+      213: 4830134947267184457
+    second: Effect_PowerChords_1_517x353_88
+  - first:
+      213: 1590751502952499596
+    second: Effect_PowerChords_1_517x353_89
+  - first:
+      213: -604421888931296240
+    second: Effect_PowerChords_1_517x353_90
+  - first:
+      213: -7421986999479767040
+    second: Effect_PowerChords_1_517x353_91
+  - first:
+      213: 3555046703864280772
+    second: Effect_PowerChords_1_517x353_92
+  - first:
+      213: -4858429122874473611
+    second: Effect_PowerChords_1_517x353_93
+  - first:
+      213: -5339845942950362823
+    second: Effect_PowerChords_1_517x353_94
+  - first:
+      213: 7818711570691902993
+    second: Effect_PowerChords_1_517x353_95
+  - first:
+      213: 6917356050267486712
+    second: Effect_PowerChords_1_517x353_96
+  - first:
+      213: -7251881109237480044
+    second: Effect_PowerChords_1_517x353_97
+  - first:
+      213: -6216627519060694956
+    second: Effect_PowerChords_1_517x353_98
+  - first:
+      213: -4985102350237098837
+    second: Effect_PowerChords_1_517x353_99
+  - first:
+      213: -3619835719059852733
+    second: Effect_PowerChords_1_517x353_100
+  - first:
+      213: 2821476650184347824
+    second: Effect_PowerChords_1_517x353_101
+  - first:
+      213: -6036821353919984920
+    second: Effect_PowerChords_1_517x353_102
+  - first:
+      213: -4799039817587379243
+    second: Effect_PowerChords_1_517x353_103
+  - first:
+      213: -1969588920314003
+    second: Effect_PowerChords_1_517x353_104
+  - first:
+      213: 8814615403175489131
+    second: Effect_PowerChords_1_517x353_105
+  - first:
+      213: -861027972239342352
+    second: Effect_PowerChords_1_517x353_106
+  - first:
+      213: -1423599840570515260
+    second: Effect_PowerChords_1_517x353_107
+  - first:
+      213: 7883030262334137698
+    second: Effect_PowerChords_1_517x353_108
+  - first:
+      213: -2442886558280815246
+    second: Effect_PowerChords_1_517x353_109
+  - first:
+      213: -3247550616083025539
+    second: Effect_PowerChords_1_517x353_110
+  - first:
+      213: -9074472562963729970
+    second: Effect_PowerChords_1_517x353_111
+  - first:
+      213: 4126875258864245411
+    second: Effect_PowerChords_1_517x353_112
+  - first:
+      213: 716769085342975415
+    second: Effect_PowerChords_1_517x353_113
+  - first:
+      213: 6539552231261057684
+    second: Effect_PowerChords_1_517x353_114
+  - first:
+      213: -4160263170674408056
+    second: Effect_PowerChords_1_517x353_115
+  - first:
+      213: 1315892928125483771
+    second: Effect_PowerChords_1_517x353_116
+  - first:
+      213: 6583558722820021964
+    second: Effect_PowerChords_1_517x353_117
+  - first:
+      213: 5752113145581807222
+    second: Effect_PowerChords_1_517x353_118
+  - first:
+      213: 7720609756149573393
+    second: Effect_PowerChords_1_517x353_119
+  - first:
+      213: 7094510790731122974
+    second: Effect_PowerChords_1_517x353_120
+  - first:
+      213: 9013374802937516916
+    second: Effect_PowerChords_1_517x353_121
+  - first:
+      213: -8099622410723831527
+    second: Effect_PowerChords_1_517x353_122
+  - first:
+      213: 8571747230265118526
+    second: Effect_PowerChords_1_517x353_123
+  - first:
+      213: 2727911444695949539
+    second: Effect_PowerChords_1_517x353_124
+  - first:
+      213: 3221394576391270522
+    second: Effect_PowerChords_1_517x353_125
+  - first:
+      213: -7986213115660110713
+    second: Effect_PowerChords_1_517x353_126
+  - first:
+      213: -4948919232886790896
+    second: Effect_PowerChords_1_517x353_127
+  - first:
+      213: -4222621430896683837
+    second: Effect_PowerChords_1_517x353_128
+  - first:
+      213: -1025388654891718166
+    second: Effect_PowerChords_1_517x353_129
+  - first:
+      213: -4705982587576456003
+    second: Effect_PowerChords_1_517x353_130
+  - first:
+      213: 5201694333881632351
+    second: Effect_PowerChords_1_517x353_131
+  - first:
+      213: 764355172863966150
+    second: Effect_PowerChords_1_517x353_132
+  - first:
+      213: -2311477791063827878
+    second: Effect_PowerChords_1_517x353_133
+  - first:
+      213: 4098098883823986864
+    second: Effect_PowerChords_1_517x353_134
+  - first:
+      213: 5030685415188371724
+    second: Effect_PowerChords_1_517x353_135
+  - first:
+      213: -4214722181604212085
+    second: Effect_PowerChords_1_517x353_136
+  - first:
+      213: 6208431192941782901
+    second: Effect_PowerChords_1_517x353_137
+  - first:
+      213: 4544051597322805461
+    second: Effect_PowerChords_1_517x353_138
+  - first:
+      213: 819553906936112807
+    second: Effect_PowerChords_1_517x353_139
+  - first:
+      213: -6071726445111063418
+    second: Effect_PowerChords_1_517x353_140
+  - first:
+      213: 9037378536895470925
+    second: Effect_PowerChords_1_517x353_141
+  - first:
+      213: 8943966327442141112
+    second: Effect_PowerChords_1_517x353_142
+  - first:
+      213: 2869647805299265925
+    second: Effect_PowerChords_1_517x353_143
+  - first:
+      213: 1014811678291820926
+    second: Effect_PowerChords_1_517x353_144
+  - first:
+      213: 3618541494983409062
+    second: Effect_PowerChords_1_517x353_145
+  - first:
+      213: 1799076864022307
+    second: Effect_PowerChords_1_517x353_146
+  - first:
+      213: -4867062251957618844
+    second: Effect_PowerChords_1_517x353_147
+  - first:
+      213: -8023171076182716221
+    second: Effect_PowerChords_1_517x353_148
+  - first:
+      213: -8979358811156377166
+    second: Effect_PowerChords_1_517x353_149
+  - first:
+      213: -786278208503953869
+    second: Effect_PowerChords_1_517x353_150
+  - first:
+      213: 2781226798687651652
+    second: Effect_PowerChords_1_517x353_151
+  - first:
+      213: -3299550681878310758
+    second: Effect_PowerChords_1_517x353_152
+  - first:
+      213: -4879871840036067027
+    second: Effect_PowerChords_1_517x353_153
+  - first:
+      213: 1805438904437754385
+    second: Effect_PowerChords_1_517x353_154
+  - first:
+      213: -4519733012399410826
+    second: Effect_PowerChords_1_517x353_155
+  - first:
+      213: -4237492756895659326
+    second: Effect_PowerChords_1_517x353_156
+  - first:
+      213: -4782026847935145416
+    second: Effect_PowerChords_1_517x353_157
+  - first:
+      213: -2413654630205355769
+    second: Effect_PowerChords_1_517x353_158
+  - first:
+      213: 3151903612068369805
+    second: Effect_PowerChords_1_517x353_159
+  - first:
+      213: 6577123309502954639
+    second: Effect_PowerChords_1_517x353_160
+  - first:
+      213: 4381116745640248162
+    second: Effect_PowerChords_1_517x353_161
+  - first:
+      213: -7516796171499566301
+    second: Effect_PowerChords_1_517x353_162
+  - first:
+      213: -2841169293591673149
+    second: Effect_PowerChords_1_517x353_163
+  - first:
+      213: 1174926827142537175
+    second: Effect_PowerChords_1_517x353_164
+  - first:
+      213: -1892051211907108238
+    second: Effect_PowerChords_1_517x353_165
+  - first:
+      213: -7631771432708884643
+    second: Effect_PowerChords_1_517x353_166
+  - first:
+      213: 774172878419302954
+    second: Effect_PowerChords_1_517x353_167
+  - first:
+      213: 464819351299636620
+    second: Effect_PowerChords_1_517x353_168
+  - first:
+      213: 740383920844911261
+    second: Effect_PowerChords_1_517x353_169
+  - first:
+      213: -4807214751601401049
+    second: Effect_PowerChords_1_517x353_170
+  - first:
+      213: -1568617494423842492
+    second: Effect_PowerChords_1_517x353_171
+  - first:
+      213: 4166238698696194030
+    second: Effect_PowerChords_1_517x353_172
+  - first:
+      213: 6273339792153103650
+    second: Effect_PowerChords_1_517x353_173
+  - first:
+      213: 8496860113089390009
+    second: Effect_PowerChords_1_517x353_174
+  - first:
+      213: -8413149706063583668
+    second: Effect_PowerChords_1_517x353_175
+  - first:
+      213: -3509088639046737606
+    second: Effect_PowerChords_1_517x353_176
+  - first:
+      213: 7876704434380822151
+    second: Effect_PowerChords_1_517x353_177
+  - first:
+      213: 6698135703857344416
+    second: Effect_PowerChords_1_517x353_178
+  - first:
+      213: 1442606033740139832
+    second: Effect_PowerChords_1_517x353_179
+  - first:
+      213: -7840365125901110433
+    second: Effect_PowerChords_1_517x353_180
+  - first:
+      213: 1074853879788412500
+    second: Effect_PowerChords_1_517x353_181
+  - first:
+      213: 5207087264603693212
+    second: Effect_PowerChords_1_517x353_182
+  - first:
+      213: -7118917753731696778
+    second: Effect_PowerChords_1_517x353_183
+  - first:
+      213: 2836622438971441044
+    second: Effect_PowerChords_1_517x353_184
+  - first:
+      213: -3512672553094983609
+    second: Effect_PowerChords_1_517x353_185
+  - first:
+      213: -8269504341074352543
+    second: Effect_PowerChords_1_517x353_186
+  - first:
+      213: 4216558533876792727
+    second: Effect_PowerChords_1_517x353_187
+  - first:
+      213: -521570165141052840
+    second: Effect_PowerChords_1_517x353_188
+  - first:
+      213: 4120638206191362636
+    second: Effect_PowerChords_1_517x353_189
+  - first:
+      213: -2556470127591641437
+    second: Effect_PowerChords_1_517x353_190
+  - first:
+      213: -4956148542080923133
+    second: Effect_PowerChords_1_517x353_191
+  - first:
+      213: 1061731783864681312
+    second: Effect_PowerChords_1_517x353_192
+  - first:
+      213: 8673883040640504039
+    second: Effect_PowerChords_1_517x353_193
+  - first:
+      213: -8960525506521316954
+    second: Effect_PowerChords_1_517x353_194
+  - first:
+      213: -7229770607400319105
+    second: Effect_PowerChords_1_517x353_195
+  - first:
+      213: 7456275003438538081
+    second: Effect_PowerChords_1_517x353_196
+  - first:
+      213: -8897940461982162021
+    second: Effect_PowerChords_1_517x353_197
+  - first:
+      213: -6334418259384259683
+    second: Effect_PowerChords_1_517x353_198
+  - first:
+      213: -1111259878470598179
+    second: Effect_PowerChords_1_517x353_199
+  - first:
+      213: -5712277943950303624
+    second: Effect_PowerChords_1_517x353_200
+  - first:
+      213: 1001648245884960388
+    second: Effect_PowerChords_1_517x353_201
+  - first:
+      213: -2034330843939729901
+    second: Effect_PowerChords_1_517x353_202
+  - first:
+      213: 8188473849496795174
+    second: Effect_PowerChords_1_517x353_203
+  - first:
+      213: 8611501588276088236
+    second: Effect_PowerChords_1_517x353_204
+  - first:
+      213: -8948327706322938182
+    second: Effect_PowerChords_1_517x353_205
+  - first:
+      213: -301384279777541805
+    second: Effect_PowerChords_1_517x353_206
+  - first:
+      213: -1464246472430061123
+    second: Effect_PowerChords_1_517x353_207
+  - first:
+      213: 8527993324094046279
+    second: Effect_PowerChords_1_517x353_208
+  - first:
+      213: -4497542147802297677
+    second: Effect_PowerChords_1_517x353_209
+  - first:
+      213: 8538901423083374399
+    second: Effect_PowerChords_1_517x353_210
+  - first:
+      213: 6487895908149406545
+    second: Effect_PowerChords_1_517x353_211
+  - first:
+      213: -8450210656740852595
+    second: Effect_PowerChords_1_517x353_212
+  - first:
+      213: -8881977705005377331
+    second: Effect_PowerChords_1_517x353_213
+  - first:
+      213: -866625494808826707
+    second: Effect_PowerChords_1_517x353_214
+  - first:
+      213: -6993452424699426967
+    second: Effect_PowerChords_1_517x353_215
+  - first:
+      213: 8611315144190207426
+    second: Effect_PowerChords_1_517x353_216
+  - first:
+      213: 9131330294025086556
+    second: Effect_PowerChords_1_517x353_217
+  - first:
+      213: 905122591458602199
+    second: Effect_PowerChords_1_517x353_218
+  - first:
+      213: 5845275084792378569
+    second: Effect_PowerChords_1_517x353_219
+  - first:
+      213: -5224253351444180549
+    second: Effect_PowerChords_1_517x353_220
+  - first:
+      213: -2673164317606772934
+    second: Effect_PowerChords_1_517x353_221
+  - first:
+      213: 3860319920082767482
+    second: Effect_PowerChords_1_517x353_222
+  - first:
+      213: -2899608781393208553
+    second: Effect_PowerChords_1_517x353_223
+  - first:
+      213: 5266079050140745001
+    second: Effect_PowerChords_1_517x353_224
+  - first:
+      213: -5028061327447589756
+    second: Effect_PowerChords_1_517x353_225
+  - first:
+      213: 8449266771150874347
+    second: Effect_PowerChords_1_517x353_226
+  - first:
+      213: -8348762813575135292
+    second: Effect_PowerChords_1_517x353_227
+  - first:
+      213: -4457209314519320797
+    second: Effect_PowerChords_1_517x353_228
+  - first:
+      213: -807828557792472459
+    second: Effect_PowerChords_1_517x353_229
+  - first:
+      213: -6210285735342489185
+    second: Effect_PowerChords_1_517x353_230
+  - first:
+      213: 6079860301943308459
+    second: Effect_PowerChords_1_517x353_231
+  - first:
+      213: -2139041199762273354
+    second: Effect_PowerChords_1_517x353_232
+  - first:
+      213: -5133130976600775022
+    second: Effect_PowerChords_1_517x353_233
+  - first:
+      213: 7378559321888501983
+    second: Effect_PowerChords_1_517x353_234
+  - first:
+      213: 510981411095366375
+    second: Effect_PowerChords_1_517x353_235
+  - first:
+      213: -6249010983959486231
+    second: Effect_PowerChords_1_517x353_236
+  - first:
+      213: 4588479179719535958
+    second: Effect_PowerChords_1_517x353_237
+  - first:
+      213: -1900837982703889933
+    second: Effect_PowerChords_1_517x353_238
+  - first:
+      213: 116791728941610501
+    second: Effect_PowerChords_1_517x353_239
+  - first:
+      213: 1970872065724014232
+    second: Effect_PowerChords_1_517x353_240
+  - first:
+      213: 1001099114734209897
+    second: Effect_PowerChords_1_517x353_241
+  - first:
+      213: 5295863368467359197
+    second: Effect_PowerChords_1_517x353_242
+  - first:
+      213: -480860751549085615
+    second: Effect_PowerChords_1_517x353_243
+  - first:
+      213: 7617366505677395660
+    second: Effect_PowerChords_1_517x353_244
+  - first:
+      213: -8423708616297594682
+    second: Effect_PowerChords_1_517x353_245
+  - first:
+      213: -7969339347894705028
+    second: Effect_PowerChords_1_517x353_246
+  - first:
+      213: -3184429899408989360
+    second: Effect_PowerChords_1_517x353_247
+  - first:
+      213: 8582252669039975632
+    second: Effect_PowerChords_1_517x353_248
+  - first:
+      213: -4605610192202089596
+    second: Effect_PowerChords_1_517x353_249
+  - first:
+      213: -1376061233034738437
+    second: Effect_PowerChords_1_517x353_250
+  - first:
+      213: 1751504994769522353
+    second: Effect_PowerChords_1_517x353_251
+  - first:
+      213: 5995200289613627822
+    second: Effect_PowerChords_1_517x353_252
+  - first:
+      213: -842665843558161657
+    second: Effect_PowerChords_1_517x353_253
+  - first:
+      213: 6556874550026773961
+    second: Effect_PowerChords_1_517x353_254
+  - first:
+      213: 6743620132266386095
+    second: Effect_PowerChords_1_517x353_255
+  - first:
+      213: 2119458298077646742
+    second: Effect_PowerChords_1_517x353_256
+  - first:
+      213: 6258979061776150202
+    second: Effect_PowerChords_1_517x353_257
+  - first:
+      213: 3187231717981755376
+    second: Effect_PowerChords_1_517x353_258
+  - first:
+      213: 356140571861946497
+    second: Effect_PowerChords_1_517x353_259
+  - first:
+      213: 6784416288691047741
+    second: Effect_PowerChords_1_517x353_260
+  - first:
+      213: -3271256824827242415
+    second: Effect_PowerChords_1_517x353_261
+  - first:
+      213: -5332827447738389458
+    second: Effect_PowerChords_1_517x353_262
+  - first:
+      213: 8719213461235772734
+    second: Effect_PowerChords_1_517x353_263
+  - first:
+      213: -1710561131436644141
+    second: Effect_PowerChords_1_517x353_264
+  - first:
+      213: 8691057020690255481
+    second: Effect_PowerChords_1_517x353_265
+  - first:
+      213: 5137525627734599
+    second: Effect_PowerChords_1_517x353_266
+  - first:
+      213: -7841294135595332969
+    second: Effect_PowerChords_1_517x353_267
+  - first:
+      213: -6733778014646277375
+    second: Effect_PowerChords_1_517x353_268
+  - first:
+      213: -2675018477609381317
+    second: Effect_PowerChords_1_517x353_269
+  - first:
+      213: 1668570787681629445
+    second: Effect_PowerChords_1_517x353_270
+  - first:
+      213: 1760688603783575016
+    second: Effect_PowerChords_1_517x353_271
+  - first:
+      213: -2649913056911718612
+    second: Effect_PowerChords_1_517x353_272
+  - first:
+      213: 2328647042057885383
+    second: Effect_PowerChords_1_517x353_273
+  - first:
+      213: -5414073410198584945
+    second: Effect_PowerChords_1_517x353_274
+  - first:
+      213: 1517324459268054902
+    second: Effect_PowerChords_1_517x353_275
+  - first:
+      213: -4554861816428587149
+    second: Effect_PowerChords_1_517x353_276
+  - first:
+      213: -1364602466955009232
+    second: Effect_PowerChords_1_517x353_277
+  - first:
+      213: -4640181728394415897
+    second: Effect_PowerChords_1_517x353_278
+  - first:
+      213: -8036498930517919747
+    second: Effect_PowerChords_1_517x353_279
+  - first:
+      213: 4026695396908242604
+    second: Effect_PowerChords_1_517x353_280
+  - first:
+      213: -4860856481963027637
+    second: Effect_PowerChords_1_517x353_281
+  - first:
+      213: 4504144856010000161
+    second: Effect_PowerChords_1_517x353_282
+  - first:
+      213: -3906026137362281598
+    second: Effect_PowerChords_1_517x353_283
+  - first:
+      213: 4464278716610632203
+    second: Effect_PowerChords_1_517x353_284
+  - first:
+      213: -5875641368045421803
+    second: Effect_PowerChords_1_517x353_285
+  - first:
+      213: -3422229776294557449
+    second: Effect_PowerChords_1_517x353_286
+  - first:
+      213: 1455050836437337329
+    second: Effect_PowerChords_1_517x353_287
+  - first:
+      213: -5419973897903807273
+    second: Effect_PowerChords_1_517x353_288
+  - first:
+      213: -6713334448646521623
+    second: Effect_PowerChords_1_517x353_289
+  - first:
+      213: -8580618728385374968
+    second: Effect_PowerChords_1_517x353_290
+  - first:
+      213: 7521057388996541109
+    second: Effect_PowerChords_1_517x353_291
+  - first:
+      213: 4104336324740053731
+    second: Effect_PowerChords_1_517x353_292
+  - first:
+      213: -2571604944703720149
+    second: Effect_PowerChords_1_517x353_293
+  - first:
+      213: 2770452417298027317
+    second: Effect_PowerChords_1_517x353_294
+  - first:
+      213: 3825091606880718075
+    second: Effect_PowerChords_1_517x353_295
+  - first:
+      213: -6942124997170388705
+    second: Effect_PowerChords_1_517x353_296
+  - first:
+      213: 8189032610831703868
+    second: Effect_PowerChords_1_517x353_297
+  - first:
+      213: -8860292345034958806
+    second: Effect_PowerChords_1_517x353_298
+  - first:
+      213: -5789068644842686299
+    second: Effect_PowerChords_1_517x353_299
+  - first:
+      213: 5238963527073504379
+    second: Effect_PowerChords_1_517x353_300
+  - first:
+      213: -4937914799061021147
+    second: Effect_PowerChords_1_517x353_301
+  - first:
+      213: -5771388144677069340
+    second: Effect_PowerChords_1_517x353_302
+  - first:
+      213: 6081876465219659152
+    second: Effect_PowerChords_1_517x353_303
+  - first:
+      213: 212948245488675855
+    second: Effect_PowerChords_1_517x353_304
+  - first:
+      213: 5796689570046203233
+    second: Effect_PowerChords_1_517x353_305
+  - first:
+      213: -9147246419804582516
+    second: Effect_PowerChords_1_517x353_306
+  - first:
+      213: -4183269841597747426
+    second: Effect_PowerChords_1_517x353_307
+  - first:
+      213: 2372771459331221650
+    second: Effect_PowerChords_1_517x353_308
+  - first:
+      213: 5989390430829724115
+    second: Effect_PowerChords_1_517x353_309
+  - first:
+      213: -3257789014192462668
+    second: Effect_PowerChords_1_517x353_310
+  - first:
+      213: -6520873843033218633
+    second: Effect_PowerChords_1_517x353_311
+  - first:
+      213: -501468394615311516
+    second: Effect_PowerChords_1_517x353_312
+  - first:
+      213: -1872509489455764981
+    second: Effect_PowerChords_1_517x353_313
+  - first:
+      213: -1423748213508218349
+    second: Effect_PowerChords_1_517x353_314
+  - first:
+      213: -3208377242159384767
+    second: Effect_PowerChords_1_517x353_315
+  - first:
+      213: -983144121290611184
+    second: Effect_PowerChords_1_517x353_316
+  - first:
+      213: -6718697963733671092
+    second: Effect_PowerChords_1_517x353_317
+  - first:
+      213: -2876383610662563577
+    second: Effect_PowerChords_1_517x353_318
+  - first:
+      213: -6337602856961760175
+    second: Effect_PowerChords_1_517x353_319
+  - first:
+      213: 8294667431349487283
+    second: Effect_PowerChords_1_517x353_320
+  - first:
+      213: 7779005109396110148
+    second: Effect_PowerChords_1_517x353_321
+  - first:
+      213: 2508446479745706490
+    second: Effect_PowerChords_1_517x353_322
+  - first:
+      213: -1027907043770344205
+    second: Effect_PowerChords_1_517x353_323
+  - first:
+      213: 7012379236321723725
+    second: Effect_PowerChords_1_517x353_324
+  - first:
+      213: 3215247987037842583
+    second: Effect_PowerChords_1_517x353_325
+  - first:
+      213: -5464383389787285192
+    second: Effect_PowerChords_1_517x353_326
+  - first:
+      213: -5687394423252369182
+    second: Effect_PowerChords_1_517x353_327
+  - first:
+      213: -7569012023881862453
+    second: Effect_PowerChords_1_517x353_328
+  - first:
+      213: 6451252895797556775
+    second: Effect_PowerChords_1_517x353_329
+  - first:
+      213: 2356913633997955651
+    second: Effect_PowerChords_1_517x353_330
+  - first:
+      213: 2760270066819603665
+    second: Effect_PowerChords_1_517x353_331
+  - first:
+      213: 8782808131147191318
+    second: Effect_PowerChords_1_517x353_332
+  - first:
+      213: 1099174210931778388
+    second: Effect_PowerChords_1_517x353_333
+  - first:
+      213: -8201791242097431645
+    second: Effect_PowerChords_1_517x353_334
+  - first:
+      213: -3617562771006537517
+    second: Effect_PowerChords_1_517x353_335
+  - first:
+      213: -6498451968219926216
+    second: Effect_PowerChords_1_517x353_336
+  - first:
+      213: -7395177610851068942
+    second: Effect_PowerChords_1_517x353_337
+  - first:
+      213: 8723132063811625278
+    second: Effect_PowerChords_1_517x353_338
+  - first:
+      213: -3082658826875333012
+    second: Effect_PowerChords_1_517x353_339
+  - first:
+      213: -9209344647195634791
+    second: Effect_PowerChords_1_517x353_340
+  - first:
+      213: 2961050551476897168
+    second: Effect_PowerChords_1_517x353_341
+  - first:
+      213: 8091966757007183193
+    second: Effect_PowerChords_1_517x353_342
+  - first:
+      213: -6805103306189085037
+    second: Effect_PowerChords_1_517x353_343
+  - first:
+      213: -5539060217387795521
+    second: Effect_PowerChords_1_517x353_344
+  - first:
+      213: -3856782391098106398
+    second: Effect_PowerChords_1_517x353_345
+  - first:
+      213: 1335618097425971104
+    second: Effect_PowerChords_1_517x353_346
+  - first:
+      213: 8228712487248687552
+    second: Effect_PowerChords_1_517x353_347
+  - first:
+      213: 5167308261162932308
+    second: Effect_PowerChords_1_517x353_348
+  - first:
+      213: -9118720141935616496
+    second: Effect_PowerChords_1_517x353_349
+  - first:
+      213: -5951180995779037496
+    second: Effect_PowerChords_1_517x353_350
+  - first:
+      213: -6609105062131881504
+    second: Effect_PowerChords_1_517x353_351
+  - first:
+      213: 7813395233490714022
+    second: Effect_PowerChords_1_517x353_352
+  - first:
+      213: 3839840628671436555
+    second: Effect_PowerChords_1_517x353_353
+  - first:
+      213: 2275144740582350274
+    second: Effect_PowerChords_1_517x353_354
+  - first:
+      213: 7405442139387863612
+    second: Effect_PowerChords_1_517x353_355
+  - first:
+      213: -8842919164680410993
+    second: Effect_PowerChords_1_517x353_356
+  - first:
+      213: -5368336307922749871
+    second: Effect_PowerChords_1_517x353_357
+  - first:
+      213: 916634229624070636
+    second: Effect_PowerChords_1_517x353_358
+  - first:
+      213: -8407972257846087692
+    second: Effect_PowerChords_1_517x353_359
+  - first:
+      213: 2350915475695323906
+    second: Effect_PowerChords_1_517x353_360
+  - first:
+      213: -159601814778277000
+    second: Effect_PowerChords_1_517x353_361
+  - first:
+      213: 1738791745414911360
+    second: Effect_PowerChords_1_517x353_362
+  - first:
+      213: -6579131870070961124
+    second: Effect_PowerChords_1_517x353_363
+  - first:
+      213: -7005884410256070678
+    second: Effect_PowerChords_1_517x353_364
+  - first:
+      213: 5211225794671253909
+    second: Effect_PowerChords_1_517x353_365
+  - first:
+      213: 8772190675363647145
+    second: Effect_PowerChords_1_517x353_366
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2118
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5c542ad55ffe180800000000000000
+      internalID: -9083772140879755782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_1
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 2118
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec01cd249a6d5c50800000000000000
+      internalID: 6655593008978791650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 2118
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3688e5bf3f0fa8b00800000000000000
+      internalID: 831742011888273507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_3
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 2118
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221ad7e5e1102b980800000000000000
+      internalID: -8524749914712989406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_4
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 2118
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d16713e0550bd20800000000000000
+      internalID: 3292224847055559944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_5
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 2118
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b598e48b168956b60800000000000000
+      internalID: 7738759080177469787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_6
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 2118
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0711c9a7bdaf73bf0800000000000000
+      internalID: -344531025908723344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_7
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 2118
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9989ce65dcc2990800000000000000
+      internalID: -7409321513711003168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_8
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 2118
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c3e49f5431d20d0800000000000000
+      internalID: -3446076948612236187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1765
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350855a72b1fb8c00800000000000000
+      internalID: 904081899076812883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1765
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b293f431fb75240800000000000000
+      internalID: 4780499619131501338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_11
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1765
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a5320465b884e20800000000000000
+      internalID: 3335068726627359282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_12
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1765
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec0c56a5b03ab1f0800000000000000
+      internalID: -1028456008162472735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_13
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1765
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb61b99adf5d27850800000000000000
+      internalID: 6373391708131628732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_14
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1765
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea9ad29908295ce0800000000000000
+      internalID: -1416056586247693585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_15
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1765
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d97d2c48de7f740800000000000000
+      internalID: 5185874650400791927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_16
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 1765
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a06c88a935f42a0800000000000000
+      internalID: -6751085393220334994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_17
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 1765
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1686b1d334967dfc0800000000000000
+      internalID: -3470189250356746143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1412
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db2bbb63d9db18c0800000000000000
+      internalID: -4027385939684021287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_19
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1412
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dcd7d9a527f8de0800000000000000
+      internalID: -1328717631536116433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_20
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1412
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aacb97d84ecbfd20800000000000000
+      internalID: 3313468763111410340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_21
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1412
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3b229ded3944b10800000000000000
+      internalID: 1964857922775331827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_22
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1412
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77054b8399b406f60800000000000000
+      internalID: 8025497657427644535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_23
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1412
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8529a2d0f2e9bfb10800000000000000
+      internalID: 2016379183099974232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_24
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1412
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130a6d8600293d070800000000000000
+      internalID: 8130002282790428721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_25
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 1412
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34812d4fe8d05a50800000000000000
+      internalID: 6507939983853192253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_26
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 1412
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed97074b1a0f48390800000000000000
+      internalID: -7816858475900667426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1059
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab711171cd0153f0800000000000000
+      internalID: -913934124902679641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_28
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1059
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daaa3ec4921729c80800000000000000
+      internalID: -8317461139602298195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_29
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1059
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c81e3428cb175060800000000000000
+      internalID: 6942047897030367430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_30
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1059
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2f849da5ddcee10800000000000000
+      internalID: 2228399297903784685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_31
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 1059
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b3235cf30d97980800000000000000
+      internalID: -8540566246021514443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_32
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 1059
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcfb09e0719f9950800000000000000
+      internalID: 6458040304804822238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_33
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1059
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd2541f0594307c0800000000000000
+      internalID: -4106357823237706277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_34
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 1059
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c698a17b17f4550b0800000000000000
+      internalID: -5740594800191960724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_35
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 1059
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74ea9ffefc084040800000000000000
+      internalID: 4631966506100122751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 706
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27228ee7a87d7b80800000000000000
+      internalID: -8395421467692357845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_37
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 706
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48daff0ee82637ea0800000000000000
+      internalID: -5876244722988634748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_38
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 706
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8e0f4c82b3b0880800000000000000
+      internalID: -8643750013518681938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_39
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 706
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa61b681a2bf8820800000000000000
+      internalID: 2922751090005994144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_40
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 706
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f906bc730a1396990800000000000000
+      internalID: -7392322749151354721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_41
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 706
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d348542cf180ff0800000000000000
+      internalID: -69770874973831862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_42
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 706
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b192b3f81772020800000000000000
+      internalID: 2316945393292221246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_43
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 706
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c4fb78d2e309a60800000000000000
+      internalID: 7678705729938607252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_44
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 706
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa59d8d7536503710800000000000000
+      internalID: 1670930249494140335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654262b4de3f48250800000000000000
+      internalID: 5946145608529486934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_46
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 353
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee924a3580fd01d30800000000000000
+      internalID: 4400262062796974574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_47
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 353
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8914ebd9a02bd41a0800000000000000
+      internalID: -6823602101730524776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_48
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 353
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfe21eb5a1dad8c0800000000000000
+      internalID: -3973633211412320293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_49
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 353
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f0ac49f30983150800000000000000
+      internalID: 5852586318521569032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_50
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 353
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53479f761d0042e50800000000000000
+      internalID: 6783547838119375925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_51
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 353
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2646e28543bb566a0800000000000000
+      internalID: -6456548657273609118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_52
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 353
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ebe7b7761ec3810800000000000000
+      internalID: 1746518590082694659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_53
+      rect:
+        serializedVersion: 2
+        x: 4136
+        y: 353
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95d852a4f6b34ff0800000000000000
+      internalID: -52997608786307684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7d0b793bc1c32d0800000000000000
+      internalID: -3297729269472372817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_55
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5cbd22c61231a00800000000000000
+      internalID: 725960713261794722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_56
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 0
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4255310fa3efa8800800000000000000
+      internalID: 615583828178851108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_57
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 0
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3167f2f83527b3c40800000000000000
+      internalID: 5493109873718556179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_58
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 0
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9385bb97d6e0dc480800000000000000
+      internalID: -8877423427120834503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_PowerChords_1_517x353_59
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 0
+        width: 517
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade8e100117a4e570800000000000000
+      internalID: 8495098488585883354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9ad467701a79f2748addcc4cc47a452d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Effect_PowerChords_1_517x353_0: -9083772140879755782
+      Effect_PowerChords_1_517x353_1: 6655593008978791650
+      Effect_PowerChords_1_517x353_10: 4780499619131501338
+      Effect_PowerChords_1_517x353_11: 3335068726627359282
+      Effect_PowerChords_1_517x353_12: -1028456008162472735
+      Effect_PowerChords_1_517x353_13: 6373391708131628732
+      Effect_PowerChords_1_517x353_14: -1416056586247693585
+      Effect_PowerChords_1_517x353_15: 5185874650400791927
+      Effect_PowerChords_1_517x353_16: -6751085393220334994
+      Effect_PowerChords_1_517x353_17: -3470189250356746143
+      Effect_PowerChords_1_517x353_18: -4027385939684021287
+      Effect_PowerChords_1_517x353_19: -1328717631536116433
+      Effect_PowerChords_1_517x353_2: 831742011888273507
+      Effect_PowerChords_1_517x353_20: 3313468763111410340
+      Effect_PowerChords_1_517x353_21: 1964857922775331827
+      Effect_PowerChords_1_517x353_22: 8025497657427644535
+      Effect_PowerChords_1_517x353_23: 2016379183099974232
+      Effect_PowerChords_1_517x353_24: 8130002282790428721
+      Effect_PowerChords_1_517x353_25: 6507939983853192253
+      Effect_PowerChords_1_517x353_26: -7816858475900667426
+      Effect_PowerChords_1_517x353_27: -913934124902679641
+      Effect_PowerChords_1_517x353_28: -8317461139602298195
+      Effect_PowerChords_1_517x353_29: 6942047897030367430
+      Effect_PowerChords_1_517x353_3: -8524749914712989406
+      Effect_PowerChords_1_517x353_30: 2228399297903784685
+      Effect_PowerChords_1_517x353_31: -8540566246021514443
+      Effect_PowerChords_1_517x353_32: 6458040304804822238
+      Effect_PowerChords_1_517x353_33: -4106357823237706277
+      Effect_PowerChords_1_517x353_34: -5740594800191960724
+      Effect_PowerChords_1_517x353_35: 4631966506100122751
+      Effect_PowerChords_1_517x353_36: -8395421467692357845
+      Effect_PowerChords_1_517x353_37: -5876244722988634748
+      Effect_PowerChords_1_517x353_38: -8643750013518681938
+      Effect_PowerChords_1_517x353_39: 2922751090005994144
+      Effect_PowerChords_1_517x353_4: 3292224847055559944
+      Effect_PowerChords_1_517x353_40: -7392322749151354721
+      Effect_PowerChords_1_517x353_41: -69770874973831862
+      Effect_PowerChords_1_517x353_42: 2316945393292221246
+      Effect_PowerChords_1_517x353_43: 7678705729938607252
+      Effect_PowerChords_1_517x353_44: 1670930249494140335
+      Effect_PowerChords_1_517x353_45: 5946145608529486934
+      Effect_PowerChords_1_517x353_46: 4400262062796974574
+      Effect_PowerChords_1_517x353_47: -6823602101730524776
+      Effect_PowerChords_1_517x353_48: -3973633211412320293
+      Effect_PowerChords_1_517x353_49: 5852586318521569032
+      Effect_PowerChords_1_517x353_5: 7738759080177469787
+      Effect_PowerChords_1_517x353_50: 6783547838119375925
+      Effect_PowerChords_1_517x353_51: -6456548657273609118
+      Effect_PowerChords_1_517x353_52: 1746518590082694659
+      Effect_PowerChords_1_517x353_53: -52997608786307684
+      Effect_PowerChords_1_517x353_54: -3297729269472372817
+      Effect_PowerChords_1_517x353_55: 725960713261794722
+      Effect_PowerChords_1_517x353_56: 615583828178851108
+      Effect_PowerChords_1_517x353_57: 5493109873718556179
+      Effect_PowerChords_1_517x353_58: -8877423427120834503
+      Effect_PowerChords_1_517x353_59: 8495098488585883354
+      Effect_PowerChords_1_517x353_6: -344531025908723344
+      Effect_PowerChords_1_517x353_7: -7409321513711003168
+      Effect_PowerChords_1_517x353_8: -3446076948612236187
+      Effect_PowerChords_1_517x353_9: 904081899076812883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

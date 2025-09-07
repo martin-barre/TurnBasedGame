@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83826aabef235d34daf9486a34475f83, type: 3}
+  m_Name: Warrior_Intimidation
+  m_EditorClassIdentifier: 
+  id: 9
+  iconSprite: {fileID: -1254456572, guid: 1d3cb48ad83392747a95b19f0db695a2, type: 3}
+  spellName: Intimidation
+  paCost: 1
+  fovMode: 1
+  xRay: 1
+  canLaunchOnEntity: 1
+  poMin: 1
+  poMax: 1
+  zone:
+    rid: 3082811418379812965
+  sfx:
+  - target: 0
+    prefab: {fileID: 0}
+  effects:
+  - rid: 161247212505661551
+  references:
+    version: 2
+    RefIds:
+    - rid: 161247212505661551
+      type: {class: ServerEffectPush, ns: , asm: Assembly-CSharp}
+      data:
+        canTouchLauncher: 0
+        canTouchMate: 1
+        canTouchEnemy: 1
+        nbOfTile: 2
+        centerPoint: 0
+    - rid: 3082811418379812965
+      type: {class: CrossSpellZone, ns: , asm: Assembly-CSharp}
+      data:
+        size: 1

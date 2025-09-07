@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd974121921e9b4386d9db115bad726, type: 3}
+  m_Name: Renekton
+  m_EditorClassIdentifier: 
+  Id: 6
+  Name: Renekton
+  IconSprite: {fileID: 3944610533857416082, guid: 630aaa3e8aa3f974eb45651c0b438d5a, type: 3}
+  Prefab: {fileID: 8184440196502789421, guid: 12ac621e7cfa447459d8a3072044dda0, type: 3}
+  Hp: 220
+  Pa: 9
+  Pm: 6
+  Spells:
+  - {fileID: 11400000, guid: fc9e0467f704aae48b04492b30050351, type: 2}
+  - {fileID: 11400000, guid: ddba45de40fba3749b1728bd3d92a343, type: 2}
+  - {fileID: 11400000, guid: 56231e91047f9b34d9f9250e17c0fe2b, type: 2}
+  - {fileID: 11400000, guid: e824f68678319f2408e551969b9399a2, type: 2}
+  AiEnum: 0
