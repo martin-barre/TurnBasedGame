@@ -1,0 +1,2896 @@
+fileFormatVersion: 2
+guid: 115fcfb116326ae4f80975d9db14cc7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6393080260354891083
+    second: Effect_Charged_1_357x295_0
+  - first:
+      213: 3447299448833409564
+    second: Effect_Charged_1_357x295_1
+  - first:
+      213: 2007290455940808294
+    second: Effect_Charged_1_357x295_2
+  - first:
+      213: 2160899853319531152
+    second: Effect_Charged_1_357x295_3
+  - first:
+      213: 6275504562356444558
+    second: Effect_Charged_1_357x295_4
+  - first:
+      213: -7234098244276696848
+    second: Effect_Charged_1_357x295_5
+  - first:
+      213: 3657417689813370184
+    second: Effect_Charged_1_357x295_6
+  - first:
+      213: 131887074041723526
+    second: Effect_Charged_1_357x295_7
+  - first:
+      213: -6976817798712026336
+    second: Effect_Charged_1_357x295_8
+  - first:
+      213: -8711380094407999457
+    second: Effect_Charged_1_357x295_9
+  - first:
+      213: -3415056427810598750
+    second: Effect_Charged_1_357x295_10
+  - first:
+      213: -8250035673668476517
+    second: Effect_Charged_1_357x295_11
+  - first:
+      213: 7922127694503185318
+    second: Effect_Charged_1_357x295_12
+  - first:
+      213: -2417235439299378501
+    second: Effect_Charged_1_357x295_13
+  - first:
+      213: 7306341361474068679
+    second: Effect_Charged_1_357x295_14
+  - first:
+      213: -1146316942770851844
+    second: Effect_Charged_1_357x295_15
+  - first:
+      213: -5693053355550049543
+    second: Effect_Charged_1_357x295_16
+  - first:
+      213: -1999508744592837215
+    second: Effect_Charged_1_357x295_17
+  - first:
+      213: 8325437628424079125
+    second: Effect_Charged_1_357x295_18
+  - first:
+      213: -6211217383671403026
+    second: Effect_Charged_1_357x295_19
+  - first:
+      213: -8037329177200588837
+    second: Effect_Charged_1_357x295_20
+  - first:
+      213: 7244424310162346115
+    second: Effect_Charged_1_357x295_21
+  - first:
+      213: 7155501889023989166
+    second: Effect_Charged_1_357x295_22
+  - first:
+      213: 6817577548566196772
+    second: Effect_Charged_1_357x295_23
+  - first:
+      213: -4837596276259960207
+    second: Effect_Charged_1_357x295_24
+  - first:
+      213: 5372446431976022564
+    second: Effect_Charged_1_357x295_25
+  - first:
+      213: -3360779467679644015
+    second: Effect_Charged_1_357x295_26
+  - first:
+      213: 2407345803474389219
+    second: Effect_Charged_1_357x295_27
+  - first:
+      213: -4183601250650805260
+    second: Effect_Charged_1_357x295_28
+  - first:
+      213: -184709402302289611
+    second: Effect_Charged_1_357x295_29
+  - first:
+      213: 1486487888862078259
+    second: Effect_Charged_1_357x295_30
+  - first:
+      213: 2422373482389190946
+    second: Effect_Charged_1_357x295_31
+  - first:
+      213: 1442480306203905200
+    second: Effect_Charged_1_357x295_32
+  - first:
+      213: -5087471286806542243
+    second: Effect_Charged_1_357x295_33
+  - first:
+      213: 726567764995535566
+    second: Effect_Charged_1_357x295_34
+  - first:
+      213: -8890336546722631714
+    second: Effect_Charged_1_357x295_35
+  - first:
+      213: -3618200383603096893
+    second: Effect_Charged_1_357x295_36
+  - first:
+      213: -4192888165870738420
+    second: Effect_Charged_1_357x295_37
+  - first:
+      213: 6039061801152575436
+    second: Effect_Charged_1_357x295_38
+  - first:
+      213: 1805020541151803801
+    second: Effect_Charged_1_357x295_39
+  - first:
+      213: -7785056008867653640
+    second: Effect_Charged_1_357x295_40
+  - first:
+      213: -2714381705370819826
+    second: Effect_Charged_1_357x295_41
+  - first:
+      213: -2544072866491165172
+    second: Effect_Charged_1_357x295_42
+  - first:
+      213: -8014123095923865295
+    second: Effect_Charged_1_357x295_43
+  - first:
+      213: -3207315893024219784
+    second: Effect_Charged_1_357x295_44
+  - first:
+      213: -256392875935050566
+    second: Effect_Charged_1_357x295_45
+  - first:
+      213: 2307080713748190846
+    second: Effect_Charged_1_357x295_46
+  - first:
+      213: 5052514813709072491
+    second: Effect_Charged_1_357x295_47
+  - first:
+      213: -392092772060310011
+    second: Effect_Charged_1_357x295_48
+  - first:
+      213: -5498386089008138120
+    second: Effect_Charged_1_357x295_49
+  - first:
+      213: 5317365343019135927
+    second: Effect_Charged_1_357x295_50
+  - first:
+      213: 2310376183635589861
+    second: Effect_Charged_1_357x295_51
+  - first:
+      213: 4119037825887040278
+    second: Effect_Charged_1_357x295_52
+  - first:
+      213: -5440276266509579884
+    second: Effect_Charged_1_357x295_53
+  - first:
+      213: -6267277863894594790
+    second: Effect_Charged_1_357x295_54
+  - first:
+      213: -5240576313112818888
+    second: Effect_Charged_1_357x295_55
+  - first:
+      213: -1736809239297157110
+    second: Effect_Charged_1_357x295_56
+  - first:
+      213: -6039096478947719582
+    second: Effect_Charged_1_357x295_57
+  - first:
+      213: -1850078454543044435
+    second: Effect_Charged_1_357x295_58
+  - first:
+      213: -4596714129758477430
+    second: Effect_Charged_1_357x295_59
+  - first:
+      213: 1189710842414738106
+    second: Effect_Charged_1_357x295_60
+  - first:
+      213: 170447436835405673
+    second: Effect_Charged_1_357x295_61
+  - first:
+      213: -7708397871170246884
+    second: Effect_Charged_1_357x295_62
+  - first:
+      213: -7399150344158583663
+    second: Effect_Charged_1_357x295_63
+  - first:
+      213: 5237329007366859897
+    second: Effect_Charged_1_357x295_64
+  - first:
+      213: 7319277444707271180
+    second: Effect_Charged_1_357x295_65
+  - first:
+      213: -8563368146881048009
+    second: Effect_Charged_1_357x295_66
+  - first:
+      213: -7905053299960152968
+    second: Effect_Charged_1_357x295_67
+  - first:
+      213: 5236919066780592067
+    second: Effect_Charged_1_357x295_68
+  - first:
+      213: 438633604347771380
+    second: Effect_Charged_1_357x295_69
+  - first:
+      213: -8300975632090799355
+    second: Effect_Charged_1_357x295_70
+  - first:
+      213: -3709052283675020130
+    second: Effect_Charged_1_357x295_71
+  - first:
+      213: -591233396073827263
+    second: Effect_Charged_1_357x295_72
+  - first:
+      213: -2292749107298803546
+    second: Effect_Charged_1_357x295_73
+  - first:
+      213: 513304876024235164
+    second: Effect_Charged_1_357x295_74
+  - first:
+      213: -5868428310359436331
+    second: Effect_Charged_1_357x295_75
+  - first:
+      213: 3303346952703629427
+    second: Effect_Charged_1_357x295_76
+  - first:
+      213: -3947955421412987979
+    second: Effect_Charged_1_357x295_77
+  - first:
+      213: 3957547325904406979
+    second: Effect_Charged_1_357x295_78
+  - first:
+      213: -3131757398642288125
+    second: Effect_Charged_1_357x295_79
+  - first:
+      213: 3202320609435247834
+    second: Effect_Charged_1_357x295_80
+  - first:
+      213: -6308135495600714913
+    second: Effect_Charged_1_357x295_81
+  - first:
+      213: -4274816133349746111
+    second: Effect_Charged_1_357x295_82
+  - first:
+      213: 1608413035188852116
+    second: Effect_Charged_1_357x295_83
+  - first:
+      213: 502822511882691184
+    second: Effect_Charged_1_357x295_84
+  - first:
+      213: 7298362086120168094
+    second: Effect_Charged_1_357x295_85
+  - first:
+      213: -6539003965437908212
+    second: Effect_Charged_1_357x295_86
+  - first:
+      213: -4622917481032892171
+    second: Effect_Charged_1_357x295_87
+  - first:
+      213: -8927425962048183679
+    second: Effect_Charged_1_357x295_88
+  - first:
+      213: -5528752275358581969
+    second: Effect_Charged_1_357x295_89
+  - first:
+      213: -4553189809747254176
+    second: Effect_Charged_1_357x295_90
+  - first:
+      213: -6898846911425105752
+    second: Effect_Charged_1_357x295_91
+  - first:
+      213: -7943359383807445618
+    second: Effect_Charged_1_357x295_92
+  - first:
+      213: -1459825182286443310
+    second: Effect_Charged_1_357x295_93
+  - first:
+      213: -4998218882938958213
+    second: Effect_Charged_1_357x295_94
+  - first:
+      213: 1488016075765360848
+    second: Effect_Charged_1_357x295_95
+  - first:
+      213: -415077729389968750
+    second: Effect_Charged_1_357x295_96
+  - first:
+      213: -180785212589888532
+    second: Effect_Charged_1_357x295_97
+  - first:
+      213: 6629808862111159415
+    second: Effect_Charged_1_357x295_98
+  - first:
+      213: 3540176287168422402
+    second: Effect_Charged_1_357x295_99
+  - first:
+      213: -5510841379885934963
+    second: Effect_Charged_1_357x295_100
+  - first:
+      213: -7244107501511600990
+    second: Effect_Charged_1_357x295_101
+  - first:
+      213: 208291754569677404
+    second: Effect_Charged_1_357x295_102
+  - first:
+      213: 7612640128150285171
+    second: Effect_Charged_1_357x295_103
+  - first:
+      213: -1674128305455989160
+    second: Effect_Charged_1_357x295_104
+  - first:
+      213: -5819557216815469385
+    second: Effect_Charged_1_357x295_105
+  - first:
+      213: -5355791184309620672
+    second: Effect_Charged_1_357x295_106
+  - first:
+      213: 8803563767246391549
+    second: Effect_Charged_1_357x295_107
+  - first:
+      213: -8176220115843073286
+    second: Effect_Charged_1_357x295_108
+  - first:
+      213: 2741607577817898915
+    second: Effect_Charged_1_357x295_109
+  - first:
+      213: -1510678078872550017
+    second: Effect_Charged_1_357x295_110
+  - first:
+      213: 3043820565034285768
+    second: Effect_Charged_1_357x295_111
+  - first:
+      213: 2810441401273420761
+    second: Effect_Charged_1_357x295_112
+  - first:
+      213: -9083697611044105185
+    second: Effect_Charged_1_357x295_113
+  - first:
+      213: 3051111404868650112
+    second: Effect_Charged_1_357x295_114
+  - first:
+      213: 5606190060039844330
+    second: Effect_Charged_1_357x295_115
+  - first:
+      213: 2824935589899756173
+    second: Effect_Charged_1_357x295_116
+  - first:
+      213: -5020197633097385752
+    second: Effect_Charged_1_357x295_117
+  - first:
+      213: -7188650534620173561
+    second: Effect_Charged_1_357x295_118
+  - first:
+      213: -8387410264582497574
+    second: Effect_Charged_1_357x295_119
+  - first:
+      213: -7208493052342333677
+    second: Effect_Charged_1_357x295_120
+  - first:
+      213: -2503193948756610323
+    second: Effect_Charged_1_357x295_121
+  - first:
+      213: 8550377039402410384
+    second: Effect_Charged_1_357x295_122
+  - first:
+      213: 8882536709672187033
+    second: Effect_Charged_1_357x295_123
+  - first:
+      213: -3533527354705982474
+    second: Effect_Charged_1_357x295_124
+  - first:
+      213: -4077850927265671469
+    second: Effect_Charged_1_357x295_125
+  - first:
+      213: -5120082919246481642
+    second: Effect_Charged_1_357x295_126
+  - first:
+      213: -6283298746022046957
+    second: Effect_Charged_1_357x295_127
+  - first:
+      213: 4562624015593438311
+    second: Effect_Charged_1_357x295_128
+  - first:
+      213: -5755601188470023695
+    second: Effect_Charged_1_357x295_129
+  - first:
+      213: -510772881012485200
+    second: Effect_Charged_1_357x295_130
+  - first:
+      213: 3985271330040494102
+    second: Effect_Charged_1_357x295_131
+  - first:
+      213: 5840297291089087954
+    second: Effect_Charged_1_357x295_132
+  - first:
+      213: 7057793055019318420
+    second: Effect_Charged_1_357x295_133
+  - first:
+      213: 3147424455609196274
+    second: Effect_Charged_1_357x295_134
+  - first:
+      213: -8736774310252404879
+    second: Effect_Charged_1_357x295_135
+  - first:
+      213: 4265895883245863860
+    second: Effect_Charged_1_357x295_136
+  - first:
+      213: -2786234723820947772
+    second: Effect_Charged_1_357x295_137
+  - first:
+      213: -7008266507886383134
+    second: Effect_Charged_1_357x295_138
+  - first:
+      213: 3800566348608671626
+    second: Effect_Charged_1_357x295_139
+  - first:
+      213: 2578951314055961376
+    second: Effect_Charged_1_357x295_140
+  - first:
+      213: -9159064360711823423
+    second: Effect_Charged_1_357x295_141
+  - first:
+      213: -6176100893732624026
+    second: Effect_Charged_1_357x295_142
+  - first:
+      213: -7277839926361318041
+    second: Effect_Charged_1_357x295_143
+  - first:
+      213: 647382840411535653
+    second: Effect_Charged_1_357x295_144
+  - first:
+      213: 9059037843363773380
+    second: Effect_Charged_1_357x295_145
+  - first:
+      213: 1889373383460147071
+    second: Effect_Charged_1_357x295_146
+  - first:
+      213: 4649120237972600807
+    second: Effect_Charged_1_357x295_147
+  - first:
+      213: -5572552568271297340
+    second: Effect_Charged_1_357x295_148
+  - first:
+      213: 898073932576524668
+    second: Effect_Charged_1_357x295_149
+  - first:
+      213: -8032846825367517703
+    second: Effect_Charged_1_357x295_150
+  - first:
+      213: -4667479337261195792
+    second: Effect_Charged_1_357x295_151
+  - first:
+      213: 1543592224995490920
+    second: Effect_Charged_1_357x295_152
+  - first:
+      213: 1936196908005259613
+    second: Effect_Charged_1_357x295_153
+  - first:
+      213: -3622458163857534788
+    second: Effect_Charged_1_357x295_154
+  - first:
+      213: 3773427271562546635
+    second: Effect_Charged_1_357x295_155
+  - first:
+      213: -6549772282191909790
+    second: Effect_Charged_1_357x295_156
+  - first:
+      213: -1893395735449004238
+    second: Effect_Charged_1_357x295_157
+  - first:
+      213: 87458308238517762
+    second: Effect_Charged_1_357x295_158
+  - first:
+      213: 2640950651204781781
+    second: Effect_Charged_1_357x295_159
+  - first:
+      213: -3271056765317908113
+    second: Effect_Charged_1_357x295_160
+  - first:
+      213: -4761427967893705097
+    second: Effect_Charged_1_357x295_161
+  - first:
+      213: 1002454629779365499
+    second: Effect_Charged_1_357x295_162
+  - first:
+      213: 6194753008786153534
+    second: Effect_Charged_1_357x295_163
+  - first:
+      213: 4838589616053753906
+    second: Effect_Charged_1_357x295_164
+  - first:
+      213: -8530858398761408043
+    second: Effect_Charged_1_357x295_165
+  - first:
+      213: 3715174007220197689
+    second: Effect_Charged_1_357x295_166
+  - first:
+      213: -3317376596073746887
+    second: Effect_Charged_1_357x295_167
+  - first:
+      213: 6352677022517673422
+    second: Effect_Charged_1_357x295_168
+  - first:
+      213: 5550519741811017694
+    second: Effect_Charged_1_357x295_169
+  - first:
+      213: -5582198008186179623
+    second: Effect_Charged_1_357x295_170
+  - first:
+      213: 3889371907527041956
+    second: Effect_Charged_1_357x295_171
+  - first:
+      213: 9009026354237687837
+    second: Effect_Charged_1_357x295_172
+  - first:
+      213: 4935818884873471510
+    second: Effect_Charged_1_357x295_173
+  - first:
+      213: 6892060106230106806
+    second: Effect_Charged_1_357x295_174
+  - first:
+      213: 581799881497495783
+    second: Effect_Charged_1_357x295_175
+  - first:
+      213: -4332122026000966075
+    second: Effect_Charged_1_357x295_176
+  - first:
+      213: -2351136931168245937
+    second: Effect_Charged_1_357x295_177
+  - first:
+      213: 4408834302175665114
+    second: Effect_Charged_1_357x295_178
+  - first:
+      213: 3143566165240962299
+    second: Effect_Charged_1_357x295_179
+  - first:
+      213: 7389865002409823938
+    second: Effect_Charged_1_357x295_180
+  - first:
+      213: 6002982753297015617
+    second: Effect_Charged_1_357x295_181
+  - first:
+      213: -633098663834708370
+    second: Effect_Charged_1_357x295_182
+  - first:
+      213: -3505163281811978693
+    second: Effect_Charged_1_357x295_183
+  - first:
+      213: -3415209958347463095
+    second: Effect_Charged_1_357x295_184
+  - first:
+      213: 5780846467099106990
+    second: Effect_Charged_1_357x295_185
+  - first:
+      213: 8825757521720398748
+    second: Effect_Charged_1_357x295_186
+  - first:
+      213: 8697080807447864781
+    second: Effect_Charged_1_357x295_187
+  - first:
+      213: -5975696848806499237
+    second: Effect_Charged_1_357x295_188
+  - first:
+      213: 653829715679577558
+    second: Effect_Charged_1_357x295_189
+  - first:
+      213: -8855581507941423576
+    second: Effect_Charged_1_357x295_190
+  - first:
+      213: -7376383400645253901
+    second: Effect_Charged_1_357x295_191
+  - first:
+      213: 991433528523120495
+    second: Effect_Charged_1_357x295_192
+  - first:
+      213: 5192579887228624158
+    second: Effect_Charged_1_357x295_193
+  - first:
+      213: 8957279456405865131
+    second: Effect_Charged_1_357x295_194
+  - first:
+      213: -3019448391125892848
+    second: Effect_Charged_1_357x295_195
+  - first:
+      213: -5326584201901636783
+    second: Effect_Charged_1_357x295_196
+  - first:
+      213: 6683964339630487307
+    second: Effect_Charged_1_357x295_197
+  - first:
+      213: 5467956249688013628
+    second: Effect_Charged_1_357x295_198
+  - first:
+      213: 6128142470145154888
+    second: Effect_Charged_1_357x295_199
+  - first:
+      213: 5857315645998369077
+    second: Effect_Charged_1_357x295_200
+  - first:
+      213: -5366550785549238745
+    second: Effect_Charged_1_357x295_201
+  - first:
+      213: -4444556003942342511
+    second: Effect_Charged_1_357x295_202
+  - first:
+      213: -7117923751403329320
+    second: Effect_Charged_1_357x295_203
+  - first:
+      213: -2311737623906747708
+    second: Effect_Charged_1_357x295_204
+  - first:
+      213: -7896319722123295689
+    second: Effect_Charged_1_357x295_205
+  - first:
+      213: 3634534571153641549
+    second: Effect_Charged_1_357x295_206
+  - first:
+      213: -3357062860698119229
+    second: Effect_Charged_1_357x295_207
+  - first:
+      213: -5129020284063374083
+    second: Effect_Charged_1_357x295_208
+  - first:
+      213: 6887020553429257928
+    second: Effect_Charged_1_357x295_209
+  - first:
+      213: -2159180694116297471
+    second: Effect_Charged_1_357x295_210
+  - first:
+      213: -3327779214997044568
+    second: Effect_Charged_1_357x295_211
+  - first:
+      213: 4397379194118502684
+    second: Effect_Charged_1_357x295_212
+  - first:
+      213: 8870499586515801797
+    second: Effect_Charged_1_357x295_213
+  - first:
+      213: 4649278272518022469
+    second: Effect_Charged_1_357x295_214
+  - first:
+      213: 7213026194717400859
+    second: Effect_Charged_1_357x295_215
+  - first:
+      213: -5326948735616888127
+    second: Effect_Charged_1_357x295_216
+  - first:
+      213: 8806492191766206349
+    second: Effect_Charged_1_357x295_217
+  - first:
+      213: 8644431832747830041
+    second: Effect_Charged_1_357x295_218
+  - first:
+      213: -4066766763764645708
+    second: Effect_Charged_1_357x295_219
+  - first:
+      213: 1655264707125627473
+    second: Effect_Charged_1_357x295_220
+  - first:
+      213: -8190845846208612944
+    second: Effect_Charged_1_357x295_221
+  - first:
+      213: -6829856553720959188
+    second: Effect_Charged_1_357x295_222
+  - first:
+      213: -1426851372646189235
+    second: Effect_Charged_1_357x295_223
+  - first:
+      213: 2760521712540791134
+    second: Effect_Charged_1_357x295_224
+  - first:
+      213: -626676387260912092
+    second: Effect_Charged_1_357x295_225
+  - first:
+      213: 8101522112143254954
+    second: Effect_Charged_1_357x295_226
+  - first:
+      213: 890957032826704270
+    second: Effect_Charged_1_357x295_227
+  - first:
+      213: 1804019893619044274
+    second: Effect_Charged_1_357x295_228
+  - first:
+      213: 6141582936756050879
+    second: Effect_Charged_1_357x295_229
+  - first:
+      213: 8130266868765577564
+    second: Effect_Charged_1_357x295_230
+  - first:
+      213: -8591524755332718680
+    second: Effect_Charged_1_357x295_231
+  - first:
+      213: -4749443118673401668
+    second: Effect_Charged_1_357x295_232
+  - first:
+      213: 6149617023737002689
+    second: Effect_Charged_1_357x295_233
+  - first:
+      213: 1190898210242370771
+    second: Effect_Charged_1_357x295_234
+  - first:
+      213: 2956832115032384029
+    second: Effect_Charged_1_357x295_235
+  - first:
+      213: 2016326571778116283
+    second: Effect_Charged_1_357x295_236
+  - first:
+      213: 4827866592086419603
+    second: Effect_Charged_1_357x295_237
+  - first:
+      213: -65531243994273912
+    second: Effect_Charged_1_357x295_238
+  - first:
+      213: -1792974715966593829
+    second: Effect_Charged_1_357x295_239
+  - first:
+      213: -7010662650712504535
+    second: Effect_Charged_1_357x295_240
+  - first:
+      213: 5797634822692487079
+    second: Effect_Charged_1_357x295_241
+  - first:
+      213: 8035221508548242812
+    second: Effect_Charged_1_357x295_242
+  - first:
+      213: 7882788862250951028
+    second: Effect_Charged_1_357x295_243
+  - first:
+      213: 8328890268636097513
+    second: Effect_Charged_1_357x295_244
+  - first:
+      213: 454240095035775372
+    second: Effect_Charged_1_357x295_245
+  - first:
+      213: 5872117561148341300
+    second: Effect_Charged_1_357x295_246
+  - first:
+      213: -2351387939314566287
+    second: Effect_Charged_1_357x295_247
+  - first:
+      213: 5292774844176021445
+    second: Effect_Charged_1_357x295_248
+  - first:
+      213: 4270640834373591333
+    second: Effect_Charged_1_357x295_249
+  - first:
+      213: 163278987926877412
+    second: Effect_Charged_1_357x295_250
+  - first:
+      213: 6911524540756279777
+    second: Effect_Charged_1_357x295_251
+  - first:
+      213: 1451217612387606599
+    second: Effect_Charged_1_357x295_252
+  - first:
+      213: 7052417587375426841
+    second: Effect_Charged_1_357x295_253
+  - first:
+      213: 2255661517932794301
+    second: Effect_Charged_1_357x295_254
+  - first:
+      213: 3980704716430477165
+    second: Effect_Charged_1_357x295_255
+  - first:
+      213: 8460175348873562982
+    second: Effect_Charged_1_357x295_256
+  - first:
+      213: -7649678238348361453
+    second: Effect_Charged_1_357x295_257
+  - first:
+      213: 8573619186256439597
+    second: Effect_Charged_1_357x295_258
+  - first:
+      213: 4253244079055372661
+    second: Effect_Charged_1_357x295_259
+  - first:
+      213: -3607823751270349857
+    second: Effect_Charged_1_357x295_260
+  - first:
+      213: -8828667811953172223
+    second: Effect_Charged_1_357x295_261
+  - first:
+      213: -4796357389478546752
+    second: Effect_Charged_1_357x295_262
+  - first:
+      213: 1852355011638682960
+    second: Effect_Charged_1_357x295_263
+  - first:
+      213: -7554004155209181127
+    second: Effect_Charged_1_357x295_264
+  - first:
+      213: -1736850170753460
+    second: Effect_Charged_1_357x295_265
+  - first:
+      213: 761585764281638674
+    second: Effect_Charged_1_357x295_266
+  - first:
+      213: 4392682944473859989
+    second: Effect_Charged_1_357x295_267
+  - first:
+      213: -5925219954972262390
+    second: Effect_Charged_1_357x295_268
+  - first:
+      213: 3682005523370575879
+    second: Effect_Charged_1_357x295_269
+  - first:
+      213: -8455135985008732000
+    second: Effect_Charged_1_357x295_270
+  - first:
+      213: 7265672640172536943
+    second: Effect_Charged_1_357x295_271
+  - first:
+      213: -8242396462187935003
+    second: Effect_Charged_1_357x295_272
+  - first:
+      213: -6204418238658458102
+    second: Effect_Charged_1_357x295_273
+  - first:
+      213: -2420470972548464978
+    second: Effect_Charged_1_357x295_274
+  - first:
+      213: 8236758240595917227
+    second: Effect_Charged_1_357x295_275
+  - first:
+      213: 1689219552827674266
+    second: Effect_Charged_1_357x295_276
+  - first:
+      213: -89502113298736953
+    second: Effect_Charged_1_357x295_277
+  - first:
+      213: 4138958621110259522
+    second: Effect_Charged_1_357x295_278
+  - first:
+      213: -8457460077292293719
+    second: Effect_Charged_1_357x295_279
+  - first:
+      213: 8407142732566484837
+    second: Effect_Charged_1_357x295_280
+  - first:
+      213: -2269979648350703672
+    second: Effect_Charged_1_357x295_281
+  - first:
+      213: 2059975093422076872
+    second: Effect_Charged_1_357x295_282
+  - first:
+      213: -3120561871091921139
+    second: Effect_Charged_1_357x295_283
+  - first:
+      213: 251892793611251914
+    second: Effect_Charged_1_357x295_284
+  - first:
+      213: 5911972160896969908
+    second: Effect_Charged_1_357x295_285
+  - first:
+      213: 2524478153616913024
+    second: Effect_Charged_1_357x295_286
+  - first:
+      213: 6634403577726315095
+    second: Effect_Charged_1_357x295_287
+  - first:
+      213: -5878393847569700714
+    second: Effect_Charged_1_357x295_288
+  - first:
+      213: -8622706184822863075
+    second: Effect_Charged_1_357x295_289
+  - first:
+      213: -1170253645321015310
+    second: Effect_Charged_1_357x295_290
+  - first:
+      213: -6422948655113500945
+    second: Effect_Charged_1_357x295_291
+  - first:
+      213: -3796669078739306818
+    second: Effect_Charged_1_357x295_292
+  - first:
+      213: 6390808597017900405
+    second: Effect_Charged_1_357x295_293
+  - first:
+      213: -4181670342507651667
+    second: Effect_Charged_1_357x295_294
+  - first:
+      213: 7001150336134187048
+    second: Effect_Charged_1_357x295_295
+  - first:
+      213: 9159641992924584017
+    second: Effect_Charged_1_357x295_296
+  - first:
+      213: 3254855114031307276
+    second: Effect_Charged_1_357x295_297
+  - first:
+      213: 8496369130746734394
+    second: Effect_Charged_1_357x295_298
+  - first:
+      213: 5368319758441719466
+    second: Effect_Charged_1_357x295_299
+  - first:
+      213: -6855036744382350790
+    second: Effect_Charged_1_357x295_300
+  - first:
+      213: -4082431312548800803
+    second: Effect_Charged_1_357x295_301
+  - first:
+      213: -4648877964674853919
+    second: Effect_Charged_1_357x295_302
+  - first:
+      213: -5377958155675440707
+    second: Effect_Charged_1_357x295_303
+  - first:
+      213: 6989242327297816614
+    second: Effect_Charged_1_357x295_304
+  - first:
+      213: 8644243280475409761
+    second: Effect_Charged_1_357x295_305
+  - first:
+      213: 26809183884983719
+    second: Effect_Charged_1_357x295_306
+  - first:
+      213: 220904121229383618
+    second: Effect_Charged_1_357x295_307
+  - first:
+      213: -1593441719697232682
+    second: Effect_Charged_1_357x295_308
+  - first:
+      213: -3851293641238972034
+    second: Effect_Charged_1_357x295_309
+  - first:
+      213: 2098668379984055931
+    second: Effect_Charged_1_357x295_310
+  - first:
+      213: 1160607539982963551
+    second: Effect_Charged_1_357x295_311
+  - first:
+      213: -4560883348672409861
+    second: Effect_Charged_1_357x295_312
+  - first:
+      213: 4538534399819632142
+    second: Effect_Charged_1_357x295_313
+  - first:
+      213: -1456783870860429486
+    second: Effect_Charged_1_357x295_314
+  - first:
+      213: 5353571418089702349
+    second: Effect_Charged_1_357x295_315
+  - first:
+      213: 6329791774217319896
+    second: Effect_Charged_1_357x295_316
+  - first:
+      213: 594775402915754267
+    second: Effect_Charged_1_357x295_317
+  - first:
+      213: 1637797353330602869
+    second: Effect_Charged_1_357x295_318
+  - first:
+      213: 9022183196441681355
+    second: Effect_Charged_1_357x295_319
+  - first:
+      213: -4641978192706794777
+    second: Effect_Charged_1_357x295_320
+  - first:
+      213: -4571438885611987995
+    second: Effect_Charged_1_357x295_321
+  - first:
+      213: 91834733439907743
+    second: Effect_Charged_1_357x295_322
+  - first:
+      213: -2529294146344063503
+    second: Effect_Charged_1_357x295_323
+  - first:
+      213: 5046318480439507574
+    second: Effect_Charged_1_357x295_324
+  - first:
+      213: -5995211828487363112
+    second: Effect_Charged_1_357x295_325
+  - first:
+      213: -8756460365389395124
+    second: Effect_Charged_1_357x295_326
+  - first:
+      213: -4359827103559897559
+    second: Effect_Charged_1_357x295_327
+  - first:
+      213: 9082805326049226190
+    second: Effect_Charged_1_357x295_328
+  - first:
+      213: -3346502317495728663
+    second: Effect_Charged_1_357x295_329
+  - first:
+      213: 3808874587883519683
+    second: Effect_Charged_1_357x295_330
+  - first:
+      213: 584384472754637067
+    second: Effect_Charged_1_357x295_331
+  - first:
+      213: -8724350408943536008
+    second: Effect_Charged_1_357x295_332
+  - first:
+      213: -5060886568688492430
+    second: Effect_Charged_1_357x295_333
+  - first:
+      213: -4532765032436771621
+    second: Effect_Charged_1_357x295_334
+  - first:
+      213: -2772551981667055435
+    second: Effect_Charged_1_357x295_335
+  - first:
+      213: -1530943690666246358
+    second: Effect_Charged_1_357x295_336
+  - first:
+      213: 5401440658806257584
+    second: Effect_Charged_1_357x295_337
+  - first:
+      213: 2151488346250383236
+    second: Effect_Charged_1_357x295_338
+  - first:
+      213: -8309265921662169172
+    second: Effect_Charged_1_357x295_339
+  - first:
+      213: -5939601757545799759
+    second: Effect_Charged_1_357x295_340
+  - first:
+      213: -1055546683474421816
+    second: Effect_Charged_1_357x295_341
+  - first:
+      213: -54467414412457651
+    second: Effect_Charged_1_357x295_342
+  - first:
+      213: -62501702332894631
+    second: Effect_Charged_1_357x295_343
+  - first:
+      213: -9146486507191096960
+    second: Effect_Charged_1_357x295_344
+  - first:
+      213: 8137241547696650117
+    second: Effect_Charged_1_357x295_345
+  - first:
+      213: 4934454586895323948
+    second: Effect_Charged_1_357x295_346
+  - first:
+      213: 358274671171113726
+    second: Effect_Charged_1_357x295_347
+  - first:
+      213: 9222140315589593395
+    second: Effect_Charged_1_357x295_348
+  - first:
+      213: -4866372707737850647
+    second: Effect_Charged_1_357x295_349
+  - first:
+      213: 2898751858339508680
+    second: Effect_Charged_1_357x295_350
+  - first:
+      213: 4059607103948227175
+    second: Effect_Charged_1_357x295_351
+  - first:
+      213: 3078486037712256534
+    second: Effect_Charged_1_357x295_352
+  - first:
+      213: -5467536604428415571
+    second: Effect_Charged_1_357x295_353
+  - first:
+      213: 3993110428507765089
+    second: Effect_Charged_1_357x295_354
+  - first:
+      213: -5824718708775490084
+    second: Effect_Charged_1_357x295_355
+  - first:
+      213: -4775342753462821231
+    second: Effect_Charged_1_357x295_356
+  - first:
+      213: -5036651543238859909
+    second: Effect_Charged_1_357x295_357
+  - first:
+      213: -5420463215412293882
+    second: Effect_Charged_1_357x295_358
+  - first:
+      213: 8097431193641198373
+    second: Effect_Charged_1_357x295_359
+  - first:
+      213: 3568636972379893808
+    second: Effect_Charged_1_357x295_360
+  - first:
+      213: 6322354661194989407
+    second: Effect_Charged_1_357x295_361
+  - first:
+      213: 8637660903765404192
+    second: Effect_Charged_1_357x295_362
+  - first:
+      213: 7862609476581368209
+    second: Effect_Charged_1_357x295_363
+  - first:
+      213: -1510968377859266337
+    second: Effect_Charged_1_357x295_364
+  - first:
+      213: -3590258096377371373
+    second: Effect_Charged_1_357x295_365
+  - first:
+      213: -1475903117019059721
+    second: Effect_Charged_1_357x295_366
+  - first:
+      213: -703964619655725178
+    second: Effect_Charged_1_357x295_367
+  - first:
+      213: -2564337393868345585
+    second: Effect_Charged_1_357x295_368
+  - first:
+      213: -8687338916296622557
+    second: Effect_Charged_1_357x295_369
+  - first:
+      213: -4860801198461918481
+    second: Effect_Charged_1_357x295_370
+  - first:
+      213: 7512108546861125960
+    second: Effect_Charged_1_357x295_371
+  - first:
+      213: 1658634132777607910
+    second: Effect_Charged_1_357x295_372
+  - first:
+      213: 4796336589168226791
+    second: Effect_Charged_1_357x295_373
+  - first:
+      213: 5797061021894679783
+    second: Effect_Charged_1_357x295_374
+  - first:
+      213: 5356175664161743148
+    second: Effect_Charged_1_357x295_375
+  - first:
+      213: 7245442440601291223
+    second: Effect_Charged_1_357x295_376
+  - first:
+      213: 965182140732369922
+    second: Effect_Charged_1_357x295_377
+  - first:
+      213: -8542384836367637466
+    second: Effect_Charged_1_357x295_378
+  - first:
+      213: -2579045243693535410
+    second: Effect_Charged_1_357x295_379
+  - first:
+      213: 2663134811368262760
+    second: Effect_Charged_1_357x295_380
+  - first:
+      213: -1255464052600104199
+    second: Effect_Charged_1_357x295_381
+  - first:
+      213: 369263307659810916
+    second: Effect_Charged_1_357x295_382
+  - first:
+      213: -4960512149745192819
+    second: Effect_Charged_1_357x295_383
+  - first:
+      213: 3293925458617234936
+    second: Effect_Charged_1_357x295_384
+  - first:
+      213: 1962117010013908959
+    second: Effect_Charged_1_357x295_385
+  - first:
+      213: 8536061360242708916
+    second: Effect_Charged_1_357x295_386
+  - first:
+      213: 3998810632764276566
+    second: Effect_Charged_1_357x295_387
+  - first:
+      213: -1804913307943248572
+    second: Effect_Charged_1_357x295_388
+  - first:
+      213: -4710944704983067084
+    second: Effect_Charged_1_357x295_389
+  - first:
+      213: 7060598660324886138
+    second: Effect_Charged_1_357x295_390
+  - first:
+      213: 9027287814344912616
+    second: Effect_Charged_1_357x295_391
+  - first:
+      213: 1453522316707981469
+    second: Effect_Charged_1_357x295_392
+  - first:
+      213: 2794747273372768220
+    second: Effect_Charged_1_357x295_393
+  - first:
+      213: 3989883621406867961
+    second: Effect_Charged_1_357x295_394
+  - first:
+      213: 981358668180211723
+    second: Effect_Charged_1_357x295_395
+  - first:
+      213: 4992297571760929729
+    second: Effect_Charged_1_357x295_396
+  - first:
+      213: -6230627870443679095
+    second: Effect_Charged_1_357x295_397
+  - first:
+      213: 1568187257510661304
+    second: Effect_Charged_1_357x295_398
+  - first:
+      213: -3002860240861203385
+    second: Effect_Charged_1_357x295_399
+  - first:
+      213: 8388798230290539952
+    second: Effect_Charged_1_357x295_400
+  - first:
+      213: 3985100935321154876
+    second: Effect_Charged_1_357x295_401
+  - first:
+      213: -5079134083120706587
+    second: Effect_Charged_1_357x295_402
+  - first:
+      213: -3107453178261989579
+    second: Effect_Charged_1_357x295_403
+  - first:
+      213: -508833750593743729
+    second: Effect_Charged_1_357x295_404
+  - first:
+      213: -3969570334756988631
+    second: Effect_Charged_1_357x295_405
+  - first:
+      213: -4192944882391356418
+    second: Effect_Charged_1_357x295_406
+  - first:
+      213: 8048814344083134456
+    second: Effect_Charged_1_357x295_407
+  - first:
+      213: 234667143755771486
+    second: Effect_Charged_1_357x295_408
+  - first:
+      213: 2407956105642592395
+    second: Effect_Charged_1_357x295_409
+  - first:
+      213: 7392305314196998945
+    second: Effect_Charged_1_357x295_410
+  - first:
+      213: 8985186478144900182
+    second: Effect_Charged_1_357x295_411
+  - first:
+      213: 2899090621179066648
+    second: Effect_Charged_1_357x295_412
+  - first:
+      213: 642818558560178141
+    second: Effect_Charged_1_357x295_413
+  - first:
+      213: -3714664297091277090
+    second: Effect_Charged_1_357x295_414
+  - first:
+      213: -6770115954075316196
+    second: Effect_Charged_1_357x295_415
+  - first:
+      213: -6613570278414795113
+    second: Effect_Charged_1_357x295_416
+  - first:
+      213: 5577771333055972956
+    second: Effect_Charged_1_357x295_417
+  - first:
+      213: 886896186889873753
+    second: Effect_Charged_1_357x295_418
+  - first:
+      213: 2920192901356151260
+    second: Effect_Charged_1_357x295_419
+  - first:
+      213: 6958017861522829284
+    second: Effect_Charged_1_357x295_420
+  - first:
+      213: -468478516225955637
+    second: Effect_Charged_1_357x295_421
+  - first:
+      213: -500990415388598734
+    second: Effect_Charged_1_357x295_422
+  - first:
+      213: 8102167765955271040
+    second: Effect_Charged_1_357x295_423
+  - first:
+      213: -4786484152942435317
+    second: Effect_Charged_1_357x295_424
+  - first:
+      213: -8477029334231283736
+    second: Effect_Charged_1_357x295_425
+  - first:
+      213: -3780943852682335405
+    second: Effect_Charged_1_357x295_426
+  - first:
+      213: -8408309552074264578
+    second: Effect_Charged_1_357x295_427
+  - first:
+      213: 2036467811655721011
+    second: Effect_Charged_1_357x295_428
+  - first:
+      213: 5405369348371052116
+    second: Effect_Charged_1_357x295_429
+  - first:
+      213: 7966730137516161327
+    second: Effect_Charged_1_357x295_430
+  - first:
+      213: -4174788693407082292
+    second: Effect_Charged_1_357x295_431
+  - first:
+      213: -7765592050918000981
+    second: Effect_Charged_1_357x295_432
+  - first:
+      213: 2705908416029694996
+    second: Effect_Charged_1_357x295_433
+  - first:
+      213: -3590276333869257754
+    second: Effect_Charged_1_357x295_434
+  - first:
+      213: -7847900970796302731
+    second: Effect_Charged_1_357x295_435
+  - first:
+      213: -8653956100566739555
+    second: Effect_Charged_1_357x295_436
+  - first:
+      213: 3223443227994189080
+    second: Effect_Charged_1_357x295_437
+  - first:
+      213: 153625904798438636
+    second: Effect_Charged_1_357x295_438
+  - first:
+      213: 291879858954001519
+    second: Effect_Charged_1_357x295_439
+  - first:
+      213: 7937598279672078132
+    second: Effect_Charged_1_357x295_440
+  - first:
+      213: -5539967296916503475
+    second: Effect_Charged_1_357x295_441
+  - first:
+      213: -7937977983645315976
+    second: Effect_Charged_1_357x295_442
+  - first:
+      213: -768513859048460622
+    second: Effect_Charged_1_357x295_443
+  - first:
+      213: 1392046185710014673
+    second: Effect_Charged_1_357x295_444
+  - first:
+      213: -4106703291534686677
+    second: Effect_Charged_1_357x295_445
+  - first:
+      213: -5158387221170014265
+    second: Effect_Charged_1_357x295_446
+  - first:
+      213: 1835702299103951376
+    second: Effect_Charged_1_357x295_447
+  - first:
+      213: 6274127883556153148
+    second: Effect_Charged_1_357x295_448
+  - first:
+      213: 8561490366478150553
+    second: Effect_Charged_1_357x295_449
+  - first:
+      213: 3849248344010535210
+    second: Effect_Charged_1_357x295_450
+  - first:
+      213: -4847687700471956407
+    second: Effect_Charged_1_357x295_451
+  - first:
+      213: -1033390738173672188
+    second: Effect_Charged_1_357x295_452
+  - first:
+      213: -1432197333913057278
+    second: Effect_Charged_1_357x295_453
+  - first:
+      213: -7409700770339153231
+    second: Effect_Charged_1_357x295_454
+  - first:
+      213: -7090978098749034145
+    second: Effect_Charged_1_357x295_455
+  - first:
+      213: -4687339309465196238
+    second: Effect_Charged_1_357x295_456
+  - first:
+      213: -2345635748747178427
+    second: Effect_Charged_1_357x295_457
+  - first:
+      213: -3051680311316377049
+    second: Effect_Charged_1_357x295_458
+  - first:
+      213: -5695042411310919281
+    second: Effect_Charged_1_357x295_459
+  - first:
+      213: -4925399486080207655
+    second: Effect_Charged_1_357x295_460
+  - first:
+      213: 8340652068598006340
+    second: Effect_Charged_1_357x295_461
+  - first:
+      213: -8433355767793103841
+    second: Effect_Charged_1_357x295_462
+  - first:
+      213: 8890566165088566253
+    second: Effect_Charged_1_357x295_463
+  - first:
+      213: 6797549686608165385
+    second: Effect_Charged_1_357x295_464
+  - first:
+      213: 3906400389449922183
+    second: Effect_Charged_1_357x295_465
+  - first:
+      213: -4386684529816761887
+    second: Effect_Charged_1_357x295_466
+  - first:
+      213: -8324602161429679301
+    second: Effect_Charged_1_357x295_467
+  - first:
+      213: 8443451503831572270
+    second: Effect_Charged_1_357x295_468
+  - first:
+      213: -1005340682008798326
+    second: Effect_Charged_1_357x295_469
+  - first:
+      213: 5361138051873267755
+    second: Effect_Charged_1_357x295_470
+  - first:
+      213: 3720543038948498182
+    second: Effect_Charged_1_357x295_471
+  - first:
+      213: 5514781086014753001
+    second: Effect_Charged_1_357x295_472
+  - first:
+      213: 761861457794768704
+    second: Effect_Charged_1_357x295_473
+  - first:
+      213: -771056812186270927
+    second: Effect_Charged_1_357x295_474
+  - first:
+      213: -1947492510906127639
+    second: Effect_Charged_1_357x295_475
+  - first:
+      213: 8098738637394500392
+    second: Effect_Charged_1_357x295_476
+  - first:
+      213: 7597299948937814817
+    second: Effect_Charged_1_357x295_477
+  - first:
+      213: 4139368109640016319
+    second: Effect_Charged_1_357x295_478
+  - first:
+      213: 3814480228691138967
+    second: Effect_Charged_1_357x295_479
+  - first:
+      213: -8840026590553237954
+    second: Effect_Charged_1_357x295_480
+  - first:
+      213: -1822332962409581802
+    second: Effect_Charged_1_357x295_481
+  - first:
+      213: -7239029795274397562
+    second: Effect_Charged_1_357x295_482
+  - first:
+      213: -1689079525550037961
+    second: Effect_Charged_1_357x295_483
+  - first:
+      213: 6887810645870980517
+    second: Effect_Charged_1_357x295_484
+  - first:
+      213: 5038445212787823908
+    second: Effect_Charged_1_357x295_485
+  - first:
+      213: -2321259065465800566
+    second: Effect_Charged_1_357x295_486
+  - first:
+      213: 3187011391357384329
+    second: Effect_Charged_1_357x295_487
+  - first:
+      213: -4964518120753577870
+    second: Effect_Charged_1_357x295_488
+  - first:
+      213: -8264215283203878095
+    second: Effect_Charged_1_357x295_489
+  - first:
+      213: 2822446616075006841
+    second: Effect_Charged_1_357x295_490
+  - first:
+      213: -7098259528396463554
+    second: Effect_Charged_1_357x295_491
+  - first:
+      213: 8904863902842094166
+    second: Effect_Charged_1_357x295_492
+  - first:
+      213: -2596768636838229263
+    second: Effect_Charged_1_357x295_493
+  - first:
+      213: 6216171090134415157
+    second: Effect_Charged_1_357x295_494
+  - first:
+      213: -4126479707383262406
+    second: Effect_Charged_1_357x295_495
+  - first:
+      213: -3323332216191829586
+    second: Effect_Charged_1_357x295_496
+  - first:
+      213: -9182673608171597634
+    second: Effect_Charged_1_357x295_497
+  - first:
+      213: 2353093861432439289
+    second: Effect_Charged_1_357x295_498
+  - first:
+      213: 533040306124945915
+    second: Effect_Charged_1_357x295_499
+  - first:
+      213: -8133286707868529782
+    second: Effect_Charged_1_357x295_500
+  - first:
+      213: -7490531962844338001
+    second: Effect_Charged_1_357x295_501
+  - first:
+      213: -786481768343129471
+    second: Effect_Charged_1_357x295_502
+  - first:
+      213: -6701048995213363341
+    second: Effect_Charged_1_357x295_503
+  - first:
+      213: -6963471257107411990
+    second: Effect_Charged_1_357x295_504
+  - first:
+      213: 8539230080806003574
+    second: Effect_Charged_1_357x295_505
+  - first:
+      213: 2130310376523495010
+    second: Effect_Charged_1_357x295_506
+  - first:
+      213: -7533438071009685462
+    second: Effect_Charged_1_357x295_507
+  - first:
+      213: -6732165547044156729
+    second: Effect_Charged_1_357x295_508
+  - first:
+      213: -4355734647155035589
+    second: Effect_Charged_1_357x295_509
+  - first:
+      213: 5956066819463730724
+    second: Effect_Charged_1_357x295_510
+  - first:
+      213: -8272922981061146632
+    second: Effect_Charged_1_357x295_511
+  - first:
+      213: -5477440607247910101
+    second: Effect_Charged_1_357x295_512
+  - first:
+      213: -1577635349852280996
+    second: Effect_Charged_1_357x295_513
+  - first:
+      213: -2618535730897317929
+    second: Effect_Charged_1_357x295_514
+  - first:
+      213: 7698677484062809890
+    second: Effect_Charged_1_357x295_515
+  - first:
+      213: 865028906267639409
+    second: Effect_Charged_1_357x295_516
+  - first:
+      213: -6581453002446852023
+    second: Effect_Charged_1_357x295_517
+  - first:
+      213: 4527135197330304734
+    second: Effect_Charged_1_357x295_518
+  - first:
+      213: -1115350932876885072
+    second: Effect_Charged_1_357x295_519
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4dd303ff98c8b850800000000000000
+      internalID: 6393080260354891083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c128d1a859447df20800000000000000
+      internalID: 3447299448833409564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_2
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e326bd8045bdb10800000000000000
+      internalID: 2007290455940808294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_3
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09aed48b7fe0dfd10800000000000000
+      internalID: 2160899853319531152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_4
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d59918622171750800000000000000
+      internalID: 6275504562356444558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_5
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f84c9789f15b9b90800000000000000
+      internalID: -7234098244276696848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_6
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8454e84d202c1c230800000000000000
+      internalID: 3657417689813370184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_7
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68af8b6589e84d100800000000000000
+      internalID: 131887074041723526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_8
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b95254d2d5d2f90800000000000000
+      internalID: -6976817798712026336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_9
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 2065
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10076185f5fa1780800000000000000
+      internalID: -8711380094407999457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a05f6cc5484b90d0800000000000000
+      internalID: -3415056427810598750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91a0bee34cf18d80800000000000000
+      internalID: -8250035673668476517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_12
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab85283a2d01fd60800000000000000
+      internalID: 7922127694503185318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_13
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2431ecc21447ed0800000000000000
+      internalID: -2417235439299378501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_14
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0e762f1c6556560800000000000000
+      internalID: 7306341361474068679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_15
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffa12260d67710f0800000000000000
+      internalID: -1146316942770851844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_16
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9faf71fd2263ef0b0800000000000000
+      internalID: -5693053355550049543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_17
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5b14104615044e0800000000000000
+      internalID: -1999508744592837215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_18
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51743e9b965e98370800000000000000
+      internalID: 8325437628424079125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_19
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 1770
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eede88fa2b25dc9a0800000000000000
+      internalID: -6211217383671403026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1475
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7831a62bba57090800000000000000
+      internalID: -8037329177200588837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1475
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3805e69078d598460800000000000000
+      internalID: 7244424310162346115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_22
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1475
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea559ec7e037d4360800000000000000
+      internalID: 7155501889023989166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_23
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1475
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42277fac8a6ec9e50800000000000000
+      internalID: 6817577548566196772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_24
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1475
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ac5c241d76ddcb0800000000000000
+      internalID: -4837596276259960207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_25
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 590
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422eeb0c093ce8a40800000000000000
+      internalID: 5372446431976022564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_26
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 590
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196478c51ec1c51d0800000000000000
+      internalID: -3360779467679644015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_27
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 590
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e84e9be04c986120800000000000000
+      internalID: 2407345803474389219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_28
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 590
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb241504dcd0f5c0800000000000000
+      internalID: -4183601250650805260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_29
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 590
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539e819f6c7cf6df0800000000000000
+      internalID: -184709402302289611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_30
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 590
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3356b82fbd011a410800000000000000
+      internalID: 1486487888862078259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_31
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 590
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229322319dffd9120800000000000000
+      internalID: 2422373482389190946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_32
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 590
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcc7c62238b40410800000000000000
+      internalID: 1442480306203905200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5885e8b1dba569b0800000000000000
+      internalID: -5087471286806542243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_34
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2fec16889451a00800000000000000
+      internalID: 726567764995535566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_35
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edface6830e2f9480800000000000000
+      internalID: -8890336546722631714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_36
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2c721dbe199cdc0800000000000000
+      internalID: -3618200383603096893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_37
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04e5529d6edfc5c0800000000000000
+      internalID: -4192888165870738420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_38
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7745a36be0fc350800000000000000
+      internalID: 6039061801152575436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_39
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999f2a76e98bc0910800000000000000
+      internalID: 1805020541151803801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_40
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f75ce29ecce5f390800000000000000
+      internalID: -7785056008867653640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_41
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03ad8a6834945ad0800000000000000
+      internalID: -2714381705370819826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_42
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 295
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06951ef433a1bcd0800000000000000
+      internalID: -2544072866491165172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1394431418d18c090800000000000000
+      internalID: -8014123095923865295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_44
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d93d930335d73d0800000000000000
+      internalID: -3207315893024219784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_45
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab453faa90c117cf0800000000000000
+      internalID: -256392875935050566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_46
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e769d1b8fa5640020800000000000000
+      internalID: 2307080713748190846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_47
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68378524732e1640800000000000000
+      internalID: 5052514813709072491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_48
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506d85283b10f8af0800000000000000
+      internalID: -392092772060310011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_49
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87878b6dbfec1b3b0800000000000000
+      internalID: -5498386089008138120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_50
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3f0ab5b931bc940800000000000000
+      internalID: 5317365343019135927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_51
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea3f1be5ea101020800000000000000
+      internalID: 2310376183635589861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Charged_1_357x295_52
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 0
+        width: 357
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613f46c3413c92930800000000000000
+      internalID: 4119037825887040278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c84d302d1dec6e04da281af0148ebbab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Effect_Charged_1_357x295_0: 6393080260354891083
+      Effect_Charged_1_357x295_1: 3447299448833409564
+      Effect_Charged_1_357x295_10: -3415056427810598750
+      Effect_Charged_1_357x295_11: -8250035673668476517
+      Effect_Charged_1_357x295_12: 7922127694503185318
+      Effect_Charged_1_357x295_13: -2417235439299378501
+      Effect_Charged_1_357x295_14: 7306341361474068679
+      Effect_Charged_1_357x295_15: -1146316942770851844
+      Effect_Charged_1_357x295_16: -5693053355550049543
+      Effect_Charged_1_357x295_17: -1999508744592837215
+      Effect_Charged_1_357x295_18: 8325437628424079125
+      Effect_Charged_1_357x295_19: -6211217383671403026
+      Effect_Charged_1_357x295_2: 2007290455940808294
+      Effect_Charged_1_357x295_20: -8037329177200588837
+      Effect_Charged_1_357x295_21: 7244424310162346115
+      Effect_Charged_1_357x295_22: 7155501889023989166
+      Effect_Charged_1_357x295_23: 6817577548566196772
+      Effect_Charged_1_357x295_24: -4837596276259960207
+      Effect_Charged_1_357x295_25: 5372446431976022564
+      Effect_Charged_1_357x295_26: -3360779467679644015
+      Effect_Charged_1_357x295_27: 2407345803474389219
+      Effect_Charged_1_357x295_28: -4183601250650805260
+      Effect_Charged_1_357x295_29: -184709402302289611
+      Effect_Charged_1_357x295_3: 2160899853319531152
+      Effect_Charged_1_357x295_30: 1486487888862078259
+      Effect_Charged_1_357x295_31: 2422373482389190946
+      Effect_Charged_1_357x295_32: 1442480306203905200
+      Effect_Charged_1_357x295_33: -5087471286806542243
+      Effect_Charged_1_357x295_34: 726567764995535566
+      Effect_Charged_1_357x295_35: -8890336546722631714
+      Effect_Charged_1_357x295_36: -3618200383603096893
+      Effect_Charged_1_357x295_37: -4192888165870738420
+      Effect_Charged_1_357x295_38: 6039061801152575436
+      Effect_Charged_1_357x295_39: 1805020541151803801
+      Effect_Charged_1_357x295_4: 6275504562356444558
+      Effect_Charged_1_357x295_40: -7785056008867653640
+      Effect_Charged_1_357x295_41: -2714381705370819826
+      Effect_Charged_1_357x295_42: -2544072866491165172
+      Effect_Charged_1_357x295_43: -8014123095923865295
+      Effect_Charged_1_357x295_44: -3207315893024219784
+      Effect_Charged_1_357x295_45: -256392875935050566
+      Effect_Charged_1_357x295_46: 2307080713748190846
+      Effect_Charged_1_357x295_47: 5052514813709072491
+      Effect_Charged_1_357x295_48: -392092772060310011
+      Effect_Charged_1_357x295_49: -5498386089008138120
+      Effect_Charged_1_357x295_5: -7234098244276696848
+      Effect_Charged_1_357x295_50: 5317365343019135927
+      Effect_Charged_1_357x295_51: 2310376183635589861
+      Effect_Charged_1_357x295_52: 4119037825887040278
+      Effect_Charged_1_357x295_6: 3657417689813370184
+      Effect_Charged_1_357x295_7: 131887074041723526
+      Effect_Charged_1_357x295_8: -6976817798712026336
+      Effect_Charged_1_357x295_9: -8711380094407999457
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

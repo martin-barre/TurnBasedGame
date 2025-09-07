@@ -1,0 +1,2354 @@
+fileFormatVersion: 2
+guid: 73abb7952837b254fafbb393fe9a0793
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5200340329147516845
+    second: Effect_Wheel_1_273x273_0
+  - first:
+      213: -5765210010455140707
+    second: Effect_Wheel_1_273x273_1
+  - first:
+      213: 3486081894365014985
+    second: Effect_Wheel_1_273x273_2
+  - first:
+      213: -6096059207917165614
+    second: Effect_Wheel_1_273x273_3
+  - first:
+      213: -7848502519935028303
+    second: Effect_Wheel_1_273x273_4
+  - first:
+      213: 5451252983732327395
+    second: Effect_Wheel_1_273x273_5
+  - first:
+      213: 2869632871675229219
+    second: Effect_Wheel_1_273x273_6
+  - first:
+      213: 3630380751095679008
+    second: Effect_Wheel_1_273x273_7
+  - first:
+      213: -7839339008411524723
+    second: Effect_Wheel_1_273x273_8
+  - first:
+      213: 936734704278405964
+    second: Effect_Wheel_1_273x273_9
+  - first:
+      213: 5074151756594737721
+    second: Effect_Wheel_1_273x273_10
+  - first:
+      213: -6435237289488795349
+    second: Effect_Wheel_1_273x273_11
+  - first:
+      213: 8458653481079072252
+    second: Effect_Wheel_1_273x273_12
+  - first:
+      213: 4451066491660021749
+    second: Effect_Wheel_1_273x273_13
+  - first:
+      213: 7211192957793061743
+    second: Effect_Wheel_1_273x273_14
+  - first:
+      213: -7253842314016195353
+    second: Effect_Wheel_1_273x273_15
+  - first:
+      213: -8280864279498683705
+    second: Effect_Wheel_1_273x273_16
+  - first:
+      213: -6300098873790909495
+    second: Effect_Wheel_1_273x273_17
+  - first:
+      213: 4033296580425656083
+    second: Effect_Wheel_1_273x273_18
+  - first:
+      213: 5796823440063728493
+    second: Effect_Wheel_1_273x273_19
+  - first:
+      213: 7713559865548318728
+    second: Effect_Wheel_1_273x273_20
+  - first:
+      213: 3941666713284196201
+    second: Effect_Wheel_1_273x273_21
+  - first:
+      213: -1534386374891878741
+    second: Effect_Wheel_1_273x273_22
+  - first:
+      213: 2137127319775829950
+    second: Effect_Wheel_1_273x273_23
+  - first:
+      213: 7264225912850707260
+    second: Effect_Wheel_1_273x273_24
+  - first:
+      213: -3287425613340828228
+    second: Effect_Wheel_1_273x273_25
+  - first:
+      213: -713675626669579133
+    second: Effect_Wheel_1_273x273_26
+  - first:
+      213: 4053201606731337316
+    second: Effect_Wheel_1_273x273_27
+  - first:
+      213: 3332844533272480227
+    second: Effect_Wheel_1_273x273_28
+  - first:
+      213: 1890704288070413454
+    second: Effect_Wheel_1_273x273_29
+  - first:
+      213: 2774374368403473387
+    second: Effect_Wheel_1_273x273_30
+  - first:
+      213: -3711401681879923383
+    second: Effect_Wheel_1_273x273_31
+  - first:
+      213: -900803192789459785
+    second: Effect_Wheel_1_273x273_32
+  - first:
+      213: -2730957752580017687
+    second: Effect_Wheel_1_273x273_33
+  - first:
+      213: -6874194219131294500
+    second: Effect_Wheel_1_273x273_34
+  - first:
+      213: -7103093834918716082
+    second: Effect_Wheel_1_273x273_35
+  - first:
+      213: 7714369987391559285
+    second: Effect_Wheel_1_273x273_36
+  - first:
+      213: 2672239485198542500
+    second: Effect_Wheel_1_273x273_37
+  - first:
+      213: -1263633635182233385
+    second: Effect_Wheel_1_273x273_38
+  - first:
+      213: 8528086853988088266
+    second: Effect_Wheel_1_273x273_39
+  - first:
+      213: 1980908828367978428
+    second: Effect_Wheel_1_273x273_40
+  - first:
+      213: -4082491103876911831
+    second: Effect_Wheel_1_273x273_41
+  - first:
+      213: -5698310663670500820
+    second: Effect_Wheel_1_273x273_42
+  - first:
+      213: -5216888043496320292
+    second: Effect_Wheel_1_273x273_43
+  - first:
+      213: 3229410987661643394
+    second: Effect_Wheel_1_273x273_44
+  - first:
+      213: -5982019781671913175
+    second: Effect_Wheel_1_273x273_45
+  - first:
+      213: 5705238638968759193
+    second: Effect_Wheel_1_273x273_46
+  - first:
+      213: -3411242082908678908
+    second: Effect_Wheel_1_273x273_47
+  - first:
+      213: 393240210037213093
+    second: Effect_Wheel_1_273x273_48
+  - first:
+      213: -3155327646090705698
+    second: Effect_Wheel_1_273x273_49
+  - first:
+      213: 3701731578798983156
+    second: Effect_Wheel_1_273x273_50
+  - first:
+      213: 7820450508992497661
+    second: Effect_Wheel_1_273x273_51
+  - first:
+      213: -6834934673777336248
+    second: Effect_Wheel_1_273x273_52
+  - first:
+      213: 7970303120231722055
+    second: Effect_Wheel_1_273x273_53
+  - first:
+      213: -2020114751111544010
+    second: Effect_Wheel_1_273x273_54
+  - first:
+      213: 376579222504223957
+    second: Effect_Wheel_1_273x273_55
+  - first:
+      213: -8695517277903124328
+    second: Effect_Wheel_1_273x273_56
+  - first:
+      213: -2832923574244854556
+    second: Effect_Wheel_1_273x273_57
+  - first:
+      213: 3949799087049289289
+    second: Effect_Wheel_1_273x273_58
+  - first:
+      213: -486181124585154901
+    second: Effect_Wheel_1_273x273_59
+  - first:
+      213: -6845239230619992149
+    second: Effect_Wheel_1_273x273_60
+  - first:
+      213: 8266981390267433705
+    second: Effect_Wheel_1_273x273_61
+  - first:
+      213: -6892679863596081659
+    second: Effect_Wheel_1_273x273_62
+  - first:
+      213: -4031688746284248359
+    second: Effect_Wheel_1_273x273_63
+  - first:
+      213: 7536315136891373605
+    second: Effect_Wheel_1_273x273_64
+  - first:
+      213: 6711292057477726195
+    second: Effect_Wheel_1_273x273_65
+  - first:
+      213: -2888081792806210911
+    second: Effect_Wheel_1_273x273_66
+  - first:
+      213: -8747429250344701873
+    second: Effect_Wheel_1_273x273_67
+  - first:
+      213: -7609788102245375901
+    second: Effect_Wheel_1_273x273_68
+  - first:
+      213: -1648290135370405024
+    second: Effect_Wheel_1_273x273_69
+  - first:
+      213: -4951713001711541442
+    second: Effect_Wheel_1_273x273_70
+  - first:
+      213: 8297727283284584418
+    second: Effect_Wheel_1_273x273_71
+  - first:
+      213: 2768884694130598688
+    second: Effect_Wheel_1_273x273_72
+  - first:
+      213: -3211203900558898623
+    second: Effect_Wheel_1_273x273_73
+  - first:
+      213: -5231339841568152861
+    second: Effect_Wheel_1_273x273_74
+  - first:
+      213: 235342124238602814
+    second: Effect_Wheel_1_273x273_75
+  - first:
+      213: 354024492561564525
+    second: Effect_Wheel_1_273x273_76
+  - first:
+      213: -4254021120952661167
+    second: Effect_Wheel_1_273x273_77
+  - first:
+      213: 5170816023122865150
+    second: Effect_Wheel_1_273x273_78
+  - first:
+      213: -3061783602220677841
+    second: Effect_Wheel_1_273x273_79
+  - first:
+      213: 6648207917628883765
+    second: Effect_Wheel_1_273x273_80
+  - first:
+      213: 2738707703971453981
+    second: Effect_Wheel_1_273x273_81
+  - first:
+      213: -8843047203970754813
+    second: Effect_Wheel_1_273x273_82
+  - first:
+      213: 150573379674916613
+    second: Effect_Wheel_1_273x273_83
+  - first:
+      213: -6532824304535687229
+    second: Effect_Wheel_1_273x273_84
+  - first:
+      213: 5962228326143128016
+    second: Effect_Wheel_1_273x273_85
+  - first:
+      213: -103410650717751675
+    second: Effect_Wheel_1_273x273_86
+  - first:
+      213: -8043790209413539379
+    second: Effect_Wheel_1_273x273_87
+  - first:
+      213: -233606864312280361
+    second: Effect_Wheel_1_273x273_88
+  - first:
+      213: -4633293041689117538
+    second: Effect_Wheel_1_273x273_89
+  - first:
+      213: -4279072438256753676
+    second: Effect_Wheel_1_273x273_90
+  - first:
+      213: -1687502395767520509
+    second: Effect_Wheel_1_273x273_91
+  - first:
+      213: -5596778633779130989
+    second: Effect_Wheel_1_273x273_92
+  - first:
+      213: 2529501483450394584
+    second: Effect_Wheel_1_273x273_93
+  - first:
+      213: 7794058436107533463
+    second: Effect_Wheel_1_273x273_94
+  - first:
+      213: -752019485552290911
+    second: Effect_Wheel_1_273x273_95
+  - first:
+      213: -4012301211555147549
+    second: Effect_Wheel_1_273x273_96
+  - first:
+      213: 8708619551383518570
+    second: Effect_Wheel_1_273x273_97
+  - first:
+      213: -101440640637868384
+    second: Effect_Wheel_1_273x273_98
+  - first:
+      213: -5575127551661483509
+    second: Effect_Wheel_1_273x273_99
+  - first:
+      213: 8443845945253072658
+    second: Effect_Wheel_1_273x273_100
+  - first:
+      213: -7587816869722449320
+    second: Effect_Wheel_1_273x273_101
+  - first:
+      213: 7776443249130754343
+    second: Effect_Wheel_1_273x273_102
+  - first:
+      213: -8360996641392054403
+    second: Effect_Wheel_1_273x273_103
+  - first:
+      213: -967651748176803294
+    second: Effect_Wheel_1_273x273_104
+  - first:
+      213: -8932379336737525810
+    second: Effect_Wheel_1_273x273_105
+  - first:
+      213: -8260417355006804418
+    second: Effect_Wheel_1_273x273_106
+  - first:
+      213: -8502588620224035121
+    second: Effect_Wheel_1_273x273_107
+  - first:
+      213: 3573915291114712188
+    second: Effect_Wheel_1_273x273_108
+  - first:
+      213: -890942474332371351
+    second: Effect_Wheel_1_273x273_109
+  - first:
+      213: -7175086606317940207
+    second: Effect_Wheel_1_273x273_110
+  - first:
+      213: -1588747857872962837
+    second: Effect_Wheel_1_273x273_111
+  - first:
+      213: 5878631958441978960
+    second: Effect_Wheel_1_273x273_112
+  - first:
+      213: -6182501231692848603
+    second: Effect_Wheel_1_273x273_113
+  - first:
+      213: 2387866918098485620
+    second: Effect_Wheel_1_273x273_114
+  - first:
+      213: -1828897985275354651
+    second: Effect_Wheel_1_273x273_115
+  - first:
+      213: -7377105037580238981
+    second: Effect_Wheel_1_273x273_116
+  - first:
+      213: -5630189160542704498
+    second: Effect_Wheel_1_273x273_117
+  - first:
+      213: -2070850708299645162
+    second: Effect_Wheel_1_273x273_118
+  - first:
+      213: 58752329875782841
+    second: Effect_Wheel_1_273x273_119
+  - first:
+      213: 8993999792365237096
+    second: Effect_Wheel_1_273x273_120
+  - first:
+      213: -143812434906645066
+    second: Effect_Wheel_1_273x273_121
+  - first:
+      213: 7756766701390827967
+    second: Effect_Wheel_1_273x273_122
+  - first:
+      213: -2900876117748593443
+    second: Effect_Wheel_1_273x273_123
+  - first:
+      213: -561188205916820995
+    second: Effect_Wheel_1_273x273_124
+  - first:
+      213: 2512062137080479842
+    second: Effect_Wheel_1_273x273_125
+  - first:
+      213: -4644382878245493650
+    second: Effect_Wheel_1_273x273_126
+  - first:
+      213: -1569260084601287738
+    second: Effect_Wheel_1_273x273_127
+  - first:
+      213: -3800059995574026689
+    second: Effect_Wheel_1_273x273_128
+  - first:
+      213: 314181163089726260
+    second: Effect_Wheel_1_273x273_129
+  - first:
+      213: 2739787937304969799
+    second: Effect_Wheel_1_273x273_130
+  - first:
+      213: 8063003564389271011
+    second: Effect_Wheel_1_273x273_131
+  - first:
+      213: 5839228186258308413
+    second: Effect_Wheel_1_273x273_132
+  - first:
+      213: 7239396508482785379
+    second: Effect_Wheel_1_273x273_133
+  - first:
+      213: -6062313819903539556
+    second: Effect_Wheel_1_273x273_134
+  - first:
+      213: 937157761261461446
+    second: Effect_Wheel_1_273x273_135
+  - first:
+      213: -6592086753765966534
+    second: Effect_Wheel_1_273x273_136
+  - first:
+      213: 8509693416291826622
+    second: Effect_Wheel_1_273x273_137
+  - first:
+      213: -1914210603598151487
+    second: Effect_Wheel_1_273x273_138
+  - first:
+      213: 4456457964602877177
+    second: Effect_Wheel_1_273x273_139
+  - first:
+      213: -6454592283224110152
+    second: Effect_Wheel_1_273x273_140
+  - first:
+      213: -735786234297118107
+    second: Effect_Wheel_1_273x273_141
+  - first:
+      213: -7771302482349921233
+    second: Effect_Wheel_1_273x273_142
+  - first:
+      213: -8765268942644135933
+    second: Effect_Wheel_1_273x273_143
+  - first:
+      213: -9140391782340900651
+    second: Effect_Wheel_1_273x273_144
+  - first:
+      213: -5031534131071695371
+    second: Effect_Wheel_1_273x273_145
+  - first:
+      213: -6662840782267234432
+    second: Effect_Wheel_1_273x273_146
+  - first:
+      213: 1432044918271296955
+    second: Effect_Wheel_1_273x273_147
+  - first:
+      213: 7216507189404591917
+    second: Effect_Wheel_1_273x273_148
+  - first:
+      213: 8318907815251360618
+    second: Effect_Wheel_1_273x273_149
+  - first:
+      213: 111978889577550330
+    second: Effect_Wheel_1_273x273_150
+  - first:
+      213: 2116174746779833388
+    second: Effect_Wheel_1_273x273_151
+  - first:
+      213: -5264617254913160337
+    second: Effect_Wheel_1_273x273_152
+  - first:
+      213: 4222711486713396967
+    second: Effect_Wheel_1_273x273_153
+  - first:
+      213: -155781201435292094
+    second: Effect_Wheel_1_273x273_154
+  - first:
+      213: -4418662867935864824
+    second: Effect_Wheel_1_273x273_155
+  - first:
+      213: 6080086822881443379
+    second: Effect_Wheel_1_273x273_156
+  - first:
+      213: -7012752924841476304
+    second: Effect_Wheel_1_273x273_157
+  - first:
+      213: -3057193407009419308
+    second: Effect_Wheel_1_273x273_158
+  - first:
+      213: 968936153012274571
+    second: Effect_Wheel_1_273x273_159
+  - first:
+      213: 8850126428002949709
+    second: Effect_Wheel_1_273x273_160
+  - first:
+      213: 3589778830410665646
+    second: Effect_Wheel_1_273x273_161
+  - first:
+      213: -8059518001215549821
+    second: Effect_Wheel_1_273x273_162
+  - first:
+      213: -2643782535308027425
+    second: Effect_Wheel_1_273x273_163
+  - first:
+      213: -7084519471842995985
+    second: Effect_Wheel_1_273x273_164
+  - first:
+      213: 20936290350955903
+    second: Effect_Wheel_1_273x273_165
+  - first:
+      213: 5930231224816644492
+    second: Effect_Wheel_1_273x273_166
+  - first:
+      213: 4788395336731328555
+    second: Effect_Wheel_1_273x273_167
+  - first:
+      213: 2997758214594081961
+    second: Effect_Wheel_1_273x273_168
+  - first:
+      213: -713492357426540665
+    second: Effect_Wheel_1_273x273_169
+  - first:
+      213: 5382226662173772604
+    second: Effect_Wheel_1_273x273_170
+  - first:
+      213: 564467675481650030
+    second: Effect_Wheel_1_273x273_171
+  - first:
+      213: 1563944958571122915
+    second: Effect_Wheel_1_273x273_172
+  - first:
+      213: -2956526521035752213
+    second: Effect_Wheel_1_273x273_173
+  - first:
+      213: 2690580853810551635
+    second: Effect_Wheel_1_273x273_174
+  - first:
+      213: -9133920092257680772
+    second: Effect_Wheel_1_273x273_175
+  - first:
+      213: -5642446286417341964
+    second: Effect_Wheel_1_273x273_176
+  - first:
+      213: -2079935541978945746
+    second: Effect_Wheel_1_273x273_177
+  - first:
+      213: 8990347351446689492
+    second: Effect_Wheel_1_273x273_178
+  - first:
+      213: 2030810937466347111
+    second: Effect_Wheel_1_273x273_179
+  - first:
+      213: -2065690211025817385
+    second: Effect_Wheel_1_273x273_180
+  - first:
+      213: -9094630502722478497
+    second: Effect_Wheel_1_273x273_181
+  - first:
+      213: 5837524278963542672
+    second: Effect_Wheel_1_273x273_182
+  - first:
+      213: -7795932034502886433
+    second: Effect_Wheel_1_273x273_183
+  - first:
+      213: -3841828791396595453
+    second: Effect_Wheel_1_273x273_184
+  - first:
+      213: 6406076879321019410
+    second: Effect_Wheel_1_273x273_185
+  - first:
+      213: 7677951510836984471
+    second: Effect_Wheel_1_273x273_186
+  - first:
+      213: 3867374910598462692
+    second: Effect_Wheel_1_273x273_187
+  - first:
+      213: -4633794978259616838
+    second: Effect_Wheel_1_273x273_188
+  - first:
+      213: -3264719653020615804
+    second: Effect_Wheel_1_273x273_189
+  - first:
+      213: 2982155863153030721
+    second: Effect_Wheel_1_273x273_190
+  - first:
+      213: 426664368284743661
+    second: Effect_Wheel_1_273x273_191
+  - first:
+      213: 9021144504699522175
+    second: Effect_Wheel_1_273x273_192
+  - first:
+      213: 2695579869613530722
+    second: Effect_Wheel_1_273x273_193
+  - first:
+      213: 5976339782054702941
+    second: Effect_Wheel_1_273x273_194
+  - first:
+      213: -8467233421666653510
+    second: Effect_Wheel_1_273x273_195
+  - first:
+      213: -9045512771521617324
+    second: Effect_Wheel_1_273x273_196
+  - first:
+      213: -1799341725957935621
+    second: Effect_Wheel_1_273x273_197
+  - first:
+      213: -1101962734090490143
+    second: Effect_Wheel_1_273x273_198
+  - first:
+      213: -5546065017298320194
+    second: Effect_Wheel_1_273x273_199
+  - first:
+      213: 1499093354660303265
+    second: Effect_Wheel_1_273x273_200
+  - first:
+      213: 127299759819218823
+    second: Effect_Wheel_1_273x273_201
+  - first:
+      213: 7052442829903895149
+    second: Effect_Wheel_1_273x273_202
+  - first:
+      213: 4017679796218167667
+    second: Effect_Wheel_1_273x273_203
+  - first:
+      213: 6709392871975235636
+    second: Effect_Wheel_1_273x273_204
+  - first:
+      213: 4290526663746856226
+    second: Effect_Wheel_1_273x273_205
+  - first:
+      213: 7835733437297440416
+    second: Effect_Wheel_1_273x273_206
+  - first:
+      213: 4354255657016814194
+    second: Effect_Wheel_1_273x273_207
+  - first:
+      213: -3585970068723260804
+    second: Effect_Wheel_1_273x273_208
+  - first:
+      213: 5836360506070719623
+    second: Effect_Wheel_1_273x273_209
+  - first:
+      213: 730760899178512488
+    second: Effect_Wheel_1_273x273_210
+  - first:
+      213: 8618758023738621833
+    second: Effect_Wheel_1_273x273_211
+  - first:
+      213: 5962896746731190204
+    second: Effect_Wheel_1_273x273_212
+  - first:
+      213: 3885676048815348656
+    second: Effect_Wheel_1_273x273_213
+  - first:
+      213: 7669467171836259605
+    second: Effect_Wheel_1_273x273_214
+  - first:
+      213: 595779086330871648
+    second: Effect_Wheel_1_273x273_215
+  - first:
+      213: 5388074772537519387
+    second: Effect_Wheel_1_273x273_216
+  - first:
+      213: 7163237123412215896
+    second: Effect_Wheel_1_273x273_217
+  - first:
+      213: 8960252407227918249
+    second: Effect_Wheel_1_273x273_218
+  - first:
+      213: -646138465289001609
+    second: Effect_Wheel_1_273x273_219
+  - first:
+      213: 6213374865928728876
+    second: Effect_Wheel_1_273x273_220
+  - first:
+      213: -2372548591690546345
+    second: Effect_Wheel_1_273x273_221
+  - first:
+      213: 8010220691905241583
+    second: Effect_Wheel_1_273x273_222
+  - first:
+      213: 8303478840454797919
+    second: Effect_Wheel_1_273x273_223
+  - first:
+      213: 9183711999611938228
+    second: Effect_Wheel_1_273x273_224
+  - first:
+      213: 3385849969899859853
+    second: Effect_Wheel_1_273x273_225
+  - first:
+      213: -420088590326340978
+    second: Effect_Wheel_1_273x273_226
+  - first:
+      213: -2335351239080149235
+    second: Effect_Wheel_1_273x273_227
+  - first:
+      213: 6758989627529028814
+    second: Effect_Wheel_1_273x273_228
+  - first:
+      213: 2270526690517852510
+    second: Effect_Wheel_1_273x273_229
+  - first:
+      213: 4632322315850970157
+    second: Effect_Wheel_1_273x273_230
+  - first:
+      213: 4999010875754851153
+    second: Effect_Wheel_1_273x273_231
+  - first:
+      213: 5808450894282056341
+    second: Effect_Wheel_1_273x273_232
+  - first:
+      213: 706857419466554098
+    second: Effect_Wheel_1_273x273_233
+  - first:
+      213: -1487056524516139442
+    second: Effect_Wheel_1_273x273_234
+  - first:
+      213: 3246261635759077655
+    second: Effect_Wheel_1_273x273_235
+  - first:
+      213: -3194805344311214186
+    second: Effect_Wheel_1_273x273_236
+  - first:
+      213: 6426842482938744846
+    second: Effect_Wheel_1_273x273_237
+  - first:
+      213: -5132523362888964087
+    second: Effect_Wheel_1_273x273_238
+  - first:
+      213: 7922697206995407793
+    second: Effect_Wheel_1_273x273_239
+  - first:
+      213: -3770330359080680840
+    second: Effect_Wheel_1_273x273_240
+  - first:
+      213: 7957071636442980755
+    second: Effect_Wheel_1_273x273_241
+  - first:
+      213: 1857826889545549897
+    second: Effect_Wheel_1_273x273_242
+  - first:
+      213: -3569204681452784806
+    second: Effect_Wheel_1_273x273_243
+  - first:
+      213: 4612435950758502097
+    second: Effect_Wheel_1_273x273_244
+  - first:
+      213: -4935020983889109724
+    second: Effect_Wheel_1_273x273_245
+  - first:
+      213: -4409480435237832470
+    second: Effect_Wheel_1_273x273_246
+  - first:
+      213: -1604964322021166248
+    second: Effect_Wheel_1_273x273_247
+  - first:
+      213: 6438916942912428751
+    second: Effect_Wheel_1_273x273_248
+  - first:
+      213: 2641647820897908558
+    second: Effect_Wheel_1_273x273_249
+  - first:
+      213: -4985867282062430154
+    second: Effect_Wheel_1_273x273_250
+  - first:
+      213: 4920842538599695026
+    second: Effect_Wheel_1_273x273_251
+  - first:
+      213: -5546781262359821687
+    second: Effect_Wheel_1_273x273_252
+  - first:
+      213: -213654600889099482
+    second: Effect_Wheel_1_273x273_253
+  - first:
+      213: -3507731195196951923
+    second: Effect_Wheel_1_273x273_254
+  - first:
+      213: -1916042261831705897
+    second: Effect_Wheel_1_273x273_255
+  - first:
+      213: 936121096803981231
+    second: Effect_Wheel_1_273x273_256
+  - first:
+      213: 8021834131077990068
+    second: Effect_Wheel_1_273x273_257
+  - first:
+      213: -5638803015937523952
+    second: Effect_Wheel_1_273x273_258
+  - first:
+      213: -8259069824720990698
+    second: Effect_Wheel_1_273x273_259
+  - first:
+      213: -6046777164888878100
+    second: Effect_Wheel_1_273x273_260
+  - first:
+      213: -7752759566815510836
+    second: Effect_Wheel_1_273x273_261
+  - first:
+      213: 5866516171654574364
+    second: Effect_Wheel_1_273x273_262
+  - first:
+      213: 9174051271649075078
+    second: Effect_Wheel_1_273x273_263
+  - first:
+      213: -6682139595024530209
+    second: Effect_Wheel_1_273x273_264
+  - first:
+      213: 1869790217982997261
+    second: Effect_Wheel_1_273x273_265
+  - first:
+      213: 9074964178331636136
+    second: Effect_Wheel_1_273x273_266
+  - first:
+      213: 6188085482390815266
+    second: Effect_Wheel_1_273x273_267
+  - first:
+      213: -4443830598825204143
+    second: Effect_Wheel_1_273x273_268
+  - first:
+      213: -7823925069002805405
+    second: Effect_Wheel_1_273x273_269
+  - first:
+      213: 7434022294727957699
+    second: Effect_Wheel_1_273x273_270
+  - first:
+      213: 4728304003592418321
+    second: Effect_Wheel_1_273x273_271
+  - first:
+      213: -5255519284006587441
+    second: Effect_Wheel_1_273x273_272
+  - first:
+      213: -8256019238041715701
+    second: Effect_Wheel_1_273x273_273
+  - first:
+      213: 1919650200978794937
+    second: Effect_Wheel_1_273x273_274
+  - first:
+      213: 3357440692681231392
+    second: Effect_Wheel_1_273x273_275
+  - first:
+      213: -7726037758138533593
+    second: Effect_Wheel_1_273x273_276
+  - first:
+      213: -4757668037739904770
+    second: Effect_Wheel_1_273x273_277
+  - first:
+      213: -1820997746669920574
+    second: Effect_Wheel_1_273x273_278
+  - first:
+      213: -5238179523537121658
+    second: Effect_Wheel_1_273x273_279
+  - first:
+      213: -7228494225769969245
+    second: Effect_Wheel_1_273x273_280
+  - first:
+      213: 4978926308768326005
+    second: Effect_Wheel_1_273x273_281
+  - first:
+      213: -7670657491201837202
+    second: Effect_Wheel_1_273x273_282
+  - first:
+      213: -8398158629691996173
+    second: Effect_Wheel_1_273x273_283
+  - first:
+      213: 8289649386150766618
+    second: Effect_Wheel_1_273x273_284
+  - first:
+      213: -6079330034992935278
+    second: Effect_Wheel_1_273x273_285
+  - first:
+      213: 6578582480092952082
+    second: Effect_Wheel_1_273x273_286
+  - first:
+      213: 6362944508646165858
+    second: Effect_Wheel_1_273x273_287
+  - first:
+      213: 8166990598697008863
+    second: Effect_Wheel_1_273x273_288
+  - first:
+      213: 5165016120092541539
+    second: Effect_Wheel_1_273x273_289
+  - first:
+      213: 3555467275384427548
+    second: Effect_Wheel_1_273x273_290
+  - first:
+      213: 8119689719356545581
+    second: Effect_Wheel_1_273x273_291
+  - first:
+      213: -7913136001136026530
+    second: Effect_Wheel_1_273x273_292
+  - first:
+      213: -2301007498870333414
+    second: Effect_Wheel_1_273x273_293
+  - first:
+      213: 1721769365515469508
+    second: Effect_Wheel_1_273x273_294
+  - first:
+      213: 3829514605956488889
+    second: Effect_Wheel_1_273x273_295
+  - first:
+      213: -1619859270398795430
+    second: Effect_Wheel_1_273x273_296
+  - first:
+      213: -2690271026690953834
+    second: Effect_Wheel_1_273x273_297
+  - first:
+      213: -3939905828652960973
+    second: Effect_Wheel_1_273x273_298
+  - first:
+      213: 7168940383528484422
+    second: Effect_Wheel_1_273x273_299
+  - first:
+      213: 149722091847665536
+    second: Effect_Wheel_1_273x273_300
+  - first:
+      213: 7547742818070104941
+    second: Effect_Wheel_1_273x273_301
+  - first:
+      213: 8595185126662100177
+    second: Effect_Wheel_1_273x273_302
+  - first:
+      213: -4218931207000398032
+    second: Effect_Wheel_1_273x273_303
+  - first:
+      213: -5001956086934074600
+    second: Effect_Wheel_1_273x273_304
+  - first:
+      213: 4270529592826937053
+    second: Effect_Wheel_1_273x273_305
+  - first:
+      213: 4228506895146967855
+    second: Effect_Wheel_1_273x273_306
+  - first:
+      213: 2881621055431256319
+    second: Effect_Wheel_1_273x273_307
+  - first:
+      213: -5056850633476612349
+    second: Effect_Wheel_1_273x273_308
+  - first:
+      213: -1439864737430807907
+    second: Effect_Wheel_1_273x273_309
+  - first:
+      213: -1013972587384462297
+    second: Effect_Wheel_1_273x273_310
+  - first:
+      213: 6276167095268444879
+    second: Effect_Wheel_1_273x273_311
+  - first:
+      213: 5356870595742814501
+    second: Effect_Wheel_1_273x273_312
+  - first:
+      213: 7930723786216751480
+    second: Effect_Wheel_1_273x273_313
+  - first:
+      213: -1743765174601103777
+    second: Effect_Wheel_1_273x273_314
+  - first:
+      213: 7317259435307595945
+    second: Effect_Wheel_1_273x273_315
+  - first:
+      213: -5753801913642539177
+    second: Effect_Wheel_1_273x273_316
+  - first:
+      213: -9127863547642687939
+    second: Effect_Wheel_1_273x273_317
+  - first:
+      213: 8620199962442253749
+    second: Effect_Wheel_1_273x273_318
+  - first:
+      213: 6373582230328535880
+    second: Effect_Wheel_1_273x273_319
+  - first:
+      213: 7367926817333336933
+    second: Effect_Wheel_1_273x273_320
+  - first:
+      213: -8539841887308611856
+    second: Effect_Wheel_1_273x273_321
+  - first:
+      213: 3709820577007775626
+    second: Effect_Wheel_1_273x273_322
+  - first:
+      213: 4522997185506429035
+    second: Effect_Wheel_1_273x273_323
+  - first:
+      213: 5631120820603183227
+    second: Effect_Wheel_1_273x273_324
+  - first:
+      213: -244245264264011636
+    second: Effect_Wheel_1_273x273_325
+  - first:
+      213: 2238747940679593804
+    second: Effect_Wheel_1_273x273_326
+  - first:
+      213: -3890561164408708767
+    second: Effect_Wheel_1_273x273_327
+  - first:
+      213: -5897584375911539411
+    second: Effect_Wheel_1_273x273_328
+  - first:
+      213: -1814032723048816487
+    second: Effect_Wheel_1_273x273_329
+  - first:
+      213: -3345193566079791671
+    second: Effect_Wheel_1_273x273_330
+  - first:
+      213: 3669290592237739941
+    second: Effect_Wheel_1_273x273_331
+  - first:
+      213: -6639950119538078304
+    second: Effect_Wheel_1_273x273_332
+  - first:
+      213: 4769004081452647426
+    second: Effect_Wheel_1_273x273_333
+  - first:
+      213: -963868445391946933
+    second: Effect_Wheel_1_273x273_334
+  - first:
+      213: 8155457570230405897
+    second: Effect_Wheel_1_273x273_335
+  - first:
+      213: 6482405078962948832
+    second: Effect_Wheel_1_273x273_336
+  - first:
+      213: -4120508752598803138
+    second: Effect_Wheel_1_273x273_337
+  - first:
+      213: -2653956911126016456
+    second: Effect_Wheel_1_273x273_338
+  - first:
+      213: 8772726868029691969
+    second: Effect_Wheel_1_273x273_339
+  - first:
+      213: -8367479645887346243
+    second: Effect_Wheel_1_273x273_340
+  - first:
+      213: 4133435152828255432
+    second: Effect_Wheel_1_273x273_341
+  - first:
+      213: -367422681462861685
+    second: Effect_Wheel_1_273x273_342
+  - first:
+      213: 6363545839373455897
+    second: Effect_Wheel_1_273x273_343
+  - first:
+      213: -1951559532995672488
+    second: Effect_Wheel_1_273x273_344
+  - first:
+      213: 4441445838026208233
+    second: Effect_Wheel_1_273x273_345
+  - first:
+      213: -5490310930402344204
+    second: Effect_Wheel_1_273x273_346
+  - first:
+      213: 431814720508654277
+    second: Effect_Wheel_1_273x273_347
+  - first:
+      213: 1866575945115915092
+    second: Effect_Wheel_1_273x273_348
+  - first:
+      213: 499180655119012193
+    second: Effect_Wheel_1_273x273_349
+  - first:
+      213: -3070470356934106603
+    second: Effect_Wheel_1_273x273_350
+  - first:
+      213: -1189692419574793136
+    second: Effect_Wheel_1_273x273_351
+  - first:
+      213: -7595878249269737912
+    second: Effect_Wheel_1_273x273_352
+  - first:
+      213: 4802005639385778366
+    second: Effect_Wheel_1_273x273_353
+  - first:
+      213: 876893459220451928
+    second: Effect_Wheel_1_273x273_354
+  - first:
+      213: -8511223651349630570
+    second: Effect_Wheel_1_273x273_355
+  - first:
+      213: -2530532009276396232
+    second: Effect_Wheel_1_273x273_356
+  - first:
+      213: -4847156327441607636
+    second: Effect_Wheel_1_273x273_357
+  - first:
+      213: -1611054209805665627
+    second: Effect_Wheel_1_273x273_358
+  - first:
+      213: 2449335356558403306
+    second: Effect_Wheel_1_273x273_359
+  - first:
+      213: 1738193138872226300
+    second: Effect_Wheel_1_273x273_360
+  - first:
+      213: -641048828552758606
+    second: Effect_Wheel_1_273x273_361
+  - first:
+      213: -7076308658919595674
+    second: Effect_Wheel_1_273x273_362
+  - first:
+      213: -7801332591586007049
+    second: Effect_Wheel_1_273x273_363
+  - first:
+      213: 3718192067760850737
+    second: Effect_Wheel_1_273x273_364
+  - first:
+      213: 2339782339992616609
+    second: Effect_Wheel_1_273x273_365
+  - first:
+      213: -264602208595232209
+    second: Effect_Wheel_1_273x273_366
+  - first:
+      213: 999614542916945812
+    second: Effect_Wheel_1_273x273_367
+  - first:
+      213: -1244509518116589762
+    second: Effect_Wheel_1_273x273_368
+  - first:
+      213: 6131125666121384
+    second: Effect_Wheel_1_273x273_369
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_0
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1638
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3583602f50ea4d7b0800000000000000
+      internalID: -5200340329147516845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_1
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1638
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d969b477a0cddffa0800000000000000
+      internalID: -5765210010455140707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_2
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1638
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb2c8b430d016030800000000000000
+      internalID: 3486081894365014985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_3
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1638
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3295ed272766ba0800000000000000
+      internalID: -6096059207917165614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_4
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1638
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3b3809a84841390800000000000000
+      internalID: -7848502519935028303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_5
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1638
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3572ce4bdb6ab40800000000000000
+      internalID: 5451252983732327395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_6
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1638
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3247cff84ebf2d720800000000000000
+      internalID: 2869632871675229219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_7
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1638
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028497cfe04b16230800000000000000
+      internalID: 3630380751095679008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1365
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81a4c9d4b2153390800000000000000
+      internalID: -7839339008411524723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_9
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1365
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c438b412043fffc00800000000000000
+      internalID: 936734704278405964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_10
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1365
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932f04c73220b6640800000000000000
+      internalID: 5074151756594737721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_11
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1365
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b293ca2d7c171b6a0800000000000000
+      internalID: -6435237289488795349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_12
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1365
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5e6d1768c236570800000000000000
+      internalID: 8458653481079072252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_13
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1365
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff2a03346d55cd30800000000000000
+      internalID: 4451066491660021749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_14
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1365
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6bcd00e9cd431460800000000000000
+      internalID: 7211192957793061743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_15
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1365
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecfd5019dc255b90800000000000000
+      internalID: -7253842314016195353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_16
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1365
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca824bcfc5741d80800000000000000
+      internalID: -8280864279498683705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1092
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3bad1247d8198a0800000000000000
+      internalID: -6300098873790909495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_18
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1092
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317a11eded529f730800000000000000
+      internalID: 4033296580425656083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_19
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1092
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b08a2b434727050800000000000000
+      internalID: 5796823440063728493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_20
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1092
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808a7bb54d11c0b60800000000000000
+      internalID: 7713559865548318728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_21
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1092
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967394cedfc93b630800000000000000
+      internalID: 3941666713284196201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_22
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1092
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6ce58b8b3c4bae0800000000000000
+      internalID: -1534386374891878741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_23
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1092
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf550f69f998ad10800000000000000
+      internalID: 2137127319775829950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_24
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1092
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3377afeaf6bfc460800000000000000
+      internalID: 7264225912850707260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_25
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1092
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd9c4b72d7b062d0800000000000000
+      internalID: -3287425613340828228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 819
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384618b7cc38816f0800000000000000
+      internalID: -713675626669579133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_27
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 819
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e8344f26ddf3830800000000000000
+      internalID: 4053201606731337316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_28
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 819
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e90f41e174a04e20800000000000000
+      internalID: 3332844533272480227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_29
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 819
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8caeb958812d3a10800000000000000
+      internalID: 1890704288070413454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_30
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 819
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be343aee9ce808620800000000000000
+      internalID: 2774374368403473387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_31
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 819
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94582cc85d37e7cc0800000000000000
+      internalID: -3711401681879923383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_32
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 819
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc1f31d444bf73f0800000000000000
+      internalID: -900803192789459785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_33
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 819
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e17edca460b91ad0800000000000000
+      internalID: -2730957752580017687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_34
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 819
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdca2ab57c4f990a0800000000000000
+      internalID: -6874194219131294500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 546
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d176b7acdbc6d90800000000000000
+      internalID: -7103093834918716082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_36
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 546
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576986c81a2fe0b60800000000000000
+      internalID: 7714369987391559285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_37
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 546
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6280657a3b51520800000000000000
+      internalID: 2672239485198542500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_38
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 546
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d83ab067eba67ee0800000000000000
+      internalID: -1263633635182233385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_39
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 546
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac973a95fc9d95670800000000000000
+      internalID: 8528086853988088266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_40
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 546
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbffe47851a9d7b10800000000000000
+      internalID: 1980908828367978428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_41
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 546
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d69b298f31857c0800000000000000
+      internalID: -4082491103876911831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_42
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 546
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22791074a88be0b0800000000000000
+      internalID: -5698310663670500820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_43
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 546
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd25b66f6f3e997b0800000000000000
+      internalID: -5216888043496320292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ec051ee2c21dc20800000000000000
+      internalID: 3229410987661643394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_45
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 273
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929f512e3b89bfca0800000000000000
+      internalID: -5982019781671913175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_46
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 273
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993e09280541d2f40800000000000000
+      internalID: 5705238638968759193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_47
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 273
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4055d5d2665d8a0d0800000000000000
+      internalID: -3411242082908678908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Effect_Wheel_1_273x273_48
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 273
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a70ba633e1157500800000000000000
+      internalID: 393240210037213093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d1b3395ec1ae4294084b0c29f0e886f5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Effect_Wheel_1_273x273_0: -5200340329147516845
+      Effect_Wheel_1_273x273_1: -5765210010455140707
+      Effect_Wheel_1_273x273_10: 5074151756594737721
+      Effect_Wheel_1_273x273_11: -6435237289488795349
+      Effect_Wheel_1_273x273_12: 8458653481079072252
+      Effect_Wheel_1_273x273_13: 4451066491660021749
+      Effect_Wheel_1_273x273_14: 7211192957793061743
+      Effect_Wheel_1_273x273_15: -7253842314016195353
+      Effect_Wheel_1_273x273_16: -8280864279498683705
+      Effect_Wheel_1_273x273_17: -6300098873790909495
+      Effect_Wheel_1_273x273_18: 4033296580425656083
+      Effect_Wheel_1_273x273_19: 5796823440063728493
+      Effect_Wheel_1_273x273_2: 3486081894365014985
+      Effect_Wheel_1_273x273_20: 7713559865548318728
+      Effect_Wheel_1_273x273_21: 3941666713284196201
+      Effect_Wheel_1_273x273_22: -1534386374891878741
+      Effect_Wheel_1_273x273_23: 2137127319775829950
+      Effect_Wheel_1_273x273_24: 7264225912850707260
+      Effect_Wheel_1_273x273_25: -3287425613340828228
+      Effect_Wheel_1_273x273_26: -713675626669579133
+      Effect_Wheel_1_273x273_27: 4053201606731337316
+      Effect_Wheel_1_273x273_28: 3332844533272480227
+      Effect_Wheel_1_273x273_29: 1890704288070413454
+      Effect_Wheel_1_273x273_3: -6096059207917165614
+      Effect_Wheel_1_273x273_30: 2774374368403473387
+      Effect_Wheel_1_273x273_31: -3711401681879923383
+      Effect_Wheel_1_273x273_32: -900803192789459785
+      Effect_Wheel_1_273x273_33: -2730957752580017687
+      Effect_Wheel_1_273x273_34: -6874194219131294500
+      Effect_Wheel_1_273x273_35: -7103093834918716082
+      Effect_Wheel_1_273x273_36: 7714369987391559285
+      Effect_Wheel_1_273x273_37: 2672239485198542500
+      Effect_Wheel_1_273x273_38: -1263633635182233385
+      Effect_Wheel_1_273x273_39: 8528086853988088266
+      Effect_Wheel_1_273x273_4: -7848502519935028303
+      Effect_Wheel_1_273x273_40: 1980908828367978428
+      Effect_Wheel_1_273x273_41: -4082491103876911831
+      Effect_Wheel_1_273x273_42: -5698310663670500820
+      Effect_Wheel_1_273x273_43: -5216888043496320292
+      Effect_Wheel_1_273x273_44: 3229410987661643394
+      Effect_Wheel_1_273x273_45: -5982019781671913175
+      Effect_Wheel_1_273x273_46: 5705238638968759193
+      Effect_Wheel_1_273x273_47: -3411242082908678908
+      Effect_Wheel_1_273x273_48: 393240210037213093
+      Effect_Wheel_1_273x273_5: 5451252983732327395
+      Effect_Wheel_1_273x273_6: 2869632871675229219
+      Effect_Wheel_1_273x273_7: 3630380751095679008
+      Effect_Wheel_1_273x273_8: -7839339008411524723
+      Effect_Wheel_1_273x273_9: 936734704278405964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
