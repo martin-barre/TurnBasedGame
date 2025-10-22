@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83826aabef235d34daf9486a34475f83, type: 3}
+  m_Name: Warrior_Bond
+  m_EditorClassIdentifier: 
+  Id: 9
+  iconSprite: {fileID: 135602500, guid: 1d3cb48ad83392747a95b19f0db695a2, type: 3}
+  spellName: Bond
+  paCost: 1
+  fovMode: 0
+  xRay: 1
+  canLaunchOnEntity: 0
+  poMin: 1
+  poMax: 9
+  zone:
+    rid: 3082811418379812964
+  sfx: []
+  effects:
+  - rid: 161247212505661548
+  - rid: 161247212505661549
+  - rid: 6802447807873286224
+  references:
+    version: 2
+    RefIds:
+    - rid: 161247212505661548
+      type: {class: ServerEffectTeleport, ns: , asm: Assembly-CSharp}
+      data:
+        canTouchLauncher: 0
+        canTouchMate: 0
+        canTouchEnemy: 0
+        launcherMustBeInZone: 0
+        canSwap: 0
+    - rid: 161247212505661549
+      type: {class: ServerEffectAttract, ns: , asm: Assembly-CSharp}
+      data:
+        canTouchLauncher: 0
+        canTouchMate: 1
+        canTouchEnemy: 1
+        launcherMustBeInZone: 0
+        nbOfTile: 1
+        centerPoint: 1
+    - rid: 3082811418379812964
+      type: {class: CrossSpellZone, ns: , asm: Assembly-CSharp}
+      data:
+        size: 3
+    - rid: 6802447807873286224
+      type: {class: ServerEffectBuff, ns: , asm: Assembly-CSharp}
+      data:
+        canTouchLauncher: 1
+        canTouchMate: 0
+        canTouchEnemy: 0
+        launcherMustBeInZone: 0
+        buff: {fileID: 11400000, guid: 4d412faf4dd2b4346bad0a75f0fe5403, type: 2}

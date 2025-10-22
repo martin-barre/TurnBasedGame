@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd974121921e9b4386d9db115bad726, type: 3}
+  m_Name: Ranger
+  m_EditorClassIdentifier: 
+  Id: 2
+  Name: Ranger
+  IconSprite: {fileID: -2850707533075056667, guid: 14f7ab1dda2af3b45a03e7d6e68c1dba, type: 3}
+  Prefab: {fileID: -6708603426402237344, guid: a73403eb0d593304f9c2f18c23001b3b, type: 3}
+  Hp: 150
+  Pa: 8
+  Pm: 3
+  Spells:
+  - {fileID: 11400000, guid: 0d130f788dbcdaf43ac04d316ce3604e, type: 2}
+  - {fileID: 11400000, guid: aee292cb078cbdf489ba6cd983b6c994, type: 2}
+  - {fileID: 11400000, guid: 57838f36a3f209847ad86881bec1604f, type: 2}
+  - {fileID: 11400000, guid: b1048c99dd43ecc4a9b744a7568db605, type: 2}
+  AiEnum: 1

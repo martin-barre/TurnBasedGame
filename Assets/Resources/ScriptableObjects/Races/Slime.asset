@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd974121921e9b4386d9db115bad726, type: 3}
+  m_Name: Slime
+  m_EditorClassIdentifier: 
+  Id: 3
+  Name: Slime
+  IconSprite: {fileID: -3270704611060786855, guid: be6637ba027d2af4ead794db237f2275, type: 3}
+  Prefab: {fileID: 8184440196502789421, guid: 5dd1c4a47d5144a42a98b6e3edc52ce8, type: 3}
+  Hp: 150
+  Pa: 9
+  Pm: 4
+  Spells:
+  - {fileID: 11400000, guid: cd07903b50e2de8419e80e3f4731fdc9, type: 2}
+  - {fileID: 11400000, guid: ddba45de40fba3749b1728bd3d92a343, type: 2}
+  AiEnum: 0

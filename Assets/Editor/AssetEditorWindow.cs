@@ -9,7 +9,7 @@ public class AssetEditorWindow : EditorWindow
 {
     private ListView _listView;
     private VisualElement _inspectorView;
-    private List<Spell> _spells;
+    private List<Spell> _spells = new();
     private Spell _selectedSpell;
     private string _spellFolderPath = "Assets";
 
@@ -20,18 +20,23 @@ public class AssetEditorWindow : EditorWindow
     {
         LoadSettings();
         EditorApplication.projectChanged += RefreshList;
-        
+
         rootVisualElement.Add(CreateToolbar());
-        
+
         TwoPaneSplitView splitView = new(0, 250, TwoPaneSplitViewOrientation.Horizontal);
         rootVisualElement.Add(splitView);
-        
+
         splitView.Add(CreateSpellListView());
-        
+
         _inspectorView = new VisualElement { style = { flexGrow = 1 } };
         splitView.Add(_inspectorView);
-        
+
         RefreshList();
+    }
+
+    private void OnDestroy()
+    {
+        EditorApplication.projectChanged -= RefreshList;
     }
 
     private Toolbar CreateToolbar()
@@ -47,25 +52,36 @@ public class AssetEditorWindow : EditorWindow
     private VisualElement CreateSpellListView()
     {
         VisualElement listContainer = new();
+
         _listView = new ListView
         {
             style = { flexGrow = 1 },
             fixedItemHeight = 20,
             selectionType = SelectionType.Single,
             makeItem = () => new Label(),
-            bindItem = (element, index) => ((Label)element).text = $"{_spells[index].id}\t{_spells[index].name}"
+            bindItem = (element, index) =>
+            {
+                if (_spells != null && index >= 0 && index < _spells.Count)
+                    ((Label)element).text = $"{_spells[index].Id}\t{_spells[index].name}";
+            },
         };
-        _listView.selectionChanged += objects => SelectSpell(objects.FirstOrDefault() as Spell);
+
+        _listView.selectionChanged += objects =>
+        {
+            SelectSpell(objects.FirstOrDefault() as Spell);
+        };
 
         listContainer.Add(_listView);
         listContainer.Add(new Button(CreateNewSpell) { text = "+ Nouveau Spell" });
+
         return listContainer;
     }
 
     private void ShowSettingsMenu()
     {
         GenericMenu menu = new();
-        menu.AddItem(new GUIContent("Set spell folder's path"), false, () => SetPath(ref _spellFolderPath, nameof(_spellFolderPath)));
+        menu.AddItem(new GUIContent("Set spell folder's path"), false, () =>
+            SetPath(ref _spellFolderPath, nameof(_spellFolderPath)));
         menu.ShowAsContext();
     }
 
@@ -80,28 +96,37 @@ public class AssetEditorWindow : EditorWindow
         }
         else
         {
-            EditorUtility.DisplayDialog("Invalid Path", "Please select a folder inside the Assets directory.", "OK");
+            EditorUtility.DisplayDialog("Invalid Path",
+                "Please select a folder inside the Assets directory.", "OK");
         }
     }
 
-    private List<Spell> findAllSpells() => AssetDatabase.FindAssets($"t:Spell")
-        .Select(AssetDatabase.GUIDToAssetPath)
-        .Select(AssetDatabase.LoadAssetAtPath<Spell>)
-        .Where(o => o != null)
-        .OrderBy(o => o.id)
-        .ToList();
-    
+    private static List<Spell> FindAllSpells() =>
+        AssetDatabase.FindAssets($"t:Spell")
+            .Select(AssetDatabase.GUIDToAssetPath)
+            .Select(AssetDatabase.LoadAssetAtPath<Spell>)
+            .Where(o => o != null)
+            .OrderBy(o => o.Id)
+            .ToList();
+
     private void RefreshList()
     {
-        _spells = findAllSpells();
-        _listView.itemsSource = _spells;
-        _listView.RefreshItems();
+        _spells = FindAllSpells();
+        if (_listView != null)
+        {
+            _listView.itemsSource = _spells;
+            _listView.RefreshItems();
+
+            // Reselect previously selected spell if still in the list
+            if (_selectedSpell != null)
+                _listView.SetSelection(_spells.IndexOf(_selectedSpell));
+        }
+
         Debug.Log("List refreshed.");
     }
 
     private void SelectSpell(Spell spell)
     {
-        RefreshList();
         _selectedSpell = spell;
         _inspectorView.Clear();
         if (spell == null) return;
@@ -116,17 +141,27 @@ public class AssetEditorWindow : EditorWindow
         AssetDatabase.CreateAsset(newSpell, path);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
+
+        _selectedSpell = newSpell;
         RefreshList();
     }
 
     private void DeleteSelectedSpell()
     {
         if (_selectedSpell == null) return;
-        AssetDatabase.DeleteAsset(AssetDatabase.GetAssetPath(_selectedSpell));
+        string path = AssetDatabase.GetAssetPath(_selectedSpell);
+        if (!string.IsNullOrEmpty(path))
+        {
+            AssetDatabase.DeleteAsset(path);
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
+        }
+
         _selectedSpell = null;
-        RefreshList();
         _inspectorView.Clear();
+        RefreshList();
     }
-    
-    private void LoadSettings() => _spellFolderPath = EditorPrefs.GetString(nameof(_spellFolderPath), "Assets");
+
+    private void LoadSettings() =>
+        _spellFolderPath = EditorPrefs.GetString(nameof(_spellFolderPath), "Assets");
 }

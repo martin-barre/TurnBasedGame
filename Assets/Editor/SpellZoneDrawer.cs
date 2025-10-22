@@ -12,48 +12,59 @@ public class SpellZoneDrawer : PropertyDrawer
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
         if (_typeMap == null) BuildTypeMap();
-        
+
         Rect typeRect = new(position.x, position.y, position.width, EditorGUIUtility.singleLineHeight);
         Rect contentRect = new(position.x, position.y + EditorGUIUtility.singleLineHeight, position.width, position.height - EditorGUIUtility.singleLineHeight);
 
         EditorGUI.BeginProperty(position, label, property);
-        string typeName = property.managedReferenceFullTypename;
-        string displayName = GetShortTypeName(typeName);
 
-        if (EditorGUI.DropdownButton(typeRect, new GUIContent(displayName ?? "Select Spell Zone"), FocusType.Keyboard))
+        string typeName = property.managedReferenceFullTypename;
+        string displayName = GetShortTypeName(typeName) ?? "Select Spell Zone";
+
+        // Dropdown pour choisir le type
+        if (EditorGUI.DropdownButton(typeRect, new GUIContent(displayName), FocusType.Keyboard))
         {
             GenericMenu menu = new();
+
             if (_typeMap == null || _typeMap.Count == 0)
             {
                 menu.AddDisabledItem(new GUIContent("No Spell Zone Types Available"));
-                menu.ShowAsContext();
-                return;
+            }
+            else
+            {
+                foreach ((string name, Type type) in _typeMap)
+                {
+                    menu.AddItem(new GUIContent(name), type.FullName == typeName, () =>
+                    {
+                        Undo.RecordObject(property.serializedObject.targetObject, "Change Spell Zone Type");
+                        property.managedReferenceValue = Activator.CreateInstance(type);
+                        property.serializedObject.ApplyModifiedProperties();
+                    });
+                }
             }
 
-            foreach ((string name, Type type) in _typeMap)
-            {
-                menu.AddItem(new GUIContent(name), type.FullName == typeName, () =>
-                {
-                    property.managedReferenceValue = Activator.CreateInstance(type);
-                    property.serializedObject.ApplyModifiedProperties();
-                });
-            }
             menu.ShowAsContext();
         }
 
+        // Affichage des propriétés du type sélectionné
         if (property.managedReferenceValue != null)
         {
             EditorGUI.indentLevel++;
             EditorGUI.PropertyField(contentRect, property, GUIContent.none, true);
             EditorGUI.indentLevel--;
         }
-        
+
         EditorGUI.EndProperty();
     }
 
     public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
     {
-        return EditorGUI.GetPropertyHeight(property, label, true) + EditorGUIUtility.singleLineHeight;
+        float height = EditorGUIUtility.singleLineHeight; // hauteur du dropdown
+        if (property.managedReferenceValue != null)
+        {
+            height += EditorGUI.GetPropertyHeight(property, label, true); // hauteur des champs
+        }
+        return height;
     }
 
     private static void BuildTypeMap()
@@ -62,17 +73,12 @@ public class SpellZoneDrawer : PropertyDrawer
         _typeMap = AppDomain.CurrentDomain.GetAssemblies()
             .SelectMany(asm =>
             {
-                try
-                {
-                    return asm.GetTypes();
-                }
-                catch
-                {
-                    return Type.EmptyTypes;
-                }
+                try { return asm.GetTypes(); }
+                catch { return Type.EmptyTypes; }
             })
             .Where(t => !t.IsAbstract && baseType.IsAssignableFrom(t))
-            .ToDictionary(t => ObjectNames.NicifyVariableName(t.Name), t => t);
+            .GroupBy(t => ObjectNames.NicifyVariableName(t.Name))
+            .ToDictionary(g => g.Key, g => g.First());
     }
 
     private static string GetShortTypeName(string fullTypeName)

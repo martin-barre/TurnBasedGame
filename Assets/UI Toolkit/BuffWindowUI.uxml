@@ -1,0 +1,36 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement data-source="project://database/Assets/Scripts/Shared/Models/New%20Entity%20SO.asset?fileID=11400000&amp;guid=cc85106aecdc6394f8e2b5550d16a994&amp;type=2#New Entity SO" style="background-color: rgb(136, 167, 212); position: absolute; width: 250px;">
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+                <ui:Label text="Label" style="color: rgb(255, 255, 255); font-size: 20px; flex-shrink: 0; flex-grow: 1; margin-left: 8px; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; -unity-text-align: middle-left;" />
+                <ui:Button text="&#10;" style="background-color: rgba(0, 0, 0, 0); padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; align-self: center; align-content: center; justify-content: flex-start; align-items: stretch;">
+                    <ui:VisualElement style="background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/Sprites/Fantasy%20Minimal%20Pixel%20Art%20GUI%20by%20eta-commercial-free/UI/CornerKnot_14x14.png?fileID=-1205072675203473406&amp;guid=69baedcf4d34e714dac8df80a7f2fe32&amp;type=3#CornerKnot_14x14_0&quot;); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-and-crop; height: 20px; width: 20px;" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 0; background-color: rgb(170, 173, 178); padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; flex-direction: row; flex-shrink: 0;">
+                <ui:VisualElement style="width: 92px; height: 92px; background-color: rgb(145, 164, 194); padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px;">
+                    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/Sprites/Entities/ranger.png?fileID=-2850707533075056667&amp;guid=14f7ab1dda2af3b45a03e7d6e68c1dba&amp;type=3#ranger_0&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1; background-color: rgb(145, 164, 194); margin-left: 4px; padding-top: 0; padding-right: 4px; padding-bottom: 0; padding-left: 4px;">
+                    <ui:VisualElement style="flex-grow: 1; flex-shrink: 1; flex-basis: 0; flex-direction: row; align-self: auto; align-items: center;">
+                        <ui:VisualElement style="background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/Sprites/Fantasy%20Minimal%20Pixel%20Art%20GUI%20by%20eta-commercial-free/UI/BuffIcons(WithoutStroke)_16x16.png?fileID=-2595842882760938161&amp;guid=d9c714e627c98de4d86b3958c8223462&amp;type=3#BuffIcons(WithoutStroke)_16x16_3&quot;); -unity-background-scale-mode: scale-to-fit; width: 24px; height: 24px;" />
+                        <ui:Label text="18 045" style="color: rgb(255, 255, 255); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; -unity-text-align: upper-left;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; flex-shrink: 1; flex-basis: 0; flex-direction: row; align-self: auto; align-items: center;">
+                        <ui:VisualElement style="background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/Sprites/Icons/icon-pa.png?fileID=7968333686581258910&amp;guid=23799d640b43ede4b8c494e69a0536dd&amp;type=3#icon-pa_0&quot;); -unity-background-scale-mode: scale-to-fit; width: 24px; height: 24px;" />
+                        <ui:Label text="6 / 12" style="color: rgb(255, 255, 255); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; -unity-text-align: upper-left;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; flex-shrink: 1; flex-basis: 0; flex-direction: row; align-self: auto; align-items: center;">
+                        <ui:VisualElement style="background-color: rgba(0, 0, 0, 0); background-image: url(&quot;project://database/Assets/Sprites/Icons/icon-pm.png?fileID=-646299738117212102&amp;guid=c92df7560b0c12c44b40f3474cce752c&amp;type=3#icon-pm_0&quot;); -unity-background-scale-mode: scale-to-fit; width: 24px; height: 24px;" />
+                        <ui:Label text="5 / 6" style="color: rgb(255, 255, 255); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; -unity-text-align: upper-left;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:ListView name="BuffListView" item-template="project://database/Assets/UI%20Toolkit/BuffTemplateUI.uxml?fileID=9197481963319205126&amp;guid=1148934641c0dff4cb430cf8df5c5576&amp;type=3#BuffTemplateUI" binding-source-selection-mode="AutoAssign" show-add-remove-footer="false" allow-add="true" enabled="true" style="background-color: rgb(170, 173, 178);">
+                <Bindings>
+                    <ui:DataBinding property="viewDataKey" data-source-path="Buffs[0]" binding-mode="ToTarget" />
+                </Bindings>
+            </ui:ListView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

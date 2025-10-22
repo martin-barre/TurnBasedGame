@@ -58,4 +58,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1063e3e87ad44bd5adb835903dd1ffbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entityInfoUI: {fileID: 6654140062682103563, guid: 1985942f84df56840b59e886e734794f, type: 3}
+  entityInfoWindow: {fileID: 6654140062682103563, guid: 1985942f84df56840b59e886e734794f, type: 3}
